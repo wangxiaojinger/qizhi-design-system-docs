@@ -1,0 +1,2540 @@
+{
+  "name": "QIZHI Design Tokens",
+  "version": "0.1.1",
+  "tokens": {
+    "brand.blue.1": {
+      "name": "brand.blue.1",
+      "value": "232, 242, 255",
+      "cssVariable": "--brand-blue-1",
+      "category": "基础变量",
+      "description": "基础变量：brand blue 1"
+    },
+    "brand.blue.5": {
+      "name": "brand.blue.5",
+      "value": "87, 135, 255",
+      "cssVariable": "--brand-blue-5",
+      "category": "基础变量",
+      "description": "基础变量：brand blue 5"
+    },
+    "brand.blue.6": {
+      "name": "brand.blue.6",
+      "value": "51, 102, 255",
+      "cssVariable": "--brand-blue-6",
+      "category": "基础变量",
+      "description": "基础变量：brand blue 6"
+    },
+    "brand.link.6": {
+      "name": "brand.link.6",
+      "value": "51, 102, 255",
+      "cssVariable": "--brand-link-6",
+      "category": "基础变量",
+      "description": "基础变量：brand link 6"
+    },
+    "success.6": {
+      "name": "success.6",
+      "value": "82, 196, 26",
+      "cssVariable": "--success-6",
+      "category": "语义色板",
+      "description": "语义色板：success 6"
+    },
+    "green.1": {
+      "name": "green.1",
+      "value": "246, 255, 237",
+      "cssVariable": "--green-1",
+      "category": "基础色板",
+      "description": "基础色板：green 1"
+    },
+    "green.2": {
+      "name": "green.2",
+      "value": "217, 247, 190",
+      "cssVariable": "--green-2",
+      "category": "基础色板",
+      "description": "基础色板：green 2"
+    },
+    "green.3": {
+      "name": "green.3",
+      "value": "183, 235, 143",
+      "cssVariable": "--green-3",
+      "category": "基础色板",
+      "description": "基础色板：green 3"
+    },
+    "green.4": {
+      "name": "green.4",
+      "value": "149, 222, 100",
+      "cssVariable": "--green-4",
+      "category": "基础色板",
+      "description": "基础色板：green 4"
+    },
+    "green.5": {
+      "name": "green.5",
+      "value": "115, 209, 61",
+      "cssVariable": "--green-5",
+      "category": "基础色板",
+      "description": "基础色板：green 5"
+    },
+    "green.6": {
+      "name": "green.6",
+      "value": "82, 196, 26",
+      "cssVariable": "--green-6",
+      "category": "基础色板",
+      "description": "基础色板：green 6"
+    },
+    "green.7": {
+      "name": "green.7",
+      "value": "56, 158, 13",
+      "cssVariable": "--green-7",
+      "category": "基础色板",
+      "description": "基础色板：green 7"
+    },
+    "green.8": {
+      "name": "green.8",
+      "value": "35, 120, 4",
+      "cssVariable": "--green-8",
+      "category": "基础色板",
+      "description": "基础色板：green 8"
+    },
+    "green.9": {
+      "name": "green.9",
+      "value": "19, 82, 0",
+      "cssVariable": "--green-9",
+      "category": "基础色板",
+      "description": "基础色板：green 9"
+    },
+    "green.10": {
+      "name": "green.10",
+      "value": "9, 43, 0",
+      "cssVariable": "--green-10",
+      "category": "基础色板",
+      "description": "基础色板：green 10"
+    },
+    "success.1": {
+      "name": "success.1",
+      "value": "var(--green-1)",
+      "cssVariable": "--success-1",
+      "category": "语义色板",
+      "description": "语义色板：success 1"
+    },
+    "success.2": {
+      "name": "success.2",
+      "value": "var(--green-2)",
+      "cssVariable": "--success-2",
+      "category": "语义色板",
+      "description": "语义色板：success 2"
+    },
+    "success.3": {
+      "name": "success.3",
+      "value": "var(--green-3)",
+      "cssVariable": "--success-3",
+      "category": "语义色板",
+      "description": "语义色板：success 3"
+    },
+    "success.4": {
+      "name": "success.4",
+      "value": "var(--green-4)",
+      "cssVariable": "--success-4",
+      "category": "语义色板",
+      "description": "语义色板：success 4"
+    },
+    "success.5": {
+      "name": "success.5",
+      "value": "var(--green-5)",
+      "cssVariable": "--success-5",
+      "category": "语义色板",
+      "description": "语义色板：success 5"
+    },
+    "warning.1": {
+      "name": "warning.1",
+      "value": "var(--gold-1)",
+      "cssVariable": "--warning-1",
+      "category": "语义色板",
+      "description": "语义色板：warning 1"
+    },
+    "warning.2": {
+      "name": "warning.2",
+      "value": "var(--gold-2)",
+      "cssVariable": "--warning-2",
+      "category": "语义色板",
+      "description": "语义色板：warning 2"
+    },
+    "warning.3": {
+      "name": "warning.3",
+      "value": "var(--gold-3)",
+      "cssVariable": "--warning-3",
+      "category": "语义色板",
+      "description": "语义色板：warning 3"
+    },
+    "warning.4": {
+      "name": "warning.4",
+      "value": "var(--gold-4)",
+      "cssVariable": "--warning-4",
+      "category": "语义色板",
+      "description": "语义色板：warning 4"
+    },
+    "warning.5": {
+      "name": "warning.5",
+      "value": "var(--gold-5)",
+      "cssVariable": "--warning-5",
+      "category": "语义色板",
+      "description": "语义色板：warning 5"
+    },
+    "warning.6": {
+      "name": "warning.6",
+      "value": "var(--gold-6)",
+      "cssVariable": "--warning-6",
+      "category": "语义色板",
+      "description": "语义色板：warning 6"
+    },
+    "warning.7": {
+      "name": "warning.7",
+      "value": "var(--gold-7)",
+      "cssVariable": "--warning-7",
+      "category": "语义色板",
+      "description": "语义色板：warning 7"
+    },
+    "warning.8": {
+      "name": "warning.8",
+      "value": "var(--gold-8)",
+      "cssVariable": "--warning-8",
+      "category": "语义色板",
+      "description": "语义色板：warning 8"
+    },
+    "warning.9": {
+      "name": "warning.9",
+      "value": "var(--gold-9)",
+      "cssVariable": "--warning-9",
+      "category": "语义色板",
+      "description": "语义色板：warning 9"
+    },
+    "warning.10": {
+      "name": "warning.10",
+      "value": "var(--gold-10)",
+      "cssVariable": "--warning-10",
+      "category": "语义色板",
+      "description": "语义色板：warning 10"
+    },
+    "gold.1": {
+      "name": "gold.1",
+      "value": "255, 251, 232",
+      "cssVariable": "--gold-1",
+      "category": "基础色板",
+      "description": "基础色板：gold 1"
+    },
+    "gold.2": {
+      "name": "gold.2",
+      "value": "254, 241, 189",
+      "cssVariable": "--gold-2",
+      "category": "基础色板",
+      "description": "基础色板：gold 2"
+    },
+    "gold.3": {
+      "name": "gold.3",
+      "value": "253, 228, 146",
+      "cssVariable": "--gold-3",
+      "category": "基础色板",
+      "description": "基础色板：gold 3"
+    },
+    "gold.4": {
+      "name": "gold.4",
+      "value": "252, 212, 104",
+      "cssVariable": "--gold-4",
+      "category": "基础色板",
+      "description": "基础色板：gold 4"
+    },
+    "gold.5": {
+      "name": "gold.5",
+      "value": "251, 194, 62",
+      "cssVariable": "--gold-5",
+      "category": "基础色板",
+      "description": "基础色板：gold 5"
+    },
+    "gold.6": {
+      "name": "gold.6",
+      "value": "250, 173, 20",
+      "cssVariable": "--gold-6",
+      "category": "基础色板",
+      "description": "基础色板：gold 6"
+    },
+    "gold.7": {
+      "name": "gold.7",
+      "value": "207, 135, 12",
+      "cssVariable": "--gold-7",
+      "category": "基础色板",
+      "description": "基础色板：gold 7"
+    },
+    "gold.8": {
+      "name": "gold.8",
+      "value": "163, 101, 7",
+      "cssVariable": "--gold-8",
+      "category": "基础色板",
+      "description": "基础色板：gold 8"
+    },
+    "gold.9": {
+      "name": "gold.9",
+      "value": "120, 69, 2",
+      "cssVariable": "--gold-9",
+      "category": "基础色板",
+      "description": "基础色板：gold 9"
+    },
+    "gold.10": {
+      "name": "gold.10",
+      "value": "77, 41, 0",
+      "cssVariable": "--gold-10",
+      "category": "基础色板",
+      "description": "基础色板：gold 10"
+    },
+    "red.1": {
+      "name": "red.1",
+      "value": "255, 244, 243",
+      "cssVariable": "--red-1",
+      "category": "基础色板",
+      "description": "基础色板：red 1"
+    },
+    "red.2": {
+      "name": "red.2",
+      "value": "255, 207, 201",
+      "cssVariable": "--red-2",
+      "category": "基础色板",
+      "description": "基础色板：red 2"
+    },
+    "red.3": {
+      "name": "red.3",
+      "value": "255, 177, 170",
+      "cssVariable": "--red-3",
+      "category": "基础色板",
+      "description": "基础色板：red 3"
+    },
+    "red.4": {
+      "name": "red.4",
+      "value": "255, 145, 139",
+      "cssVariable": "--red-4",
+      "category": "基础色板",
+      "description": "基础色板：red 4"
+    },
+    "red.5": {
+      "name": "red.5",
+      "value": "255, 110, 108",
+      "cssVariable": "--red-5",
+      "category": "基础色板",
+      "description": "基础色板：red 5"
+    },
+    "red.6": {
+      "name": "red.6",
+      "value": "255, 77, 79",
+      "cssVariable": "--red-6",
+      "category": "基础色板",
+      "description": "基础色板：red 6"
+    },
+    "red.7": {
+      "name": "red.7",
+      "value": "210, 48, 56",
+      "cssVariable": "--red-7",
+      "category": "基础色板",
+      "description": "基础色板：red 7"
+    },
+    "red.8": {
+      "name": "red.8",
+      "value": "166, 25, 37",
+      "cssVariable": "--red-8",
+      "category": "基础色板",
+      "description": "基础色板：red 8"
+    },
+    "red.9": {
+      "name": "red.9",
+      "value": "121, 9, 22",
+      "cssVariable": "--red-9",
+      "category": "基础色板",
+      "description": "基础色板：red 9"
+    },
+    "red.10": {
+      "name": "red.10",
+      "value": "77, 0, 11",
+      "cssVariable": "--red-10",
+      "category": "基础色板",
+      "description": "基础色板：red 10"
+    },
+    "danger.1": {
+      "name": "danger.1",
+      "value": "var(--red-1)",
+      "cssVariable": "--danger-1",
+      "category": "语义色板",
+      "description": "语义色板：danger 1"
+    },
+    "danger.2": {
+      "name": "danger.2",
+      "value": "var(--red-2)",
+      "cssVariable": "--danger-2",
+      "category": "语义色板",
+      "description": "语义色板：danger 2"
+    },
+    "danger.3": {
+      "name": "danger.3",
+      "value": "var(--red-3)",
+      "cssVariable": "--danger-3",
+      "category": "语义色板",
+      "description": "语义色板：danger 3"
+    },
+    "danger.4": {
+      "name": "danger.4",
+      "value": "var(--red-4)",
+      "cssVariable": "--danger-4",
+      "category": "语义色板",
+      "description": "语义色板：danger 4"
+    },
+    "danger.5": {
+      "name": "danger.5",
+      "value": "var(--red-5)",
+      "cssVariable": "--danger-5",
+      "category": "语义色板",
+      "description": "语义色板：danger 5"
+    },
+    "danger.6": {
+      "name": "danger.6",
+      "value": "255, 77, 79",
+      "cssVariable": "--danger-6",
+      "category": "语义色板",
+      "description": "语义色板：danger 6"
+    },
+    "danger.7": {
+      "name": "danger.7",
+      "value": "var(--red-7)",
+      "cssVariable": "--danger-7",
+      "category": "语义色板",
+      "description": "语义色板：danger 7"
+    },
+    "danger.8": {
+      "name": "danger.8",
+      "value": "var(--red-8)",
+      "cssVariable": "--danger-8",
+      "category": "语义色板",
+      "description": "语义色板：danger 8"
+    },
+    "danger.9": {
+      "name": "danger.9",
+      "value": "var(--red-9)",
+      "cssVariable": "--danger-9",
+      "category": "语义色板",
+      "description": "语义色板：danger 9"
+    },
+    "danger.10": {
+      "name": "danger.10",
+      "value": "var(--red-10)",
+      "cssVariable": "--danger-10",
+      "category": "语义色板",
+      "description": "语义色板：danger 10"
+    },
+    "success.7": {
+      "name": "success.7",
+      "value": "var(--green-7)",
+      "cssVariable": "--success-7",
+      "category": "语义色板",
+      "description": "语义色板：success 7"
+    },
+    "success.8": {
+      "name": "success.8",
+      "value": "var(--green-8)",
+      "cssVariable": "--success-8",
+      "category": "语义色板",
+      "description": "语义色板：success 8"
+    },
+    "success.9": {
+      "name": "success.9",
+      "value": "var(--green-9)",
+      "cssVariable": "--success-9",
+      "category": "语义色板",
+      "description": "语义色板：success 9"
+    },
+    "success.10": {
+      "name": "success.10",
+      "value": "var(--green-10)",
+      "cssVariable": "--success-10",
+      "category": "语义色板",
+      "description": "语义色板：success 10"
+    },
+    "qizhiblue.1": {
+      "name": "qizhiblue.1",
+      "value": "232, 242, 255",
+      "cssVariable": "--qizhiblue-1",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 1"
+    },
+    "qizhiblue.2": {
+      "name": "qizhiblue.2",
+      "value": "196, 219, 255",
+      "cssVariable": "--qizhiblue-2",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 2"
+    },
+    "qizhiblue.3": {
+      "name": "qizhiblue.3",
+      "value": "160, 193, 255",
+      "cssVariable": "--qizhiblue-3",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 3"
+    },
+    "qizhiblue.4": {
+      "name": "qizhiblue.4",
+      "value": "123, 165, 255",
+      "cssVariable": "--qizhiblue-4",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 4"
+    },
+    "qizhiblue.5": {
+      "name": "qizhiblue.5",
+      "value": "87, 135, 255",
+      "cssVariable": "--qizhiblue-5",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 5"
+    },
+    "qizhiblue.6": {
+      "name": "qizhiblue.6",
+      "value": "51, 102, 255",
+      "cssVariable": "--qizhiblue-6",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 6"
+    },
+    "qizhiblue.7": {
+      "name": "qizhiblue.7",
+      "value": "32, 70, 210",
+      "cssVariable": "--qizhiblue-7",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 7"
+    },
+    "qizhiblue.8": {
+      "name": "qizhiblue.8",
+      "value": "17, 44, 166",
+      "cssVariable": "--qizhiblue-8",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 8"
+    },
+    "qizhiblue.9": {
+      "name": "qizhiblue.9",
+      "value": "6, 23, 121",
+      "cssVariable": "--qizhiblue-9",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 9"
+    },
+    "qizhiblue.10": {
+      "name": "qizhiblue.10",
+      "value": "0, 9, 77",
+      "cssVariable": "--qizhiblue-10",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 10"
+    },
+    "orangered.1": {
+      "name": "orangered.1",
+      "value": "255, 243, 232",
+      "cssVariable": "--orangered-1",
+      "category": "基础色板",
+      "description": "基础色板：orangered 1"
+    },
+    "orangered.2": {
+      "name": "orangered.2",
+      "value": "253, 221, 195",
+      "cssVariable": "--orangered-2",
+      "category": "基础色板",
+      "description": "基础色板：orangered 2"
+    },
+    "orangered.3": {
+      "name": "orangered.3",
+      "value": "252, 197, 159",
+      "cssVariable": "--orangered-3",
+      "category": "基础色板",
+      "description": "基础色板：orangered 3"
+    },
+    "orangered.4": {
+      "name": "orangered.4",
+      "value": "250, 172, 123",
+      "cssVariable": "--orangered-4",
+      "category": "基础色板",
+      "description": "基础色板：orangered 4"
+    },
+    "orangered.5": {
+      "name": "orangered.5",
+      "value": "249, 144, 87",
+      "cssVariable": "--orangered-5",
+      "category": "基础色板",
+      "description": "基础色板：orangered 5"
+    },
+    "orangered.6": {
+      "name": "orangered.6",
+      "value": "247, 114, 52",
+      "cssVariable": "--orangered-6",
+      "category": "基础色板",
+      "description": "基础色板：orangered 6"
+    },
+    "orangered.7": {
+      "name": "orangered.7",
+      "value": "204, 81, 32",
+      "cssVariable": "--orangered-7",
+      "category": "基础色板",
+      "description": "基础色板：orangered 7"
+    },
+    "orangered.8": {
+      "name": "orangered.8",
+      "value": "162, 53, 17",
+      "cssVariable": "--orangered-8",
+      "category": "基础色板",
+      "description": "基础色板：orangered 8"
+    },
+    "orangered.9": {
+      "name": "orangered.9",
+      "value": "119, 31, 6",
+      "cssVariable": "--orangered-9",
+      "category": "基础色板",
+      "description": "基础色板：orangered 9"
+    },
+    "orangered.10": {
+      "name": "orangered.10",
+      "value": "77, 14, 0",
+      "cssVariable": "--orangered-10",
+      "category": "基础色板",
+      "description": "基础色板：orangered 10"
+    },
+    "orange.1": {
+      "name": "orange.1",
+      "value": "255, 247, 232",
+      "cssVariable": "--orange-1",
+      "category": "基础色板",
+      "description": "基础色板：orange 1"
+    },
+    "orange.2": {
+      "name": "orange.2",
+      "value": "255, 228, 186",
+      "cssVariable": "--orange-2",
+      "category": "基础色板",
+      "description": "基础色板：orange 2"
+    },
+    "orange.3": {
+      "name": "orange.3",
+      "value": "255, 207, 139",
+      "cssVariable": "--orange-3",
+      "category": "基础色板",
+      "description": "基础色板：orange 3"
+    },
+    "orange.4": {
+      "name": "orange.4",
+      "value": "255, 182, 93",
+      "cssVariable": "--orange-4",
+      "category": "基础色板",
+      "description": "基础色板：orange 4"
+    },
+    "orange.5": {
+      "name": "orange.5",
+      "value": "255, 154, 46",
+      "cssVariable": "--orange-5",
+      "category": "基础色板",
+      "description": "基础色板：orange 5"
+    },
+    "orange.6": {
+      "name": "orange.6",
+      "value": "255, 125, 0",
+      "cssVariable": "--orange-6",
+      "category": "基础色板",
+      "description": "基础色板：orange 6"
+    },
+    "orange.7": {
+      "name": "orange.7",
+      "value": "210, 95, 0",
+      "cssVariable": "--orange-7",
+      "category": "基础色板",
+      "description": "基础色板：orange 7"
+    },
+    "orange.8": {
+      "name": "orange.8",
+      "value": "166, 69, 0",
+      "cssVariable": "--orange-8",
+      "category": "基础色板",
+      "description": "基础色板：orange 8"
+    },
+    "orange.9": {
+      "name": "orange.9",
+      "value": "121, 46, 0",
+      "cssVariable": "--orange-9",
+      "category": "基础色板",
+      "description": "基础色板：orange 9"
+    },
+    "orange.10": {
+      "name": "orange.10",
+      "value": "77, 27, 0",
+      "cssVariable": "--orange-10",
+      "category": "基础色板",
+      "description": "基础色板：orange 10"
+    },
+    "yellow.1": {
+      "name": "yellow.1",
+      "value": "254, 255, 232",
+      "cssVariable": "--yellow-1",
+      "category": "基础色板",
+      "description": "基础色板：yellow 1"
+    },
+    "yellow.2": {
+      "name": "yellow.2",
+      "value": "254, 254, 190",
+      "cssVariable": "--yellow-2",
+      "category": "基础色板",
+      "description": "基础色板：yellow 2"
+    },
+    "yellow.3": {
+      "name": "yellow.3",
+      "value": "253, 250, 148",
+      "cssVariable": "--yellow-3",
+      "category": "基础色板",
+      "description": "基础色板：yellow 3"
+    },
+    "yellow.4": {
+      "name": "yellow.4",
+      "value": "252, 242, 107",
+      "cssVariable": "--yellow-4",
+      "category": "基础色板",
+      "description": "基础色板：yellow 4"
+    },
+    "yellow.5": {
+      "name": "yellow.5",
+      "value": "251, 232, 66",
+      "cssVariable": "--yellow-5",
+      "category": "基础色板",
+      "description": "基础色板：yellow 5"
+    },
+    "yellow.6": {
+      "name": "yellow.6",
+      "value": "250, 220, 25",
+      "cssVariable": "--yellow-6",
+      "category": "基础色板",
+      "description": "基础色板：yellow 6"
+    },
+    "yellow.7": {
+      "name": "yellow.7",
+      "value": "207, 175, 15",
+      "cssVariable": "--yellow-7",
+      "category": "基础色板",
+      "description": "基础色板：yellow 7"
+    },
+    "yellow.8": {
+      "name": "yellow.8",
+      "value": "163, 132, 8",
+      "cssVariable": "--yellow-8",
+      "category": "基础色板",
+      "description": "基础色板：yellow 8"
+    },
+    "yellow.9": {
+      "name": "yellow.9",
+      "value": "120, 93, 3",
+      "cssVariable": "--yellow-9",
+      "category": "基础色板",
+      "description": "基础色板：yellow 9"
+    },
+    "yellow.10": {
+      "name": "yellow.10",
+      "value": "77, 56, 0",
+      "cssVariable": "--yellow-10",
+      "category": "基础色板",
+      "description": "基础色板：yellow 10"
+    },
+    "lime.1": {
+      "name": "lime.1",
+      "value": "252, 255, 232",
+      "cssVariable": "--lime-1",
+      "category": "基础色板",
+      "description": "基础色板：lime 1"
+    },
+    "lime.2": {
+      "name": "lime.2",
+      "value": "237, 248, 187",
+      "cssVariable": "--lime-2",
+      "category": "基础色板",
+      "description": "基础色板：lime 2"
+    },
+    "lime.3": {
+      "name": "lime.3",
+      "value": "220, 241, 144",
+      "cssVariable": "--lime-3",
+      "category": "基础色板",
+      "description": "基础色板：lime 3"
+    },
+    "lime.4": {
+      "name": "lime.4",
+      "value": "201, 233, 104",
+      "cssVariable": "--lime-4",
+      "category": "基础色板",
+      "description": "基础色板：lime 4"
+    },
+    "lime.5": {
+      "name": "lime.5",
+      "value": "181, 226, 65",
+      "cssVariable": "--lime-5",
+      "category": "基础色板",
+      "description": "基础色板：lime 5"
+    },
+    "lime.6": {
+      "name": "lime.6",
+      "value": "159, 219, 29",
+      "cssVariable": "--lime-6",
+      "category": "基础色板",
+      "description": "基础色板：lime 6"
+    },
+    "lime.7": {
+      "name": "lime.7",
+      "value": "126, 183, 18",
+      "cssVariable": "--lime-7",
+      "category": "基础色板",
+      "description": "基础色板：lime 7"
+    },
+    "lime.8": {
+      "name": "lime.8",
+      "value": "95, 148, 10",
+      "cssVariable": "--lime-8",
+      "category": "基础色板",
+      "description": "基础色板：lime 8"
+    },
+    "lime.9": {
+      "name": "lime.9",
+      "value": "67, 112, 4",
+      "cssVariable": "--lime-9",
+      "category": "基础色板",
+      "description": "基础色板：lime 9"
+    },
+    "lime.10": {
+      "name": "lime.10",
+      "value": "42, 77, 0",
+      "cssVariable": "--lime-10",
+      "category": "基础色板",
+      "description": "基础色板：lime 10"
+    },
+    "cyan.1": {
+      "name": "cyan.1",
+      "value": "232, 255, 251",
+      "cssVariable": "--cyan-1",
+      "category": "基础色板",
+      "description": "基础色板：cyan 1"
+    },
+    "cyan.2": {
+      "name": "cyan.2",
+      "value": "183, 244, 236",
+      "cssVariable": "--cyan-2",
+      "category": "基础色板",
+      "description": "基础色板：cyan 2"
+    },
+    "cyan.3": {
+      "name": "cyan.3",
+      "value": "137, 233, 224",
+      "cssVariable": "--cyan-3",
+      "category": "基础色板",
+      "description": "基础色板：cyan 3"
+    },
+    "cyan.4": {
+      "name": "cyan.4",
+      "value": "94, 223, 214",
+      "cssVariable": "--cyan-4",
+      "category": "基础色板",
+      "description": "基础色板：cyan 4"
+    },
+    "cyan.5": {
+      "name": "cyan.5",
+      "value": "55, 212, 207",
+      "cssVariable": "--cyan-5",
+      "category": "基础色板",
+      "description": "基础色板：cyan 5"
+    },
+    "cyan.6": {
+      "name": "cyan.6",
+      "value": "20, 201, 201",
+      "cssVariable": "--cyan-6",
+      "category": "基础色板",
+      "description": "基础色板：cyan 6"
+    },
+    "cyan.7": {
+      "name": "cyan.7",
+      "value": "13, 165, 170",
+      "cssVariable": "--cyan-7",
+      "category": "基础色板",
+      "description": "基础色板：cyan 7"
+    },
+    "cyan.8": {
+      "name": "cyan.8",
+      "value": "7, 130, 139",
+      "cssVariable": "--cyan-8",
+      "category": "基础色板",
+      "description": "基础色板：cyan 8"
+    },
+    "cyan.9": {
+      "name": "cyan.9",
+      "value": "3, 97, 108",
+      "cssVariable": "--cyan-9",
+      "category": "基础色板",
+      "description": "基础色板：cyan 9"
+    },
+    "cyan.10": {
+      "name": "cyan.10",
+      "value": "0, 66, 77",
+      "cssVariable": "--cyan-10",
+      "category": "基础色板",
+      "description": "基础色板：cyan 10"
+    },
+    "blue.1": {
+      "name": "blue.1",
+      "value": "232, 247, 255",
+      "cssVariable": "--blue-1",
+      "category": "基础色板",
+      "description": "基础色板：blue 1"
+    },
+    "blue.2": {
+      "name": "blue.2",
+      "value": "195, 231, 254",
+      "cssVariable": "--blue-2",
+      "category": "基础色板",
+      "description": "基础色板：blue 2"
+    },
+    "blue.3": {
+      "name": "blue.3",
+      "value": "159, 212, 253",
+      "cssVariable": "--blue-3",
+      "category": "基础色板",
+      "description": "基础色板：blue 3"
+    },
+    "blue.4": {
+      "name": "blue.4",
+      "value": "123, 192, 252",
+      "cssVariable": "--blue-4",
+      "category": "基础色板",
+      "description": "基础色板：blue 4"
+    },
+    "blue.5": {
+      "name": "blue.5",
+      "value": "87, 169, 251",
+      "cssVariable": "--blue-5",
+      "category": "基础色板",
+      "description": "基础色板：blue 5"
+    },
+    "blue.6": {
+      "name": "blue.6",
+      "value": "52, 145, 250",
+      "cssVariable": "--blue-6",
+      "category": "基础色板",
+      "description": "基础色板：blue 6"
+    },
+    "blue.7": {
+      "name": "blue.7",
+      "value": "32, 108, 207",
+      "cssVariable": "--blue-7",
+      "category": "基础色板",
+      "description": "基础色板：blue 7"
+    },
+    "blue.8": {
+      "name": "blue.8",
+      "value": "17, 75, 163",
+      "cssVariable": "--blue-8",
+      "category": "基础色板",
+      "description": "基础色板：blue 8"
+    },
+    "blue.9": {
+      "name": "blue.9",
+      "value": "6, 48, 120",
+      "cssVariable": "--blue-9",
+      "category": "基础色板",
+      "description": "基础色板：blue 9"
+    },
+    "blue.10": {
+      "name": "blue.10",
+      "value": "0, 26, 77",
+      "cssVariable": "--blue-10",
+      "category": "基础色板",
+      "description": "基础色板：blue 10"
+    },
+    "purple.1": {
+      "name": "purple.1",
+      "value": "245, 232, 255",
+      "cssVariable": "--purple-1",
+      "category": "基础色板",
+      "description": "基础色板：purple 1"
+    },
+    "purple.2": {
+      "name": "purple.2",
+      "value": "221, 190, 246",
+      "cssVariable": "--purple-2",
+      "category": "基础色板",
+      "description": "基础色板：purple 2"
+    },
+    "purple.3": {
+      "name": "purple.3",
+      "value": "195, 150, 237",
+      "cssVariable": "--purple-3",
+      "category": "基础色板",
+      "description": "基础色板：purple 3"
+    },
+    "purple.4": {
+      "name": "purple.4",
+      "value": "168, 113, 227",
+      "cssVariable": "--purple-4",
+      "category": "基础色板",
+      "description": "基础色板：purple 4"
+    },
+    "purple.5": {
+      "name": "purple.5",
+      "value": "141, 78, 218",
+      "cssVariable": "--purple-5",
+      "category": "基础色板",
+      "description": "基础色板：purple 5"
+    },
+    "purple.6": {
+      "name": "purple.6",
+      "value": "114, 46, 209",
+      "cssVariable": "--purple-6",
+      "category": "基础色板",
+      "description": "基础色板：purple 6"
+    },
+    "purple.7": {
+      "name": "purple.7",
+      "value": "85, 29, 176",
+      "cssVariable": "--purple-7",
+      "category": "基础色板",
+      "description": "基础色板：purple 7"
+    },
+    "purple.8": {
+      "name": "purple.8",
+      "value": "60, 16, 143",
+      "cssVariable": "--purple-8",
+      "category": "基础色板",
+      "description": "基础色板：purple 8"
+    },
+    "purple.9": {
+      "name": "purple.9",
+      "value": "39, 6, 110",
+      "cssVariable": "--purple-9",
+      "category": "基础色板",
+      "description": "基础色板：purple 9"
+    },
+    "purple.10": {
+      "name": "purple.10",
+      "value": "22, 0, 77",
+      "cssVariable": "--purple-10",
+      "category": "基础色板",
+      "description": "基础色板：purple 10"
+    },
+    "pinkpurple.1": {
+      "name": "pinkpurple.1",
+      "value": "255, 232, 251",
+      "cssVariable": "--pinkpurple-1",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 1"
+    },
+    "pinkpurple.2": {
+      "name": "pinkpurple.2",
+      "value": "247, 186, 239",
+      "cssVariable": "--pinkpurple-2",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 2"
+    },
+    "pinkpurple.3": {
+      "name": "pinkpurple.3",
+      "value": "240, 142, 230",
+      "cssVariable": "--pinkpurple-3",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 3"
+    },
+    "pinkpurple.4": {
+      "name": "pinkpurple.4",
+      "value": "232, 101, 223",
+      "cssVariable": "--pinkpurple-4",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 4"
+    },
+    "pinkpurple.5": {
+      "name": "pinkpurple.5",
+      "value": "225, 62, 219",
+      "cssVariable": "--pinkpurple-5",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 5"
+    },
+    "pinkpurple.6": {
+      "name": "pinkpurple.6",
+      "value": "217, 26, 217",
+      "cssVariable": "--pinkpurple-6",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 6"
+    },
+    "pinkpurple.7": {
+      "name": "pinkpurple.7",
+      "value": "176, 16, 182",
+      "cssVariable": "--pinkpurple-7",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 7"
+    },
+    "pinkpurple.8": {
+      "name": "pinkpurple.8",
+      "value": "138, 9, 147",
+      "cssVariable": "--pinkpurple-8",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 8"
+    },
+    "pinkpurple.9": {
+      "name": "pinkpurple.9",
+      "value": "101, 3, 112",
+      "cssVariable": "--pinkpurple-9",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 9"
+    },
+    "pinkpurple.10": {
+      "name": "pinkpurple.10",
+      "value": "66, 0, 77",
+      "cssVariable": "--pinkpurple-10",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 10"
+    },
+    "magenta.1": {
+      "name": "magenta.1",
+      "value": "255, 232, 241",
+      "cssVariable": "--magenta-1",
+      "category": "基础色板",
+      "description": "基础色板：magenta 1"
+    },
+    "magenta.2": {
+      "name": "magenta.2",
+      "value": "253, 194, 219",
+      "cssVariable": "--magenta-2",
+      "category": "基础色板",
+      "description": "基础色板：magenta 2"
+    },
+    "magenta.3": {
+      "name": "magenta.3",
+      "value": "251, 157, 199",
+      "cssVariable": "--magenta-3",
+      "category": "基础色板",
+      "description": "基础色板：magenta 3"
+    },
+    "magenta.4": {
+      "name": "magenta.4",
+      "value": "249, 121, 183",
+      "cssVariable": "--magenta-4",
+      "category": "基础色板",
+      "description": "基础色板：magenta 4"
+    },
+    "magenta.5": {
+      "name": "magenta.5",
+      "value": "247, 84, 168",
+      "cssVariable": "--magenta-5",
+      "category": "基础色板",
+      "description": "基础色板：magenta 5"
+    },
+    "magenta.6": {
+      "name": "magenta.6",
+      "value": "245, 49, 157",
+      "cssVariable": "--magenta-6",
+      "category": "基础色板",
+      "description": "基础色板：magenta 6"
+    },
+    "magenta.7": {
+      "name": "magenta.7",
+      "value": "203, 30, 131",
+      "cssVariable": "--magenta-7",
+      "category": "基础色板",
+      "description": "基础色板：magenta 7"
+    },
+    "magenta.8": {
+      "name": "magenta.8",
+      "value": "161, 16, 105",
+      "cssVariable": "--magenta-8",
+      "category": "基础色板",
+      "description": "基础色板：magenta 8"
+    },
+    "magenta.9": {
+      "name": "magenta.9",
+      "value": "119, 6, 79",
+      "cssVariable": "--magenta-9",
+      "category": "基础色板",
+      "description": "基础色板：magenta 9"
+    },
+    "magenta.10": {
+      "name": "magenta.10",
+      "value": "77, 0, 52",
+      "cssVariable": "--magenta-10",
+      "category": "基础色板",
+      "description": "基础色板：magenta 10"
+    },
+    "gray.1": {
+      "name": "gray.1",
+      "value": "247, 248, 250",
+      "cssVariable": "--gray-1",
+      "category": "基础色板",
+      "description": "基础色板：gray 1"
+    },
+    "gray.2": {
+      "name": "gray.2",
+      "value": "242, 243, 245",
+      "cssVariable": "--gray-2",
+      "category": "基础色板",
+      "description": "基础色板：gray 2"
+    },
+    "gray.3": {
+      "name": "gray.3",
+      "value": "229, 230, 235",
+      "cssVariable": "--gray-3",
+      "category": "基础色板",
+      "description": "基础色板：gray 3"
+    },
+    "gray.4": {
+      "name": "gray.4",
+      "value": "201, 205, 212",
+      "cssVariable": "--gray-4",
+      "category": "基础色板",
+      "description": "基础色板：gray 4"
+    },
+    "gray.5": {
+      "name": "gray.5",
+      "value": "169, 174, 184",
+      "cssVariable": "--gray-5",
+      "category": "基础色板",
+      "description": "基础色板：gray 5"
+    },
+    "gray.6": {
+      "name": "gray.6",
+      "value": "134, 144, 156",
+      "cssVariable": "--gray-6",
+      "category": "基础色板",
+      "description": "基础色板：gray 6"
+    },
+    "gray.7": {
+      "name": "gray.7",
+      "value": "107, 119, 133",
+      "cssVariable": "--gray-7",
+      "category": "基础色板",
+      "description": "基础色板：gray 7"
+    },
+    "gray.8": {
+      "name": "gray.8",
+      "value": "78, 89, 105",
+      "cssVariable": "--gray-8",
+      "category": "基础色板",
+      "description": "基础色板：gray 8"
+    },
+    "gray.9": {
+      "name": "gray.9",
+      "value": "39, 46, 59",
+      "cssVariable": "--gray-9",
+      "category": "基础色板",
+      "description": "基础色板：gray 9"
+    },
+    "gray.10": {
+      "name": "gray.10",
+      "value": "29, 33, 41",
+      "cssVariable": "--gray-10",
+      "category": "基础色板",
+      "description": "基础色板：gray 10"
+    },
+    "primary.1": {
+      "name": "primary.1",
+      "value": "var(--qizhiblue-1)",
+      "cssVariable": "--primary-1",
+      "category": "语义色板",
+      "description": "语义色板：primary 1"
+    },
+    "primary.2": {
+      "name": "primary.2",
+      "value": "var(--qizhiblue-2)",
+      "cssVariable": "--primary-2",
+      "category": "语义色板",
+      "description": "语义色板：primary 2"
+    },
+    "primary.3": {
+      "name": "primary.3",
+      "value": "var(--qizhiblue-3)",
+      "cssVariable": "--primary-3",
+      "category": "语义色板",
+      "description": "语义色板：primary 3"
+    },
+    "primary.4": {
+      "name": "primary.4",
+      "value": "var(--qizhiblue-4)",
+      "cssVariable": "--primary-4",
+      "category": "语义色板",
+      "description": "语义色板：primary 4"
+    },
+    "primary.5": {
+      "name": "primary.5",
+      "value": "var(--qizhiblue-5)",
+      "cssVariable": "--primary-5",
+      "category": "语义色板",
+      "description": "语义色板：primary 5"
+    },
+    "primary.6": {
+      "name": "primary.6",
+      "value": "var(--qizhiblue-6)",
+      "cssVariable": "--primary-6",
+      "category": "语义色板",
+      "description": "语义色板：primary 6"
+    },
+    "primary.7": {
+      "name": "primary.7",
+      "value": "var(--qizhiblue-7)",
+      "cssVariable": "--primary-7",
+      "category": "语义色板",
+      "description": "语义色板：primary 7"
+    },
+    "primary.8": {
+      "name": "primary.8",
+      "value": "var(--qizhiblue-8)",
+      "cssVariable": "--primary-8",
+      "category": "语义色板",
+      "description": "语义色板：primary 8"
+    },
+    "primary.9": {
+      "name": "primary.9",
+      "value": "var(--qizhiblue-9)",
+      "cssVariable": "--primary-9",
+      "category": "语义色板",
+      "description": "语义色板：primary 9"
+    },
+    "primary.10": {
+      "name": "primary.10",
+      "value": "var(--qizhiblue-10)",
+      "cssVariable": "--primary-10",
+      "category": "语义色板",
+      "description": "语义色板：primary 10"
+    },
+    "link.1": {
+      "name": "link.1",
+      "value": "var(--qizhiblue-1)",
+      "cssVariable": "--link-1",
+      "category": "语义色板",
+      "description": "语义色板：link 1"
+    },
+    "link.2": {
+      "name": "link.2",
+      "value": "var(--qizhiblue-2)",
+      "cssVariable": "--link-2",
+      "category": "语义色板",
+      "description": "语义色板：link 2"
+    },
+    "link.3": {
+      "name": "link.3",
+      "value": "var(--qizhiblue-3)",
+      "cssVariable": "--link-3",
+      "category": "语义色板",
+      "description": "语义色板：link 3"
+    },
+    "link.4": {
+      "name": "link.4",
+      "value": "var(--qizhiblue-4)",
+      "cssVariable": "--link-4",
+      "category": "语义色板",
+      "description": "语义色板：link 4"
+    },
+    "link.5": {
+      "name": "link.5",
+      "value": "var(--qizhiblue-5)",
+      "cssVariable": "--link-5",
+      "category": "语义色板",
+      "description": "语义色板：link 5"
+    },
+    "link.6": {
+      "name": "link.6",
+      "value": "var(--brand-link-6)",
+      "cssVariable": "--link-6",
+      "category": "语义色板",
+      "description": "语义色板：link 6"
+    },
+    "link.7": {
+      "name": "link.7",
+      "value": "var(--qizhiblue-7)",
+      "cssVariable": "--link-7",
+      "category": "语义色板",
+      "description": "语义色板：link 7"
+    },
+    "link.8": {
+      "name": "link.8",
+      "value": "var(--qizhiblue-8)",
+      "cssVariable": "--link-8",
+      "category": "语义色板",
+      "description": "语义色板：link 8"
+    },
+    "link.9": {
+      "name": "link.9",
+      "value": "var(--qizhiblue-9)",
+      "cssVariable": "--link-9",
+      "category": "语义色板",
+      "description": "语义色板：link 9"
+    },
+    "link.10": {
+      "name": "link.10",
+      "value": "var(--qizhiblue-10)",
+      "cssVariable": "--link-10",
+      "category": "语义色板",
+      "description": "语义色板：link 10"
+    },
+    "data.1": {
+      "name": "data.1",
+      "value": "var(--qizhiblue-5)",
+      "cssVariable": "--data-1",
+      "category": "语义色板",
+      "description": "语义色板：data 1"
+    },
+    "data.2": {
+      "name": "data.2",
+      "value": "var(--qizhiblue-2)",
+      "cssVariable": "--data-2",
+      "category": "语义色板",
+      "description": "语义色板：data 2"
+    },
+    "data.3": {
+      "name": "data.3",
+      "value": "85, 197, 253",
+      "cssVariable": "--data-3",
+      "category": "语义色板",
+      "description": "语义色板：data 3"
+    },
+    "data.4": {
+      "name": "data.4",
+      "value": "156, 220, 252",
+      "cssVariable": "--data-4",
+      "category": "语义色板",
+      "description": "语义色板：data 4"
+    },
+    "data.5": {
+      "name": "data.5",
+      "value": "var(--orange-6)",
+      "cssVariable": "--data-5",
+      "category": "语义色板",
+      "description": "语义色板：data 5"
+    },
+    "data.6": {
+      "name": "data.6",
+      "value": "var(--orange-3)",
+      "cssVariable": "--data-6",
+      "category": "语义色板",
+      "description": "语义色板：data 6"
+    },
+    "data.7": {
+      "name": "data.7",
+      "value": "var(--green-4)",
+      "cssVariable": "--data-7",
+      "category": "语义色板",
+      "description": "语义色板：data 7"
+    },
+    "data.8": {
+      "name": "data.8",
+      "value": "var(--green-2)",
+      "cssVariable": "--data-8",
+      "category": "语义色板",
+      "description": "语义色板：data 8"
+    },
+    "data.9": {
+      "name": "data.9",
+      "value": "var(--purple-4)",
+      "cssVariable": "--data-9",
+      "category": "语义色板",
+      "description": "语义色板：data 9"
+    },
+    "data.10": {
+      "name": "data.10",
+      "value": "var(--purple-2)",
+      "cssVariable": "--data-10",
+      "category": "语义色板",
+      "description": "语义色板：data 10"
+    },
+    "data.11": {
+      "name": "data.11",
+      "value": "var(--gold-6)",
+      "cssVariable": "--data-11",
+      "category": "语义色板",
+      "description": "语义色板：data 11"
+    },
+    "data.12": {
+      "name": "data.12",
+      "value": "var(--gold-4)",
+      "cssVariable": "--data-12",
+      "category": "语义色板",
+      "description": "语义色板：data 12"
+    },
+    "data.13": {
+      "name": "data.13",
+      "value": "var(--lime-6)",
+      "cssVariable": "--data-13",
+      "category": "语义色板",
+      "description": "语义色板：data 13"
+    },
+    "data.14": {
+      "name": "data.14",
+      "value": "var(--lime-4)",
+      "cssVariable": "--data-14",
+      "category": "语义色板",
+      "description": "语义色板：data 14"
+    },
+    "data.15": {
+      "name": "data.15",
+      "value": "var(--magenta-4)",
+      "cssVariable": "--data-15",
+      "category": "语义色板",
+      "description": "语义色板：data 15"
+    },
+    "data.16": {
+      "name": "data.16",
+      "value": "var(--magenta-3)",
+      "cssVariable": "--data-16",
+      "category": "语义色板",
+      "description": "语义色板：data 16"
+    },
+    "data.17": {
+      "name": "data.17",
+      "value": "var(--cyan-6)",
+      "cssVariable": "--data-17",
+      "category": "语义色板",
+      "description": "语义色板：data 17"
+    },
+    "data.18": {
+      "name": "data.18",
+      "value": "var(--cyan-3)",
+      "cssVariable": "--data-18",
+      "category": "语义色板",
+      "description": "语义色板：data 18"
+    },
+    "data.19": {
+      "name": "data.19",
+      "value": "var(--pinkpurple-4)",
+      "cssVariable": "--data-19",
+      "category": "语义色板",
+      "description": "语义色板：data 19"
+    },
+    "data.20": {
+      "name": "data.20",
+      "value": "var(--pinkpurple-2)",
+      "cssVariable": "--data-20",
+      "category": "语义色板",
+      "description": "语义色板：data 20"
+    },
+    "color.menu.light.bg": {
+      "name": "color.menu.light.bg",
+      "value": "#fff",
+      "cssVariable": "--color-menu-light-bg",
+      "category": "语义颜色",
+      "description": "语义颜色：color menu light bg"
+    },
+    "color.neutral.1": {
+      "name": "color.neutral.1",
+      "value": "rgb(var(--gray-1))",
+      "cssVariable": "--color-neutral-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 1"
+    },
+    "color.neutral.2": {
+      "name": "color.neutral.2",
+      "value": "rgb(var(--gray-2))",
+      "cssVariable": "--color-neutral-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 2"
+    },
+    "color.neutral.3": {
+      "name": "color.neutral.3",
+      "value": "rgb(var(--gray-3))",
+      "cssVariable": "--color-neutral-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 3"
+    },
+    "color.neutral.4": {
+      "name": "color.neutral.4",
+      "value": "rgb(var(--gray-4))",
+      "cssVariable": "--color-neutral-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 4"
+    },
+    "color.neutral.5": {
+      "name": "color.neutral.5",
+      "value": "rgb(var(--gray-5))",
+      "cssVariable": "--color-neutral-5",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 5"
+    },
+    "color.neutral.6": {
+      "name": "color.neutral.6",
+      "value": "rgb(var(--gray-6))",
+      "cssVariable": "--color-neutral-6",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 6"
+    },
+    "color.neutral.7": {
+      "name": "color.neutral.7",
+      "value": "rgb(var(--gray-7))",
+      "cssVariable": "--color-neutral-7",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 7"
+    },
+    "color.neutral.8": {
+      "name": "color.neutral.8",
+      "value": "rgb(var(--gray-8))",
+      "cssVariable": "--color-neutral-8",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 8"
+    },
+    "color.neutral.9": {
+      "name": "color.neutral.9",
+      "value": "rgb(var(--gray-9))",
+      "cssVariable": "--color-neutral-9",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 9"
+    },
+    "color.neutral.10": {
+      "name": "color.neutral.10",
+      "value": "rgb(var(--gray-10))",
+      "cssVariable": "--color-neutral-10",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 10"
+    },
+    "color.text.1": {
+      "name": "color.text.1",
+      "value": "var(--color-neutral-10)",
+      "cssVariable": "--color-text-1",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 1"
+    },
+    "color.text.2": {
+      "name": "color.text.2",
+      "value": "var(--color-neutral-8)",
+      "cssVariable": "--color-text-2",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 2"
+    },
+    "color.text.3": {
+      "name": "color.text.3",
+      "value": "var(--color-neutral-6)",
+      "cssVariable": "--color-text-3",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 3"
+    },
+    "color.text.4": {
+      "name": "color.text.4",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-text-4",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 4"
+    },
+    "color.border.1": {
+      "name": "color.border.1",
+      "value": "var(--color-neutral-2)",
+      "cssVariable": "--color-border-1",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 1"
+    },
+    "color.border.2": {
+      "name": "color.border.2",
+      "value": "var(--color-neutral-3)",
+      "cssVariable": "--color-border-2",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 2"
+    },
+    "color.border.3": {
+      "name": "color.border.3",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-border-3",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 3"
+    },
+    "color.border.4": {
+      "name": "color.border.4",
+      "value": "var(--color-neutral-6)",
+      "cssVariable": "--color-border-4",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 4"
+    },
+    "color.fill.1": {
+      "name": "color.fill.1",
+      "value": "var(--color-neutral-1)",
+      "cssVariable": "--color-fill-1",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 1"
+    },
+    "color.fill.2": {
+      "name": "color.fill.2",
+      "value": "var(--color-neutral-2)",
+      "cssVariable": "--color-fill-2",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 2"
+    },
+    "color.fill.3": {
+      "name": "color.fill.3",
+      "value": "var(--color-neutral-3)",
+      "cssVariable": "--color-fill-3",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 3"
+    },
+    "color.fill.4": {
+      "name": "color.fill.4",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-fill-4",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 4"
+    },
+    "color.primary.light.1": {
+      "name": "color.primary.light.1",
+      "value": "rgb(var(--primary-1))",
+      "cssVariable": "--color-primary-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 1"
+    },
+    "color.primary.light.2": {
+      "name": "color.primary.light.2",
+      "value": "rgb(var(--primary-2))",
+      "cssVariable": "--color-primary-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 2"
+    },
+    "color.primary.light.3": {
+      "name": "color.primary.light.3",
+      "value": "rgb(var(--primary-3))",
+      "cssVariable": "--color-primary-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 3"
+    },
+    "color.primary.light.4": {
+      "name": "color.primary.light.4",
+      "value": "rgb(var(--primary-4))",
+      "cssVariable": "--color-primary-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 4"
+    },
+    "color.secondary": {
+      "name": "color.secondary",
+      "value": "var(--color-neutral-2)",
+      "cssVariable": "--color-secondary",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary"
+    },
+    "color.secondary.hover": {
+      "name": "color.secondary.hover",
+      "value": "var(--color-neutral-3)",
+      "cssVariable": "--color-secondary-hover",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary hover"
+    },
+    "color.secondary.active": {
+      "name": "color.secondary.active",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-secondary-active",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary active"
+    },
+    "color.secondary.disabled": {
+      "name": "color.secondary.disabled",
+      "value": "var(--color-neutral-1)",
+      "cssVariable": "--color-secondary-disabled",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary disabled"
+    },
+    "color.danger.light.1": {
+      "name": "color.danger.light.1",
+      "value": "rgb(var(--danger-1))",
+      "cssVariable": "--color-danger-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 1"
+    },
+    "color.danger.light.2": {
+      "name": "color.danger.light.2",
+      "value": "rgb(var(--danger-2))",
+      "cssVariable": "--color-danger-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 2"
+    },
+    "color.danger.light.3": {
+      "name": "color.danger.light.3",
+      "value": "rgb(var(--danger-3))",
+      "cssVariable": "--color-danger-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 3"
+    },
+    "color.danger.light.4": {
+      "name": "color.danger.light.4",
+      "value": "rgb(var(--danger-4))",
+      "cssVariable": "--color-danger-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 4"
+    },
+    "color.success.light.1": {
+      "name": "color.success.light.1",
+      "value": "rgb(var(--success-1))",
+      "cssVariable": "--color-success-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 1"
+    },
+    "color.success.light.2": {
+      "name": "color.success.light.2",
+      "value": "rgb(var(--success-2))",
+      "cssVariable": "--color-success-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 2"
+    },
+    "color.success.light.3": {
+      "name": "color.success.light.3",
+      "value": "rgb(var(--success-3))",
+      "cssVariable": "--color-success-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 3"
+    },
+    "color.success.light.4": {
+      "name": "color.success.light.4",
+      "value": "rgb(var(--success-4))",
+      "cssVariable": "--color-success-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 4"
+    },
+    "color.warning.light.1": {
+      "name": "color.warning.light.1",
+      "value": "rgb(var(--warning-1))",
+      "cssVariable": "--color-warning-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 1"
+    },
+    "color.warning.light.2": {
+      "name": "color.warning.light.2",
+      "value": "rgb(var(--warning-2))",
+      "cssVariable": "--color-warning-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 2"
+    },
+    "color.warning.light.3": {
+      "name": "color.warning.light.3",
+      "value": "rgb(var(--warning-3))",
+      "cssVariable": "--color-warning-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 3"
+    },
+    "color.warning.light.4": {
+      "name": "color.warning.light.4",
+      "value": "rgb(var(--warning-4))",
+      "cssVariable": "--color-warning-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 4"
+    },
+    "color.link.light.1": {
+      "name": "color.link.light.1",
+      "value": "rgb(var(--link-1))",
+      "cssVariable": "--color-link-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 1"
+    },
+    "color.link.light.2": {
+      "name": "color.link.light.2",
+      "value": "rgb(var(--link-2))",
+      "cssVariable": "--color-link-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 2"
+    },
+    "color.link.light.3": {
+      "name": "color.link.light.3",
+      "value": "rgb(var(--link-3))",
+      "cssVariable": "--color-link-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 3"
+    },
+    "color.link.light.4": {
+      "name": "color.link.light.4",
+      "value": "rgb(var(--link-4))",
+      "cssVariable": "--color-link-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 4"
+    },
+    "color.bg.1": {
+      "name": "color.bg.1",
+      "value": "#fff",
+      "cssVariable": "--color-bg-1",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 1"
+    },
+    "color.bg.2": {
+      "name": "color.bg.2",
+      "value": "#fff",
+      "cssVariable": "--color-bg-2",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 2"
+    },
+    "color.bg.3": {
+      "name": "color.bg.3",
+      "value": "#fff",
+      "cssVariable": "--color-bg-3",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 3"
+    },
+    "color.bg.4": {
+      "name": "color.bg.4",
+      "value": "#fff",
+      "cssVariable": "--color-bg-4",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 4"
+    },
+    "color.bg.5": {
+      "name": "color.bg.5",
+      "value": "#fff",
+      "cssVariable": "--color-bg-5",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 5"
+    },
+    "color.bg.white": {
+      "name": "color.bg.white",
+      "value": "#fff",
+      "cssVariable": "--color-bg-white",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg white"
+    },
+    "color.bg.popup": {
+      "name": "color.bg.popup",
+      "value": "var(--color-bg-5)",
+      "cssVariable": "--color-bg-popup",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg popup"
+    },
+    "color.data.1": {
+      "name": "color.data.1",
+      "value": "rgb(var(--data-1))",
+      "cssVariable": "--color-data-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 1"
+    },
+    "color.data.2": {
+      "name": "color.data.2",
+      "value": "rgb(var(--data-2))",
+      "cssVariable": "--color-data-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 2"
+    },
+    "color.data.3": {
+      "name": "color.data.3",
+      "value": "rgb(var(--data-3))",
+      "cssVariable": "--color-data-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 3"
+    },
+    "color.data.4": {
+      "name": "color.data.4",
+      "value": "rgb(var(--data-4))",
+      "cssVariable": "--color-data-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 4"
+    },
+    "color.data.5": {
+      "name": "color.data.5",
+      "value": "rgb(var(--data-5))",
+      "cssVariable": "--color-data-5",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 5"
+    },
+    "color.data.6": {
+      "name": "color.data.6",
+      "value": "rgb(var(--data-6))",
+      "cssVariable": "--color-data-6",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 6"
+    },
+    "color.data.7": {
+      "name": "color.data.7",
+      "value": "rgb(var(--data-7))",
+      "cssVariable": "--color-data-7",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 7"
+    },
+    "color.data.8": {
+      "name": "color.data.8",
+      "value": "rgb(var(--data-8))",
+      "cssVariable": "--color-data-8",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 8"
+    },
+    "color.data.9": {
+      "name": "color.data.9",
+      "value": "rgb(var(--data-9))",
+      "cssVariable": "--color-data-9",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 9"
+    },
+    "color.data.10": {
+      "name": "color.data.10",
+      "value": "rgb(var(--data-10))",
+      "cssVariable": "--color-data-10",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 10"
+    },
+    "color.data.11": {
+      "name": "color.data.11",
+      "value": "rgb(var(--data-11))",
+      "cssVariable": "--color-data-11",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 11"
+    },
+    "color.data.12": {
+      "name": "color.data.12",
+      "value": "rgb(var(--data-12))",
+      "cssVariable": "--color-data-12",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 12"
+    },
+    "color.data.13": {
+      "name": "color.data.13",
+      "value": "rgb(var(--data-13))",
+      "cssVariable": "--color-data-13",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 13"
+    },
+    "color.data.14": {
+      "name": "color.data.14",
+      "value": "rgb(var(--data-14))",
+      "cssVariable": "--color-data-14",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 14"
+    },
+    "color.data.15": {
+      "name": "color.data.15",
+      "value": "rgb(var(--data-15))",
+      "cssVariable": "--color-data-15",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 15"
+    },
+    "color.data.16": {
+      "name": "color.data.16",
+      "value": "rgb(var(--data-16))",
+      "cssVariable": "--color-data-16",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 16"
+    },
+    "color.data.17": {
+      "name": "color.data.17",
+      "value": "rgb(var(--data-17))",
+      "cssVariable": "--color-data-17",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 17"
+    },
+    "color.data.18": {
+      "name": "color.data.18",
+      "value": "rgb(var(--data-18))",
+      "cssVariable": "--color-data-18",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 18"
+    },
+    "color.data.19": {
+      "name": "color.data.19",
+      "value": "rgb(var(--data-19))",
+      "cssVariable": "--color-data-19",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 19"
+    },
+    "color.data.20": {
+      "name": "color.data.20",
+      "value": "rgb(var(--data-20))",
+      "cssVariable": "--color-data-20",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 20"
+    },
+    "color.link": {
+      "name": "color.link",
+      "value": "rgb(var(--link-6))",
+      "cssVariable": "--color-link",
+      "category": "语义颜色",
+      "description": "语义颜色：color link"
+    },
+    "color.link.hover": {
+      "name": "color.link.hover",
+      "value": "rgb(var(--link-5))",
+      "cssVariable": "--color-link-hover",
+      "category": "语义颜色",
+      "description": "语义颜色：color link hover"
+    },
+    "color.success": {
+      "name": "color.success",
+      "value": "rgb(var(--success-6))",
+      "cssVariable": "--color-success",
+      "category": "语义颜色",
+      "description": "语义颜色：color success"
+    },
+    "color.warning": {
+      "name": "color.warning",
+      "value": "rgb(var(--warning-6))",
+      "cssVariable": "--color-warning",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning"
+    },
+    "color.danger": {
+      "name": "color.danger",
+      "value": "rgb(var(--danger-6))",
+      "cssVariable": "--color-danger",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger"
+    },
+    "color.white": {
+      "name": "color.white",
+      "value": "#fff",
+      "cssVariable": "--color-white",
+      "category": "语义颜色",
+      "description": "语义颜色：color white"
+    },
+    "color.surface.elevated": {
+      "name": "color.surface.elevated",
+      "value": "rgba(255, 255, 255, 0.94)",
+      "cssVariable": "--color-surface-elevated",
+      "category": "语义颜色",
+      "description": "语义颜色：color surface elevated"
+    },
+    "color.scroll.thumb": {
+      "name": "color.scroll.thumb",
+      "value": "rgba(var(--gray-4), 0.9)",
+      "cssVariable": "--color-scroll-thumb",
+      "category": "语义颜色",
+      "description": "语义颜色：color scroll thumb"
+    },
+    "color.shadow.soft": {
+      "name": "color.shadow.soft",
+      "value": "rgba(0, 0, 0, 0.06)",
+      "cssVariable": "--color-shadow-soft",
+      "category": "语义颜色",
+      "description": "语义颜色：color shadow soft"
+    },
+    "color.shadow.border": {
+      "name": "color.shadow.border",
+      "value": "rgba(0, 0, 0, 0.08)",
+      "cssVariable": "--color-shadow-border",
+      "category": "语义颜色",
+      "description": "语义颜色：color shadow border"
+    },
+    "color.shadow.border.strong": {
+      "name": "color.shadow.border.strong",
+      "value": "rgba(0, 0, 0, 0.16)",
+      "cssVariable": "--color-shadow-border-strong",
+      "category": "语义颜色",
+      "description": "语义颜色：color shadow border strong"
+    },
+    "color.code.bg": {
+      "name": "color.code.bg",
+      "value": "#0f172a",
+      "cssVariable": "--color-code-bg",
+      "category": "语义颜色",
+      "description": "语义颜色：color code bg"
+    },
+    "color.code.fg": {
+      "name": "color.code.fg",
+      "value": "#dbe7ff",
+      "cssVariable": "--color-code-fg",
+      "category": "语义颜色",
+      "description": "语义颜色：color code fg"
+    },
+    "primary": {
+      "name": "primary",
+      "value": "rgb(var(--primary-6))",
+      "cssVariable": "--primary",
+      "category": "基础变量",
+      "description": "基础变量：primary"
+    },
+    "primary.soft": {
+      "name": "primary.soft",
+      "value": "rgb(var(--primary-1))",
+      "cssVariable": "--primary-soft",
+      "category": "语义色板",
+      "description": "语义色板：primary soft"
+    },
+    "text.1": {
+      "name": "text.1",
+      "value": "var(--color-text-1)",
+      "cssVariable": "--text-1",
+      "category": "基础变量",
+      "description": "基础变量：text 1"
+    },
+    "text.2": {
+      "name": "text.2",
+      "value": "var(--color-text-2)",
+      "cssVariable": "--text-2",
+      "category": "基础变量",
+      "description": "基础变量：text 2"
+    },
+    "text.3": {
+      "name": "text.3",
+      "value": "var(--color-text-3)",
+      "cssVariable": "--text-3",
+      "category": "基础变量",
+      "description": "基础变量：text 3"
+    },
+    "line": {
+      "name": "line",
+      "value": "var(--color-border-2)",
+      "cssVariable": "--line",
+      "category": "基础变量",
+      "description": "基础变量：line"
+    },
+    "fill.1": {
+      "name": "fill.1",
+      "value": "var(--color-white)",
+      "cssVariable": "--fill-1",
+      "category": "基础变量",
+      "description": "基础变量：fill 1"
+    },
+    "fill.2": {
+      "name": "fill.2",
+      "value": "var(--color-fill-1)",
+      "cssVariable": "--fill-2",
+      "category": "基础变量",
+      "description": "基础变量：fill 2"
+    },
+    "fill.3": {
+      "name": "fill.3",
+      "value": "var(--color-fill-2)",
+      "cssVariable": "--fill-3",
+      "category": "基础变量",
+      "description": "基础变量：fill 3"
+    },
+    "radius.small": {
+      "name": "radius.small",
+      "value": "2px",
+      "cssVariable": "--radius-small",
+      "category": "边框圆角",
+      "description": "边框圆角：radius small"
+    },
+    "radius.medium": {
+      "name": "radius.medium",
+      "value": "4px",
+      "cssVariable": "--radius-medium",
+      "category": "边框圆角",
+      "description": "边框圆角：radius medium"
+    },
+    "radius.large": {
+      "name": "radius.large",
+      "value": "8px",
+      "cssVariable": "--radius-large",
+      "category": "边框圆角",
+      "description": "边框圆角：radius large"
+    },
+    "radius": {
+      "name": "radius",
+      "value": "var(--radius-large)",
+      "cssVariable": "--radius",
+      "category": "边框圆角",
+      "description": "边框圆角：radius"
+    },
+    "border.radius.none": {
+      "name": "border.radius.none",
+      "value": "0px",
+      "cssVariable": "--border-radius-none",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius none"
+    },
+    "border.radius.small": {
+      "name": "border.radius.small",
+      "value": "2px",
+      "cssVariable": "--border-radius-small",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius small"
+    },
+    "border.radius.medium": {
+      "name": "border.radius.medium",
+      "value": "4px",
+      "cssVariable": "--border-radius-medium",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius medium"
+    },
+    "border.radius.large": {
+      "name": "border.radius.large",
+      "value": "8px",
+      "cssVariable": "--border-radius-large",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius large"
+    },
+    "border.radius.circle": {
+      "name": "border.radius.circle",
+      "value": "50%",
+      "cssVariable": "--border-radius-circle",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius circle"
+    },
+    "shadow": {
+      "name": "shadow",
+      "value": "0 8px 24px rgba(15, 23, 42, 0.08)",
+      "cssVariable": "--shadow",
+      "category": "阴影",
+      "description": "阴影：shadow"
+    },
+    "font.weight.100": {
+      "name": "font.weight.100",
+      "value": "100",
+      "cssVariable": "--font-weight-100",
+      "category": "字重",
+      "description": "字重：font weight 100"
+    },
+    "font.weight.200": {
+      "name": "font.weight.200",
+      "value": "200",
+      "cssVariable": "--font-weight-200",
+      "category": "字重",
+      "description": "字重：font weight 200"
+    },
+    "font.weight.300": {
+      "name": "font.weight.300",
+      "value": "300",
+      "cssVariable": "--font-weight-300",
+      "category": "字重",
+      "description": "字重：font weight 300"
+    },
+    "font.weight.400": {
+      "name": "font.weight.400",
+      "value": "400",
+      "cssVariable": "--font-weight-400",
+      "category": "字重",
+      "description": "字重：font weight 400"
+    },
+    "font.weight.500": {
+      "name": "font.weight.500",
+      "value": "500",
+      "cssVariable": "--font-weight-500",
+      "category": "字重",
+      "description": "字重：font weight 500"
+    },
+    "font.weight.600": {
+      "name": "font.weight.600",
+      "value": "600",
+      "cssVariable": "--font-weight-600",
+      "category": "字重",
+      "description": "字重：font weight 600"
+    },
+    "font.weight.700": {
+      "name": "font.weight.700",
+      "value": "700",
+      "cssVariable": "--font-weight-700",
+      "category": "字重",
+      "description": "字重：font weight 700"
+    },
+    "font.weight.800": {
+      "name": "font.weight.800",
+      "value": "800",
+      "cssVariable": "--font-weight-800",
+      "category": "字重",
+      "description": "字重：font weight 800"
+    },
+    "font.weight.900": {
+      "name": "font.weight.900",
+      "value": "900",
+      "cssVariable": "--font-weight-900",
+      "category": "字重",
+      "description": "字重：font weight 900"
+    },
+    "line.height.regular": {
+      "name": "line.height.regular",
+      "value": "1.5",
+      "cssVariable": "--line-height-regular",
+      "category": "字体",
+      "description": "字体：line height regular"
+    },
+    "data.input.control.height": {
+      "name": "data.input.control.height",
+      "value": "32px",
+      "cssVariable": "--data-input-control-height",
+      "category": "语义色板",
+      "description": "语义色板：data input control height"
+    },
+    "data.input.border.width": {
+      "name": "data.input.border.width",
+      "value": "1px",
+      "cssVariable": "--data-input-border-width",
+      "category": "语义色板",
+      "description": "语义色板：data input border width"
+    },
+    "form.main.gap": {
+      "name": "form.main.gap",
+      "value": "8px",
+      "cssVariable": "--form-main-gap",
+      "category": "组件尺寸",
+      "description": "组件尺寸：form main gap"
+    },
+    "form.supporting.gap": {
+      "name": "form.supporting.gap",
+      "value": "4px",
+      "cssVariable": "--form-supporting-gap",
+      "category": "组件尺寸",
+      "description": "组件尺寸：form supporting gap"
+    },
+    "font.sans": {
+      "name": "font.sans",
+      "value": "Inter, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Hiragino Sans GB\", \"Noto Sans\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "cssVariable": "--font-sans",
+      "category": "字体",
+      "description": "字体：font sans"
+    },
+    "font.mono": {
+      "name": "font.mono",
+      "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+      "cssVariable": "--font-mono",
+      "category": "字体",
+      "description": "代码、Markdown 源文和运行日志使用的等宽字体族"
+    },
+    "chart.gap": {
+      "name": "chart.gap",
+      "value": "8px",
+      "cssVariable": "--chart-gap",
+      "category": "图表尺寸",
+      "description": "图表图例与提示条目间距"
+    },
+    "chart.padding": {
+      "name": "chart.padding",
+      "value": "12px",
+      "cssVariable": "--chart-padding",
+      "category": "图表尺寸",
+      "description": "图表提示内边距与模块间距"
+    },
+    "chart.label.font.size": {
+      "name": "chart.label.font.size",
+      "value": "12px",
+      "cssVariable": "--chart-label-font-size",
+      "category": "图表尺寸",
+      "description": "图表坐标与图例字号"
+    },
+    "chart.body.font.size": {
+      "name": "chart.body.font.size",
+      "value": "14px",
+      "cssVariable": "--chart-body-font-size",
+      "category": "图表尺寸",
+      "description": "图表提示正文字号"
+    },
+    "chart.line.width": {
+      "name": "chart.line.width",
+      "value": "2px",
+      "cssVariable": "--chart-line-width",
+      "category": "图表尺寸",
+      "description": "图表折线宽度"
+    },
+    "chart.series.1": {
+      "name": "chart.series.1",
+      "value": "#3366FF",
+      "cssVariable": "--chart-series-1",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 1 个系列色"
+    },
+    "chart.series.2": {
+      "name": "chart.series.2",
+      "value": "#00E096",
+      "cssVariable": "--chart-series-2",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 2 个系列色"
+    },
+    "chart.series.3": {
+      "name": "chart.series.3",
+      "value": "#F6B447",
+      "cssVariable": "--chart-series-3",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 3 个系列色"
+    },
+    "chart.series.4": {
+      "name": "chart.series.4",
+      "value": "#9254DE",
+      "cssVariable": "--chart-series-4",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 4 个系列色"
+    },
+    "chart.series.5": {
+      "name": "chart.series.5",
+      "value": "#F97008",
+      "cssVariable": "--chart-series-5",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 5 个系列色"
+    },
+    "chart.series.6": {
+      "name": "chart.series.6",
+      "value": "#E00000",
+      "cssVariable": "--chart-series-6",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 6 个系列色"
+    },
+    "chart.series.7": {
+      "name": "chart.series.7",
+      "value": "#EB3599",
+      "cssVariable": "--chart-series-7",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 7 个系列色"
+    },
+    "chart.surface": {
+      "name": "chart.surface",
+      "value": "#F7F9FC",
+      "cssVariable": "--chart-surface",
+      "category": "图表颜色",
+      "description": "图表背景渐变起始色"
+    },
+    "chart.text": {
+      "name": "chart.text",
+      "value": "rgba(0, 0, 0, 0.45)",
+      "cssVariable": "--chart-text",
+      "category": "图表颜色",
+      "description": "坐标与图例文字"
+    },
+    "chart.title.color": {
+      "name": "chart.title.color",
+      "value": "rgba(0, 0, 0, 0.85)",
+      "cssVariable": "--chart-title-color",
+      "category": "图表颜色",
+      "description": "图表标题文字"
+    },
+    "chart.grid": {
+      "name": "chart.grid",
+      "value": "rgba(0, 0, 0, 0.06)",
+      "cssVariable": "--chart-grid",
+      "category": "图表颜色",
+      "description": "浅色实线网格"
+    },
+    "chart.axis": {
+      "name": "chart.axis",
+      "value": "rgba(0, 0, 0, 0.15)",
+      "cssVariable": "--chart-axis",
+      "category": "图表颜色",
+      "description": "底部坐标轴线"
+    },
+    "chart.card.padding": {
+      "name": "chart.card.padding",
+      "value": "24px",
+      "cssVariable": "--chart-card-padding",
+      "category": "图表尺寸",
+      "description": "卡片顶部和左右内边距"
+    },
+    "chart.card.bottom": {
+      "name": "chart.card.bottom",
+      "value": "16px",
+      "cssVariable": "--chart-card-bottom",
+      "category": "图表尺寸",
+      "description": "卡片底部内边距"
+    },
+    "chart.radius": {
+      "name": "chart.radius",
+      "value": "8px",
+      "cssVariable": "--chart-radius",
+      "category": "图表尺寸",
+      "description": "卡片圆角"
+    },
+    "chart.legend.gap": {
+      "name": "chart.legend.gap",
+      "value": "12px",
+      "cssVariable": "--chart-legend-gap",
+      "category": "图表尺寸",
+      "description": "图例系列间距"
+    },
+    "chart.marker.gap": {
+      "name": "chart.marker.gap",
+      "value": "4px",
+      "cssVariable": "--chart-marker-gap",
+      "category": "图表尺寸",
+      "description": "图例标记到文字间距"
+    },
+    "chart.bar.width.large": {
+      "name": "chart.bar.width.large",
+      "value": "32px",
+      "cssVariable": "--chart-bar-width-large",
+      "category": "图表尺寸",
+      "description": "普通与堆叠柱状图对应视口档位的最大柱宽"
+    },
+    "chart.bar.width.medium": {
+      "name": "chart.bar.width.medium",
+      "value": "16px",
+      "cssVariable": "--chart-bar-width-medium",
+      "category": "图表尺寸",
+      "description": "普通与堆叠柱状图对应视口档位的最大柱宽"
+    },
+    "chart.bar.width.small": {
+      "name": "chart.bar.width.small",
+      "value": "10px",
+      "cssVariable": "--chart-bar-width-small",
+      "category": "图表尺寸",
+      "description": "普通与堆叠柱状图对应视口档位的最大柱宽"
+    },
+    "chart.axis.label.gap": {
+      "name": "chart.axis.label.gap",
+      "value": "12px",
+      "cssVariable": "--chart-axis-label-gap",
+      "category": "图表尺寸",
+      "description": "横轴日期到轴线的垂直间距"
+    }
+  }
+}
