@@ -7,11 +7,11 @@
     <link rel="icon" type="image/svg+xml" href="/qizhi-design-system-docs/assets/qizhi-logo-k4g5b5C3.svg" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.min.css" />
     <noscript><style>.route-pending .doc-content > [id] { display: block; }</style></noscript>
-    <script type="module" crossorigin src="/qizhi-design-system-docs/assets/index-BKprUv6L.js"></script>
+    <script type="module" crossorigin src="/qizhi-design-system-docs/assets/index-Dxtp610W.js"></script>
     <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/rolldown-runtime-hePW80VL.js">
-    <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-Bfht0mxJ.js">
-    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-DYGcfoht.css">
-    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/index-CVTrc8ii.css">
+    <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-Cg5NJH9z.js">
+    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-DB2m1MuJ.css">
+    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/index-C9c1zo9a.css">
   </head>
   <body>
     <header class="topbar">
@@ -521,11 +521,370 @@
             </div>
 
             <div class="qizhi-changelog__list">
+              <section class="qizhi-changelog__day" id="changelog-2026-09-26" data-toc-label="2026-09-26">
+                <header class="qizhi-changelog__day-head">
+                  <h2><time datetime="2026-09-26">2026-09-26</time></h2>
+                  <span class="qizhi-changelog__count">11 次更新</span>
+                </header>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>移除复杂表单的提交数据回显</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>不再在页面底部输出包含服务、成员和密码字段的原始 JSON。</li>
+                    <li>提交成功统一使用全局 Toast，字段错误仍在对应输入控件下方展示。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>移除表单草稿的业务侧调试信息</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>从可视 Demo 移除调试详情，不再展示版本、步骤 key 和内部字段名。</li>
+                    <li>表单内仅保留自然语言草稿状态、恢复结果和冲突处理。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>补齐多步骤表单的确认与提交反馈</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>确认提交步骤继续展示可编辑的服务名称和联系邮箱，无需返回即可修改。</li>
+                    <li>提交成功改用全局 Toast，并统一清除浏览器自动填充产生的输入框底色。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>收敛多步骤表单的提交反馈</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>移除提交后对姓名、邮箱和内部 JSON 数据结构的直接回显。</li>
+                    <li>成功提交后仅展示自然语言“提交成功”。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>移除高级动态列表示例</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>从表单文档移除当前业务尚未使用的高级动态列表 Demo。</li>
+                    <li>保留底层 Form.List 能力及复杂表单中的基础动态成员列表。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>精简复杂表单的成员删除操作</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>移除成员上移、下移操作，将删除收敛为输入框右侧的图标按钮。</li>
+                    <li>删除图标在鼠标悬停和键盘聚焦时于右侧展示“删除”气泡。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>收敛表单草稿的状态与错误反馈</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>默认仅展示自然语言草稿状态，版本、步骤 key 与字段范围移入折叠的调试详情。</li>
+                    <li>必填错误回归对应输入控件下方，草稿过期、版本冲突等整体状态保留在操作区。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>统一表单控件与成员操作宽度</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>草稿描述与其他输入控件统一宽度，业务校验提交按钮恢复为内容宽度。</li>
+                    <li>成员上移、下移和删除操作改为与输入框等宽的图文按钮组。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>统一批量编辑的混合值与提交反馈</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>混合值统一在输入控件内展示，字段间距调整为 24px，业务失败归入对应表单项。</li>
+                    <li>提交信息仅在生成补丁后出现，并以明确标题区分目标、结果和补丁内容。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>对齐表格排序图标尺寸</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>排序上下箭头的可见图形改为 8×4px，去除源图留白造成的虚假间距，两个箭头保留 4px 可见间距。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>表格支持自然换行与列级省略</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>数据单元格默认自然换行，三档尺寸改为通过上下内边距控制密度。</li>
+                    <li>新增 TableColumn.ellipsis 及“多行与省略”同源 Demo。</li>
+                  </ul>
+                </article>
+              </section>
+
+              <section class="qizhi-changelog__day" id="changelog-2026-09-24" data-toc-label="2026-09-24">
+                <header class="qizhi-changelog__day-head">
+                  <h2><time datetime="2026-09-24">2026-09-24</time></h2>
+                  <span class="qizhi-changelog__count">11 次更新</span>
+                </header>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>新增企业表单草稿编排能力</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">5c68466</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增存储无关的 Form.useDraft，支持字段筛选、版本与过期判断、冲突处理和可选自动保存。</li>
+                    <li>补齐动态列表恢复、可控步骤、官网同源示例、API 元数据和三视口验收。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>补齐多步骤表单验收闭环</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">5c68466</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>补充指定步骤切换、字段卸载恢复、提交首错回跳和单轮异步校验测试。</li>
+                    <li>复用已通过的全量校验结果进入提交，避免异步校验器重复执行。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>新增多步骤表单编排能力</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">5c68466</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增步骤级校验、前后切换、跨步骤数据保留、首错定位和全量提交编排。</li>
+                    <li>复用正式 Steps 与 Form 组件补充官网示例、公共类型、API 元数据和契约测试。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>补齐表单第二期真实业务能力</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增异步校验竞态隔离、网络异常分流、未保存修改判断及自动补全远程查询四态。</li>
+                    <li>增加远程业务示例，并覆盖条件字段清理、多层重置和三档响应式浏览器验收。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>制定表单真实业务复杂度实施计划</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>将异步校验、错误分层、未保存修改和自动补全远程状态拆分为可验证任务。</li>
+                    <li>明确红灯到绿灯、同源文档、三视口浏览器验收和最终回归门槛。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>确认表单真实业务复杂度契约</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>明确异步校验竞态、网络错误分层和未保存修改判断的公共契约。</li>
+                    <li>定义自动补全加载、空结果、失败与重试状态，以及三类录入控件的统一联动验收。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>补齐复杂表单计划验收缺口</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>条件字段卸载时同步清理父路径及全部后代状态，并以反向依赖索引触发关联校验。</li>
+                    <li>桌面端按 1440×900 验收，补充真实键盘焦点可见性和后端错误回填验证。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>新增复杂表单结构与动态字段能力</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>表单支持嵌套字段路径、条件字段保留、依赖校验和精确字段监听。</li>
+                    <li>新增动态成员列表的新增、删除与移动能力，并保持字段值、错误和稳定标识同步迁移。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>修正表单字段范围与选择器失焦校验</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>表单聚合值统一只返回已注册字段，避免未注册初始值进入提交和变化回调。</li>
+                    <li>选择器接通失焦校验及错误说明关联，并补充公开属性与回归测试。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>补齐表单数据录入与错误闭环</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增字段收集、同步与异步校验、提交回调、程序化赋值和重置能力。</li>
+                    <li>支持后端字段错误回填、修改后清理、首错聚焦、无障碍错误关联和重复提交保护。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>移除单色图标的透明度属性</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>统一移除方向、提示、交互、编辑、商标和通用类单色图标中的填充与描边透明度属性。</li>
+                    <li>保留多色图标的固定色板、渐变、遮罩和阴影效果，并补充生成器回归测试。</li>
+                  </ul>
+                </article>
+              </section>
+
               <section class="qizhi-changelog__day" id="changelog-2026-09-22" data-toc-label="2026-09-22">
                 <header class="qizhi-changelog__day-head">
                   <h2><time datetime="2026-09-22">2026-09-22</time></h2>
-                  <span class="qizhi-changelog__count">2 次更新</span>
+                  <span class="qizhi-changelog__count">3 次更新</span>
                 </header>
+
+              <article class="qizhi-changelog__entry">
+                <header class="qizhi-changelog__entry-head">
+                  <div>
+                    <h3>准备 0.2.0 组件包迁移</h3>
+                    <div class="qizhi-changelog__meta">
+                      <span class="qizhi-changelog__commit">待发布</span>
+                    </div>
+                  </div>
+                </header>
+                <ul>
+                  <li>补齐选择器、日期选择器、导航和业务引导的通用集成 API。</li>
+                  <li>新增图表、Markdown、代码预览、图标和样式的独立发布入口。</li>
+                  <li>完成 TokenHub 本地归档消费验证，同时保留 GitHub 独有图标与图表能力。</li>
+                </ul>
+              </article>
 
               <article class="qizhi-changelog__entry">
                 <header class="qizhi-changelog__entry-head">

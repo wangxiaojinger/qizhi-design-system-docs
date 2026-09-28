@@ -1,0 +1,12 @@
+<svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#shadow)">
+    <path d="M4.951 4.399A1.655 1.655 0 0 1 6.606 2.744h26.483a1.655 1.655 0 0 1 1.655 1.655v25.552a1.655 1.655 0 0 1-1.655 1.655H6.606a1.655 1.655 0 0 1-1.655-1.655V4.399Z" fill="#fff" stroke="#77829C" stroke-width=".248"/>
+    <path d="M4.951 4.399a1.655 1.655 0 0 1 1.655-1.655h26.483a1.655 1.655 0 0 1 1.655 1.655v4.117H4.951V4.399Z" fill="#DFE8FD"/>
+    <ellipse cx="30.337" cy="5.398" rx=".754" ry=".73" fill="#FF9D1D"/>
+    <ellipse cx="32.389" cy="5.398" rx=".754" ry=".73" fill="#3366FF"/>
+    <rect x="7.594" y="4.668" width="17.214" height="1.924" rx=".962" fill="#BAC4DD"/>
+    <rect x="7.754" y="13.311" width="12.01" height="3.878" rx=".828" fill="#3366FF" stroke="#fff" stroke-width=".298"/>
+    <rect x="7.754" y="20.292" width="23.219" height="3.878" rx=".828" fill="#FFC94D"/>
+  </g>
+  <defs><filter id="shadow" x="0" y="0" width="40" height="39" filterUnits="userSpaceOnUse"><feDropShadow dy="2.207" stdDeviation="2.351" flood-color="#00326C" flood-opacity=".12"/></filter></defs>
+</svg>
