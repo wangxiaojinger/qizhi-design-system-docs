@@ -1,0 +1,5271 @@
+{
+  "name": "QIZHI Design Tokens",
+  "version": "0.1.1",
+  "tokens": {
+    "brand.blue.1": {
+      "name": "brand.blue.1",
+      "value": "232, 242, 255",
+      "cssVariable": "--brand-blue-1",
+      "category": "基础变量",
+      "description": "基础变量：brand blue 1",
+      "tier": "seed",
+      "status": "stable"
+    },
+    "brand.blue.5": {
+      "name": "brand.blue.5",
+      "value": "87, 135, 255",
+      "cssVariable": "--brand-blue-5",
+      "category": "基础变量",
+      "description": "基础变量：brand blue 5",
+      "tier": "seed",
+      "status": "stable"
+    },
+    "brand.blue.6": {
+      "name": "brand.blue.6",
+      "value": "51, 102, 255",
+      "cssVariable": "--brand-blue-6",
+      "category": "基础变量",
+      "description": "基础变量：brand blue 6",
+      "tier": "seed",
+      "status": "stable"
+    },
+    "brand.link.6": {
+      "name": "brand.link.6",
+      "value": "51, 102, 255",
+      "cssVariable": "--brand-link-6",
+      "category": "基础变量",
+      "description": "基础变量：brand link 6",
+      "tier": "seed",
+      "status": "stable"
+    },
+    "success.6": {
+      "name": "success.6",
+      "value": "82, 196, 26",
+      "cssVariable": "--success-6",
+      "category": "语义色板",
+      "description": "语义色板：success 6",
+      "tier": "seed",
+      "status": "stable"
+    },
+    "green.1": {
+      "name": "green.1",
+      "value": "246, 255, 237",
+      "cssVariable": "--green-1",
+      "category": "基础色板",
+      "description": "基础色板：green 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.2": {
+      "name": "green.2",
+      "value": "217, 247, 190",
+      "cssVariable": "--green-2",
+      "category": "基础色板",
+      "description": "基础色板：green 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.3": {
+      "name": "green.3",
+      "value": "183, 235, 143",
+      "cssVariable": "--green-3",
+      "category": "基础色板",
+      "description": "基础色板：green 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.4": {
+      "name": "green.4",
+      "value": "149, 222, 100",
+      "cssVariable": "--green-4",
+      "category": "基础色板",
+      "description": "基础色板：green 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.5": {
+      "name": "green.5",
+      "value": "115, 209, 61",
+      "cssVariable": "--green-5",
+      "category": "基础色板",
+      "description": "基础色板：green 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.6": {
+      "name": "green.6",
+      "value": "82, 196, 26",
+      "cssVariable": "--green-6",
+      "category": "基础色板",
+      "description": "基础色板：green 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.7": {
+      "name": "green.7",
+      "value": "56, 158, 13",
+      "cssVariable": "--green-7",
+      "category": "基础色板",
+      "description": "基础色板：green 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.8": {
+      "name": "green.8",
+      "value": "35, 120, 4",
+      "cssVariable": "--green-8",
+      "category": "基础色板",
+      "description": "基础色板：green 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.9": {
+      "name": "green.9",
+      "value": "19, 82, 0",
+      "cssVariable": "--green-9",
+      "category": "基础色板",
+      "description": "基础色板：green 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "green.10": {
+      "name": "green.10",
+      "value": "9, 43, 0",
+      "cssVariable": "--green-10",
+      "category": "基础色板",
+      "description": "基础色板：green 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "success.1": {
+      "name": "success.1",
+      "value": "var(--green-1)",
+      "cssVariable": "--success-1",
+      "category": "语义色板",
+      "description": "语义色板：success 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.2": {
+      "name": "success.2",
+      "value": "var(--green-2)",
+      "cssVariable": "--success-2",
+      "category": "语义色板",
+      "description": "语义色板：success 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.3": {
+      "name": "success.3",
+      "value": "var(--green-3)",
+      "cssVariable": "--success-3",
+      "category": "语义色板",
+      "description": "语义色板：success 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.4": {
+      "name": "success.4",
+      "value": "var(--green-4)",
+      "cssVariable": "--success-4",
+      "category": "语义色板",
+      "description": "语义色板：success 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.5": {
+      "name": "success.5",
+      "value": "var(--green-5)",
+      "cssVariable": "--success-5",
+      "category": "语义色板",
+      "description": "语义色板：success 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.1": {
+      "name": "warning.1",
+      "value": "var(--gold-1)",
+      "cssVariable": "--warning-1",
+      "category": "语义色板",
+      "description": "语义色板：warning 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.2": {
+      "name": "warning.2",
+      "value": "var(--gold-2)",
+      "cssVariable": "--warning-2",
+      "category": "语义色板",
+      "description": "语义色板：warning 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.3": {
+      "name": "warning.3",
+      "value": "var(--gold-3)",
+      "cssVariable": "--warning-3",
+      "category": "语义色板",
+      "description": "语义色板：warning 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.4": {
+      "name": "warning.4",
+      "value": "var(--gold-4)",
+      "cssVariable": "--warning-4",
+      "category": "语义色板",
+      "description": "语义色板：warning 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.5": {
+      "name": "warning.5",
+      "value": "var(--gold-5)",
+      "cssVariable": "--warning-5",
+      "category": "语义色板",
+      "description": "语义色板：warning 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.6": {
+      "name": "warning.6",
+      "value": "var(--gold-6)",
+      "cssVariable": "--warning-6",
+      "category": "语义色板",
+      "description": "语义色板：warning 6",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.7": {
+      "name": "warning.7",
+      "value": "var(--gold-7)",
+      "cssVariable": "--warning-7",
+      "category": "语义色板",
+      "description": "语义色板：warning 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.8": {
+      "name": "warning.8",
+      "value": "var(--gold-8)",
+      "cssVariable": "--warning-8",
+      "category": "语义色板",
+      "description": "语义色板：warning 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.9": {
+      "name": "warning.9",
+      "value": "var(--gold-9)",
+      "cssVariable": "--warning-9",
+      "category": "语义色板",
+      "description": "语义色板：warning 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "warning.10": {
+      "name": "warning.10",
+      "value": "var(--gold-10)",
+      "cssVariable": "--warning-10",
+      "category": "语义色板",
+      "description": "语义色板：warning 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "gold.1": {
+      "name": "gold.1",
+      "value": "255, 251, 232",
+      "cssVariable": "--gold-1",
+      "category": "基础色板",
+      "description": "基础色板：gold 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.2": {
+      "name": "gold.2",
+      "value": "254, 241, 189",
+      "cssVariable": "--gold-2",
+      "category": "基础色板",
+      "description": "基础色板：gold 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.3": {
+      "name": "gold.3",
+      "value": "253, 228, 146",
+      "cssVariable": "--gold-3",
+      "category": "基础色板",
+      "description": "基础色板：gold 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.4": {
+      "name": "gold.4",
+      "value": "252, 212, 104",
+      "cssVariable": "--gold-4",
+      "category": "基础色板",
+      "description": "基础色板：gold 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.5": {
+      "name": "gold.5",
+      "value": "251, 194, 62",
+      "cssVariable": "--gold-5",
+      "category": "基础色板",
+      "description": "基础色板：gold 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.6": {
+      "name": "gold.6",
+      "value": "250, 173, 20",
+      "cssVariable": "--gold-6",
+      "category": "基础色板",
+      "description": "基础色板：gold 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.7": {
+      "name": "gold.7",
+      "value": "207, 135, 12",
+      "cssVariable": "--gold-7",
+      "category": "基础色板",
+      "description": "基础色板：gold 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.8": {
+      "name": "gold.8",
+      "value": "163, 101, 7",
+      "cssVariable": "--gold-8",
+      "category": "基础色板",
+      "description": "基础色板：gold 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.9": {
+      "name": "gold.9",
+      "value": "120, 69, 2",
+      "cssVariable": "--gold-9",
+      "category": "基础色板",
+      "description": "基础色板：gold 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gold.10": {
+      "name": "gold.10",
+      "value": "77, 41, 0",
+      "cssVariable": "--gold-10",
+      "category": "基础色板",
+      "description": "基础色板：gold 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.1": {
+      "name": "red.1",
+      "value": "255, 244, 243",
+      "cssVariable": "--red-1",
+      "category": "基础色板",
+      "description": "基础色板：red 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.2": {
+      "name": "red.2",
+      "value": "255, 207, 201",
+      "cssVariable": "--red-2",
+      "category": "基础色板",
+      "description": "基础色板：red 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.3": {
+      "name": "red.3",
+      "value": "255, 177, 170",
+      "cssVariable": "--red-3",
+      "category": "基础色板",
+      "description": "基础色板：red 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.4": {
+      "name": "red.4",
+      "value": "255, 145, 139",
+      "cssVariable": "--red-4",
+      "category": "基础色板",
+      "description": "基础色板：red 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.5": {
+      "name": "red.5",
+      "value": "255, 110, 108",
+      "cssVariable": "--red-5",
+      "category": "基础色板",
+      "description": "基础色板：red 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.6": {
+      "name": "red.6",
+      "value": "255, 77, 79",
+      "cssVariable": "--red-6",
+      "category": "基础色板",
+      "description": "基础色板：red 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.7": {
+      "name": "red.7",
+      "value": "210, 48, 56",
+      "cssVariable": "--red-7",
+      "category": "基础色板",
+      "description": "基础色板：red 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.8": {
+      "name": "red.8",
+      "value": "166, 25, 37",
+      "cssVariable": "--red-8",
+      "category": "基础色板",
+      "description": "基础色板：red 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.9": {
+      "name": "red.9",
+      "value": "121, 9, 22",
+      "cssVariable": "--red-9",
+      "category": "基础色板",
+      "description": "基础色板：red 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "red.10": {
+      "name": "red.10",
+      "value": "77, 0, 11",
+      "cssVariable": "--red-10",
+      "category": "基础色板",
+      "description": "基础色板：red 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "danger.1": {
+      "name": "danger.1",
+      "value": "var(--red-1)",
+      "cssVariable": "--danger-1",
+      "category": "语义色板",
+      "description": "语义色板：danger 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.2": {
+      "name": "danger.2",
+      "value": "var(--red-2)",
+      "cssVariable": "--danger-2",
+      "category": "语义色板",
+      "description": "语义色板：danger 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.3": {
+      "name": "danger.3",
+      "value": "var(--red-3)",
+      "cssVariable": "--danger-3",
+      "category": "语义色板",
+      "description": "语义色板：danger 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.4": {
+      "name": "danger.4",
+      "value": "var(--red-4)",
+      "cssVariable": "--danger-4",
+      "category": "语义色板",
+      "description": "语义色板：danger 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.5": {
+      "name": "danger.5",
+      "value": "var(--red-5)",
+      "cssVariable": "--danger-5",
+      "category": "语义色板",
+      "description": "语义色板：danger 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.6": {
+      "name": "danger.6",
+      "value": "255, 77, 79",
+      "cssVariable": "--danger-6",
+      "category": "语义色板",
+      "description": "语义色板：danger 6",
+      "tier": "seed",
+      "status": "stable"
+    },
+    "danger.7": {
+      "name": "danger.7",
+      "value": "var(--red-7)",
+      "cssVariable": "--danger-7",
+      "category": "语义色板",
+      "description": "语义色板：danger 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.8": {
+      "name": "danger.8",
+      "value": "var(--red-8)",
+      "cssVariable": "--danger-8",
+      "category": "语义色板",
+      "description": "语义色板：danger 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.9": {
+      "name": "danger.9",
+      "value": "var(--red-9)",
+      "cssVariable": "--danger-9",
+      "category": "语义色板",
+      "description": "语义色板：danger 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "danger.10": {
+      "name": "danger.10",
+      "value": "var(--red-10)",
+      "cssVariable": "--danger-10",
+      "category": "语义色板",
+      "description": "语义色板：danger 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.7": {
+      "name": "success.7",
+      "value": "var(--green-7)",
+      "cssVariable": "--success-7",
+      "category": "语义色板",
+      "description": "语义色板：success 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.8": {
+      "name": "success.8",
+      "value": "var(--green-8)",
+      "cssVariable": "--success-8",
+      "category": "语义色板",
+      "description": "语义色板：success 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.9": {
+      "name": "success.9",
+      "value": "var(--green-9)",
+      "cssVariable": "--success-9",
+      "category": "语义色板",
+      "description": "语义色板：success 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "success.10": {
+      "name": "success.10",
+      "value": "var(--green-10)",
+      "cssVariable": "--success-10",
+      "category": "语义色板",
+      "description": "语义色板：success 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "qizhiblue.1": {
+      "name": "qizhiblue.1",
+      "value": "232, 242, 255",
+      "cssVariable": "--qizhiblue-1",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.2": {
+      "name": "qizhiblue.2",
+      "value": "196, 219, 255",
+      "cssVariable": "--qizhiblue-2",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.3": {
+      "name": "qizhiblue.3",
+      "value": "160, 193, 255",
+      "cssVariable": "--qizhiblue-3",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.4": {
+      "name": "qizhiblue.4",
+      "value": "123, 165, 255",
+      "cssVariable": "--qizhiblue-4",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.5": {
+      "name": "qizhiblue.5",
+      "value": "87, 135, 255",
+      "cssVariable": "--qizhiblue-5",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.6": {
+      "name": "qizhiblue.6",
+      "value": "51, 102, 255",
+      "cssVariable": "--qizhiblue-6",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.7": {
+      "name": "qizhiblue.7",
+      "value": "32, 70, 210",
+      "cssVariable": "--qizhiblue-7",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.8": {
+      "name": "qizhiblue.8",
+      "value": "17, 44, 166",
+      "cssVariable": "--qizhiblue-8",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.9": {
+      "name": "qizhiblue.9",
+      "value": "6, 23, 121",
+      "cssVariable": "--qizhiblue-9",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "qizhiblue.10": {
+      "name": "qizhiblue.10",
+      "value": "0, 9, 77",
+      "cssVariable": "--qizhiblue-10",
+      "category": "基础色板",
+      "description": "基础色板：qizhiblue 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.1": {
+      "name": "orangered.1",
+      "value": "255, 243, 232",
+      "cssVariable": "--orangered-1",
+      "category": "基础色板",
+      "description": "基础色板：orangered 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.2": {
+      "name": "orangered.2",
+      "value": "253, 221, 195",
+      "cssVariable": "--orangered-2",
+      "category": "基础色板",
+      "description": "基础色板：orangered 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.3": {
+      "name": "orangered.3",
+      "value": "252, 197, 159",
+      "cssVariable": "--orangered-3",
+      "category": "基础色板",
+      "description": "基础色板：orangered 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.4": {
+      "name": "orangered.4",
+      "value": "250, 172, 123",
+      "cssVariable": "--orangered-4",
+      "category": "基础色板",
+      "description": "基础色板：orangered 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.5": {
+      "name": "orangered.5",
+      "value": "249, 144, 87",
+      "cssVariable": "--orangered-5",
+      "category": "基础色板",
+      "description": "基础色板：orangered 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.6": {
+      "name": "orangered.6",
+      "value": "247, 114, 52",
+      "cssVariable": "--orangered-6",
+      "category": "基础色板",
+      "description": "基础色板：orangered 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.7": {
+      "name": "orangered.7",
+      "value": "204, 81, 32",
+      "cssVariable": "--orangered-7",
+      "category": "基础色板",
+      "description": "基础色板：orangered 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.8": {
+      "name": "orangered.8",
+      "value": "162, 53, 17",
+      "cssVariable": "--orangered-8",
+      "category": "基础色板",
+      "description": "基础色板：orangered 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.9": {
+      "name": "orangered.9",
+      "value": "119, 31, 6",
+      "cssVariable": "--orangered-9",
+      "category": "基础色板",
+      "description": "基础色板：orangered 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orangered.10": {
+      "name": "orangered.10",
+      "value": "77, 14, 0",
+      "cssVariable": "--orangered-10",
+      "category": "基础色板",
+      "description": "基础色板：orangered 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.1": {
+      "name": "orange.1",
+      "value": "255, 247, 232",
+      "cssVariable": "--orange-1",
+      "category": "基础色板",
+      "description": "基础色板：orange 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.2": {
+      "name": "orange.2",
+      "value": "255, 228, 186",
+      "cssVariable": "--orange-2",
+      "category": "基础色板",
+      "description": "基础色板：orange 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.3": {
+      "name": "orange.3",
+      "value": "255, 207, 139",
+      "cssVariable": "--orange-3",
+      "category": "基础色板",
+      "description": "基础色板：orange 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.4": {
+      "name": "orange.4",
+      "value": "255, 182, 93",
+      "cssVariable": "--orange-4",
+      "category": "基础色板",
+      "description": "基础色板：orange 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.5": {
+      "name": "orange.5",
+      "value": "255, 154, 46",
+      "cssVariable": "--orange-5",
+      "category": "基础色板",
+      "description": "基础色板：orange 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.6": {
+      "name": "orange.6",
+      "value": "255, 125, 0",
+      "cssVariable": "--orange-6",
+      "category": "基础色板",
+      "description": "基础色板：orange 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.7": {
+      "name": "orange.7",
+      "value": "210, 95, 0",
+      "cssVariable": "--orange-7",
+      "category": "基础色板",
+      "description": "基础色板：orange 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.8": {
+      "name": "orange.8",
+      "value": "166, 69, 0",
+      "cssVariable": "--orange-8",
+      "category": "基础色板",
+      "description": "基础色板：orange 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.9": {
+      "name": "orange.9",
+      "value": "121, 46, 0",
+      "cssVariable": "--orange-9",
+      "category": "基础色板",
+      "description": "基础色板：orange 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "orange.10": {
+      "name": "orange.10",
+      "value": "77, 27, 0",
+      "cssVariable": "--orange-10",
+      "category": "基础色板",
+      "description": "基础色板：orange 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.1": {
+      "name": "yellow.1",
+      "value": "254, 255, 232",
+      "cssVariable": "--yellow-1",
+      "category": "基础色板",
+      "description": "基础色板：yellow 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.2": {
+      "name": "yellow.2",
+      "value": "254, 254, 190",
+      "cssVariable": "--yellow-2",
+      "category": "基础色板",
+      "description": "基础色板：yellow 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.3": {
+      "name": "yellow.3",
+      "value": "253, 250, 148",
+      "cssVariable": "--yellow-3",
+      "category": "基础色板",
+      "description": "基础色板：yellow 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.4": {
+      "name": "yellow.4",
+      "value": "252, 242, 107",
+      "cssVariable": "--yellow-4",
+      "category": "基础色板",
+      "description": "基础色板：yellow 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.5": {
+      "name": "yellow.5",
+      "value": "251, 232, 66",
+      "cssVariable": "--yellow-5",
+      "category": "基础色板",
+      "description": "基础色板：yellow 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.6": {
+      "name": "yellow.6",
+      "value": "250, 220, 25",
+      "cssVariable": "--yellow-6",
+      "category": "基础色板",
+      "description": "基础色板：yellow 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.7": {
+      "name": "yellow.7",
+      "value": "207, 175, 15",
+      "cssVariable": "--yellow-7",
+      "category": "基础色板",
+      "description": "基础色板：yellow 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.8": {
+      "name": "yellow.8",
+      "value": "163, 132, 8",
+      "cssVariable": "--yellow-8",
+      "category": "基础色板",
+      "description": "基础色板：yellow 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.9": {
+      "name": "yellow.9",
+      "value": "120, 93, 3",
+      "cssVariable": "--yellow-9",
+      "category": "基础色板",
+      "description": "基础色板：yellow 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "yellow.10": {
+      "name": "yellow.10",
+      "value": "77, 56, 0",
+      "cssVariable": "--yellow-10",
+      "category": "基础色板",
+      "description": "基础色板：yellow 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.1": {
+      "name": "lime.1",
+      "value": "252, 255, 232",
+      "cssVariable": "--lime-1",
+      "category": "基础色板",
+      "description": "基础色板：lime 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.2": {
+      "name": "lime.2",
+      "value": "237, 248, 187",
+      "cssVariable": "--lime-2",
+      "category": "基础色板",
+      "description": "基础色板：lime 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.3": {
+      "name": "lime.3",
+      "value": "220, 241, 144",
+      "cssVariable": "--lime-3",
+      "category": "基础色板",
+      "description": "基础色板：lime 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.4": {
+      "name": "lime.4",
+      "value": "201, 233, 104",
+      "cssVariable": "--lime-4",
+      "category": "基础色板",
+      "description": "基础色板：lime 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.5": {
+      "name": "lime.5",
+      "value": "181, 226, 65",
+      "cssVariable": "--lime-5",
+      "category": "基础色板",
+      "description": "基础色板：lime 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.6": {
+      "name": "lime.6",
+      "value": "159, 219, 29",
+      "cssVariable": "--lime-6",
+      "category": "基础色板",
+      "description": "基础色板：lime 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.7": {
+      "name": "lime.7",
+      "value": "126, 183, 18",
+      "cssVariable": "--lime-7",
+      "category": "基础色板",
+      "description": "基础色板：lime 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.8": {
+      "name": "lime.8",
+      "value": "95, 148, 10",
+      "cssVariable": "--lime-8",
+      "category": "基础色板",
+      "description": "基础色板：lime 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.9": {
+      "name": "lime.9",
+      "value": "67, 112, 4",
+      "cssVariable": "--lime-9",
+      "category": "基础色板",
+      "description": "基础色板：lime 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "lime.10": {
+      "name": "lime.10",
+      "value": "42, 77, 0",
+      "cssVariable": "--lime-10",
+      "category": "基础色板",
+      "description": "基础色板：lime 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.1": {
+      "name": "cyan.1",
+      "value": "232, 255, 251",
+      "cssVariable": "--cyan-1",
+      "category": "基础色板",
+      "description": "基础色板：cyan 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.2": {
+      "name": "cyan.2",
+      "value": "183, 244, 236",
+      "cssVariable": "--cyan-2",
+      "category": "基础色板",
+      "description": "基础色板：cyan 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.3": {
+      "name": "cyan.3",
+      "value": "137, 233, 224",
+      "cssVariable": "--cyan-3",
+      "category": "基础色板",
+      "description": "基础色板：cyan 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.4": {
+      "name": "cyan.4",
+      "value": "94, 223, 214",
+      "cssVariable": "--cyan-4",
+      "category": "基础色板",
+      "description": "基础色板：cyan 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.5": {
+      "name": "cyan.5",
+      "value": "55, 212, 207",
+      "cssVariable": "--cyan-5",
+      "category": "基础色板",
+      "description": "基础色板：cyan 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.6": {
+      "name": "cyan.6",
+      "value": "20, 201, 201",
+      "cssVariable": "--cyan-6",
+      "category": "基础色板",
+      "description": "基础色板：cyan 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.7": {
+      "name": "cyan.7",
+      "value": "13, 165, 170",
+      "cssVariable": "--cyan-7",
+      "category": "基础色板",
+      "description": "基础色板：cyan 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.8": {
+      "name": "cyan.8",
+      "value": "7, 130, 139",
+      "cssVariable": "--cyan-8",
+      "category": "基础色板",
+      "description": "基础色板：cyan 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.9": {
+      "name": "cyan.9",
+      "value": "3, 97, 108",
+      "cssVariable": "--cyan-9",
+      "category": "基础色板",
+      "description": "基础色板：cyan 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "cyan.10": {
+      "name": "cyan.10",
+      "value": "0, 66, 77",
+      "cssVariable": "--cyan-10",
+      "category": "基础色板",
+      "description": "基础色板：cyan 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.1": {
+      "name": "blue.1",
+      "value": "232, 247, 255",
+      "cssVariable": "--blue-1",
+      "category": "基础色板",
+      "description": "基础色板：blue 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.2": {
+      "name": "blue.2",
+      "value": "195, 231, 254",
+      "cssVariable": "--blue-2",
+      "category": "基础色板",
+      "description": "基础色板：blue 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.3": {
+      "name": "blue.3",
+      "value": "159, 212, 253",
+      "cssVariable": "--blue-3",
+      "category": "基础色板",
+      "description": "基础色板：blue 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.4": {
+      "name": "blue.4",
+      "value": "123, 192, 252",
+      "cssVariable": "--blue-4",
+      "category": "基础色板",
+      "description": "基础色板：blue 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.5": {
+      "name": "blue.5",
+      "value": "87, 169, 251",
+      "cssVariable": "--blue-5",
+      "category": "基础色板",
+      "description": "基础色板：blue 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.6": {
+      "name": "blue.6",
+      "value": "52, 145, 250",
+      "cssVariable": "--blue-6",
+      "category": "基础色板",
+      "description": "基础色板：blue 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.7": {
+      "name": "blue.7",
+      "value": "32, 108, 207",
+      "cssVariable": "--blue-7",
+      "category": "基础色板",
+      "description": "基础色板：blue 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.8": {
+      "name": "blue.8",
+      "value": "17, 75, 163",
+      "cssVariable": "--blue-8",
+      "category": "基础色板",
+      "description": "基础色板：blue 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.9": {
+      "name": "blue.9",
+      "value": "6, 48, 120",
+      "cssVariable": "--blue-9",
+      "category": "基础色板",
+      "description": "基础色板：blue 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "blue.10": {
+      "name": "blue.10",
+      "value": "0, 26, 77",
+      "cssVariable": "--blue-10",
+      "category": "基础色板",
+      "description": "基础色板：blue 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.1": {
+      "name": "purple.1",
+      "value": "245, 232, 255",
+      "cssVariable": "--purple-1",
+      "category": "基础色板",
+      "description": "基础色板：purple 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.2": {
+      "name": "purple.2",
+      "value": "221, 190, 246",
+      "cssVariable": "--purple-2",
+      "category": "基础色板",
+      "description": "基础色板：purple 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.3": {
+      "name": "purple.3",
+      "value": "195, 150, 237",
+      "cssVariable": "--purple-3",
+      "category": "基础色板",
+      "description": "基础色板：purple 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.4": {
+      "name": "purple.4",
+      "value": "168, 113, 227",
+      "cssVariable": "--purple-4",
+      "category": "基础色板",
+      "description": "基础色板：purple 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.5": {
+      "name": "purple.5",
+      "value": "141, 78, 218",
+      "cssVariable": "--purple-5",
+      "category": "基础色板",
+      "description": "基础色板：purple 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.6": {
+      "name": "purple.6",
+      "value": "114, 46, 209",
+      "cssVariable": "--purple-6",
+      "category": "基础色板",
+      "description": "基础色板：purple 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.7": {
+      "name": "purple.7",
+      "value": "85, 29, 176",
+      "cssVariable": "--purple-7",
+      "category": "基础色板",
+      "description": "基础色板：purple 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.8": {
+      "name": "purple.8",
+      "value": "60, 16, 143",
+      "cssVariable": "--purple-8",
+      "category": "基础色板",
+      "description": "基础色板：purple 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.9": {
+      "name": "purple.9",
+      "value": "39, 6, 110",
+      "cssVariable": "--purple-9",
+      "category": "基础色板",
+      "description": "基础色板：purple 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "purple.10": {
+      "name": "purple.10",
+      "value": "22, 0, 77",
+      "cssVariable": "--purple-10",
+      "category": "基础色板",
+      "description": "基础色板：purple 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.1": {
+      "name": "pinkpurple.1",
+      "value": "255, 232, 251",
+      "cssVariable": "--pinkpurple-1",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.2": {
+      "name": "pinkpurple.2",
+      "value": "247, 186, 239",
+      "cssVariable": "--pinkpurple-2",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.3": {
+      "name": "pinkpurple.3",
+      "value": "240, 142, 230",
+      "cssVariable": "--pinkpurple-3",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.4": {
+      "name": "pinkpurple.4",
+      "value": "232, 101, 223",
+      "cssVariable": "--pinkpurple-4",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.5": {
+      "name": "pinkpurple.5",
+      "value": "225, 62, 219",
+      "cssVariable": "--pinkpurple-5",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.6": {
+      "name": "pinkpurple.6",
+      "value": "217, 26, 217",
+      "cssVariable": "--pinkpurple-6",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.7": {
+      "name": "pinkpurple.7",
+      "value": "176, 16, 182",
+      "cssVariable": "--pinkpurple-7",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.8": {
+      "name": "pinkpurple.8",
+      "value": "138, 9, 147",
+      "cssVariable": "--pinkpurple-8",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.9": {
+      "name": "pinkpurple.9",
+      "value": "101, 3, 112",
+      "cssVariable": "--pinkpurple-9",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "pinkpurple.10": {
+      "name": "pinkpurple.10",
+      "value": "66, 0, 77",
+      "cssVariable": "--pinkpurple-10",
+      "category": "基础色板",
+      "description": "基础色板：pinkpurple 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.1": {
+      "name": "magenta.1",
+      "value": "255, 232, 241",
+      "cssVariable": "--magenta-1",
+      "category": "基础色板",
+      "description": "基础色板：magenta 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.2": {
+      "name": "magenta.2",
+      "value": "253, 194, 219",
+      "cssVariable": "--magenta-2",
+      "category": "基础色板",
+      "description": "基础色板：magenta 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.3": {
+      "name": "magenta.3",
+      "value": "251, 157, 199",
+      "cssVariable": "--magenta-3",
+      "category": "基础色板",
+      "description": "基础色板：magenta 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.4": {
+      "name": "magenta.4",
+      "value": "249, 121, 183",
+      "cssVariable": "--magenta-4",
+      "category": "基础色板",
+      "description": "基础色板：magenta 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.5": {
+      "name": "magenta.5",
+      "value": "247, 84, 168",
+      "cssVariable": "--magenta-5",
+      "category": "基础色板",
+      "description": "基础色板：magenta 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.6": {
+      "name": "magenta.6",
+      "value": "245, 49, 157",
+      "cssVariable": "--magenta-6",
+      "category": "基础色板",
+      "description": "基础色板：magenta 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.7": {
+      "name": "magenta.7",
+      "value": "203, 30, 131",
+      "cssVariable": "--magenta-7",
+      "category": "基础色板",
+      "description": "基础色板：magenta 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.8": {
+      "name": "magenta.8",
+      "value": "161, 16, 105",
+      "cssVariable": "--magenta-8",
+      "category": "基础色板",
+      "description": "基础色板：magenta 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.9": {
+      "name": "magenta.9",
+      "value": "119, 6, 79",
+      "cssVariable": "--magenta-9",
+      "category": "基础色板",
+      "description": "基础色板：magenta 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "magenta.10": {
+      "name": "magenta.10",
+      "value": "77, 0, 52",
+      "cssVariable": "--magenta-10",
+      "category": "基础色板",
+      "description": "基础色板：magenta 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.1": {
+      "name": "gray.1",
+      "value": "247, 248, 250",
+      "cssVariable": "--gray-1",
+      "category": "基础色板",
+      "description": "基础色板：gray 1",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.2": {
+      "name": "gray.2",
+      "value": "242, 243, 245",
+      "cssVariable": "--gray-2",
+      "category": "基础色板",
+      "description": "基础色板：gray 2",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.3": {
+      "name": "gray.3",
+      "value": "229, 230, 235",
+      "cssVariable": "--gray-3",
+      "category": "基础色板",
+      "description": "基础色板：gray 3",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.4": {
+      "name": "gray.4",
+      "value": "201, 205, 212",
+      "cssVariable": "--gray-4",
+      "category": "基础色板",
+      "description": "基础色板：gray 4",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.5": {
+      "name": "gray.5",
+      "value": "169, 174, 184",
+      "cssVariable": "--gray-5",
+      "category": "基础色板",
+      "description": "基础色板：gray 5",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.6": {
+      "name": "gray.6",
+      "value": "134, 144, 156",
+      "cssVariable": "--gray-6",
+      "category": "基础色板",
+      "description": "基础色板：gray 6",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.7": {
+      "name": "gray.7",
+      "value": "107, 119, 133",
+      "cssVariable": "--gray-7",
+      "category": "基础色板",
+      "description": "基础色板：gray 7",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.8": {
+      "name": "gray.8",
+      "value": "78, 89, 105",
+      "cssVariable": "--gray-8",
+      "category": "基础色板",
+      "description": "基础色板：gray 8",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.9": {
+      "name": "gray.9",
+      "value": "39, 46, 59",
+      "cssVariable": "--gray-9",
+      "category": "基础色板",
+      "description": "基础色板：gray 9",
+      "tier": "map",
+      "status": "stable"
+    },
+    "gray.10": {
+      "name": "gray.10",
+      "value": "29, 33, 41",
+      "cssVariable": "--gray-10",
+      "category": "基础色板",
+      "description": "基础色板：gray 10",
+      "tier": "map",
+      "status": "stable"
+    },
+    "primary.1": {
+      "name": "primary.1",
+      "value": "var(--qizhiblue-1)",
+      "cssVariable": "--primary-1",
+      "category": "语义色板",
+      "description": "语义色板：primary 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.2": {
+      "name": "primary.2",
+      "value": "var(--qizhiblue-2)",
+      "cssVariable": "--primary-2",
+      "category": "语义色板",
+      "description": "语义色板：primary 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.3": {
+      "name": "primary.3",
+      "value": "var(--qizhiblue-3)",
+      "cssVariable": "--primary-3",
+      "category": "语义色板",
+      "description": "语义色板：primary 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.4": {
+      "name": "primary.4",
+      "value": "var(--qizhiblue-4)",
+      "cssVariable": "--primary-4",
+      "category": "语义色板",
+      "description": "语义色板：primary 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.5": {
+      "name": "primary.5",
+      "value": "var(--qizhiblue-5)",
+      "cssVariable": "--primary-5",
+      "category": "语义色板",
+      "description": "语义色板：primary 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.6": {
+      "name": "primary.6",
+      "value": "var(--qizhiblue-6)",
+      "cssVariable": "--primary-6",
+      "category": "语义色板",
+      "description": "语义色板：primary 6",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.7": {
+      "name": "primary.7",
+      "value": "var(--qizhiblue-7)",
+      "cssVariable": "--primary-7",
+      "category": "语义色板",
+      "description": "语义色板：primary 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.8": {
+      "name": "primary.8",
+      "value": "var(--qizhiblue-8)",
+      "cssVariable": "--primary-8",
+      "category": "语义色板",
+      "description": "语义色板：primary 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.9": {
+      "name": "primary.9",
+      "value": "var(--qizhiblue-9)",
+      "cssVariable": "--primary-9",
+      "category": "语义色板",
+      "description": "语义色板：primary 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.10": {
+      "name": "primary.10",
+      "value": "var(--qizhiblue-10)",
+      "cssVariable": "--primary-10",
+      "category": "语义色板",
+      "description": "语义色板：primary 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.1": {
+      "name": "link.1",
+      "value": "var(--qizhiblue-1)",
+      "cssVariable": "--link-1",
+      "category": "语义色板",
+      "description": "语义色板：link 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.2": {
+      "name": "link.2",
+      "value": "var(--qizhiblue-2)",
+      "cssVariable": "--link-2",
+      "category": "语义色板",
+      "description": "语义色板：link 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.3": {
+      "name": "link.3",
+      "value": "var(--qizhiblue-3)",
+      "cssVariable": "--link-3",
+      "category": "语义色板",
+      "description": "语义色板：link 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.4": {
+      "name": "link.4",
+      "value": "var(--qizhiblue-4)",
+      "cssVariable": "--link-4",
+      "category": "语义色板",
+      "description": "语义色板：link 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.5": {
+      "name": "link.5",
+      "value": "var(--qizhiblue-5)",
+      "cssVariable": "--link-5",
+      "category": "语义色板",
+      "description": "语义色板：link 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.6": {
+      "name": "link.6",
+      "value": "var(--brand-link-6)",
+      "cssVariable": "--link-6",
+      "category": "语义色板",
+      "description": "语义色板：link 6",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.7": {
+      "name": "link.7",
+      "value": "var(--qizhiblue-7)",
+      "cssVariable": "--link-7",
+      "category": "语义色板",
+      "description": "语义色板：link 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.8": {
+      "name": "link.8",
+      "value": "var(--qizhiblue-8)",
+      "cssVariable": "--link-8",
+      "category": "语义色板",
+      "description": "语义色板：link 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.9": {
+      "name": "link.9",
+      "value": "var(--qizhiblue-9)",
+      "cssVariable": "--link-9",
+      "category": "语义色板",
+      "description": "语义色板：link 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "link.10": {
+      "name": "link.10",
+      "value": "var(--qizhiblue-10)",
+      "cssVariable": "--link-10",
+      "category": "语义色板",
+      "description": "语义色板：link 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.1": {
+      "name": "data.1",
+      "value": "var(--qizhiblue-5)",
+      "cssVariable": "--data-1",
+      "category": "语义色板",
+      "description": "语义色板：data 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.2": {
+      "name": "data.2",
+      "value": "var(--qizhiblue-2)",
+      "cssVariable": "--data-2",
+      "category": "语义色板",
+      "description": "语义色板：data 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.3": {
+      "name": "data.3",
+      "value": "85, 197, 253",
+      "cssVariable": "--data-3",
+      "category": "语义色板",
+      "description": "语义色板：data 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.4": {
+      "name": "data.4",
+      "value": "156, 220, 252",
+      "cssVariable": "--data-4",
+      "category": "语义色板",
+      "description": "语义色板：data 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.5": {
+      "name": "data.5",
+      "value": "var(--orange-6)",
+      "cssVariable": "--data-5",
+      "category": "语义色板",
+      "description": "语义色板：data 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.6": {
+      "name": "data.6",
+      "value": "var(--orange-3)",
+      "cssVariable": "--data-6",
+      "category": "语义色板",
+      "description": "语义色板：data 6",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.7": {
+      "name": "data.7",
+      "value": "var(--green-4)",
+      "cssVariable": "--data-7",
+      "category": "语义色板",
+      "description": "语义色板：data 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.8": {
+      "name": "data.8",
+      "value": "var(--green-2)",
+      "cssVariable": "--data-8",
+      "category": "语义色板",
+      "description": "语义色板：data 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.9": {
+      "name": "data.9",
+      "value": "var(--purple-4)",
+      "cssVariable": "--data-9",
+      "category": "语义色板",
+      "description": "语义色板：data 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.10": {
+      "name": "data.10",
+      "value": "var(--purple-2)",
+      "cssVariable": "--data-10",
+      "category": "语义色板",
+      "description": "语义色板：data 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.11": {
+      "name": "data.11",
+      "value": "var(--gold-6)",
+      "cssVariable": "--data-11",
+      "category": "语义色板",
+      "description": "语义色板：data 11",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.12": {
+      "name": "data.12",
+      "value": "var(--gold-4)",
+      "cssVariable": "--data-12",
+      "category": "语义色板",
+      "description": "语义色板：data 12",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.13": {
+      "name": "data.13",
+      "value": "var(--lime-6)",
+      "cssVariable": "--data-13",
+      "category": "语义色板",
+      "description": "语义色板：data 13",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.14": {
+      "name": "data.14",
+      "value": "var(--lime-4)",
+      "cssVariable": "--data-14",
+      "category": "语义色板",
+      "description": "语义色板：data 14",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.15": {
+      "name": "data.15",
+      "value": "var(--magenta-4)",
+      "cssVariable": "--data-15",
+      "category": "语义色板",
+      "description": "语义色板：data 15",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.16": {
+      "name": "data.16",
+      "value": "var(--magenta-3)",
+      "cssVariable": "--data-16",
+      "category": "语义色板",
+      "description": "语义色板：data 16",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.17": {
+      "name": "data.17",
+      "value": "var(--cyan-6)",
+      "cssVariable": "--data-17",
+      "category": "语义色板",
+      "description": "语义色板：data 17",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.18": {
+      "name": "data.18",
+      "value": "var(--cyan-3)",
+      "cssVariable": "--data-18",
+      "category": "语义色板",
+      "description": "语义色板：data 18",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.19": {
+      "name": "data.19",
+      "value": "var(--pinkpurple-4)",
+      "cssVariable": "--data-19",
+      "category": "语义色板",
+      "description": "语义色板：data 19",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "data.20": {
+      "name": "data.20",
+      "value": "var(--pinkpurple-2)",
+      "cssVariable": "--data-20",
+      "category": "语义色板",
+      "description": "语义色板：data 20",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.menu.light.bg": {
+      "name": "color.menu.light.bg",
+      "value": "#fff",
+      "cssVariable": "--color-menu-light-bg",
+      "category": "语义颜色",
+      "description": "语义颜色：color menu light bg",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.1": {
+      "name": "color.neutral.1",
+      "value": "rgb(var(--gray-1))",
+      "cssVariable": "--color-neutral-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.2": {
+      "name": "color.neutral.2",
+      "value": "rgb(var(--gray-2))",
+      "cssVariable": "--color-neutral-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.3": {
+      "name": "color.neutral.3",
+      "value": "rgb(var(--gray-3))",
+      "cssVariable": "--color-neutral-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.4": {
+      "name": "color.neutral.4",
+      "value": "rgb(var(--gray-4))",
+      "cssVariable": "--color-neutral-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.5": {
+      "name": "color.neutral.5",
+      "value": "rgb(var(--gray-5))",
+      "cssVariable": "--color-neutral-5",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.6": {
+      "name": "color.neutral.6",
+      "value": "rgb(var(--gray-6))",
+      "cssVariable": "--color-neutral-6",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 6",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.7": {
+      "name": "color.neutral.7",
+      "value": "rgb(var(--gray-7))",
+      "cssVariable": "--color-neutral-7",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.8": {
+      "name": "color.neutral.8",
+      "value": "rgb(var(--gray-8))",
+      "cssVariable": "--color-neutral-8",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.9": {
+      "name": "color.neutral.9",
+      "value": "rgb(var(--gray-9))",
+      "cssVariable": "--color-neutral-9",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.neutral.10": {
+      "name": "color.neutral.10",
+      "value": "rgb(var(--gray-10))",
+      "cssVariable": "--color-neutral-10",
+      "category": "语义颜色",
+      "description": "语义颜色：color neutral 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.text.1": {
+      "name": "color.text.1",
+      "value": "var(--color-neutral-10)",
+      "cssVariable": "--color-text-1",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.text.2": {
+      "name": "color.text.2",
+      "value": "var(--color-neutral-8)",
+      "cssVariable": "--color-text-2",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.text.3": {
+      "name": "color.text.3",
+      "value": "var(--color-neutral-6)",
+      "cssVariable": "--color-text-3",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.text.4": {
+      "name": "color.text.4",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-text-4",
+      "category": "文字颜色",
+      "description": "文字颜色：color text 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.border.1": {
+      "name": "color.border.1",
+      "value": "var(--color-neutral-2)",
+      "cssVariable": "--color-border-1",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.border.2": {
+      "name": "color.border.2",
+      "value": "var(--color-neutral-3)",
+      "cssVariable": "--color-border-2",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.border.3": {
+      "name": "color.border.3",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-border-3",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.border.4": {
+      "name": "color.border.4",
+      "value": "var(--color-neutral-6)",
+      "cssVariable": "--color-border-4",
+      "category": "边框颜色",
+      "description": "边框颜色：color border 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.fill.1": {
+      "name": "color.fill.1",
+      "value": "var(--color-neutral-1)",
+      "cssVariable": "--color-fill-1",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.fill.2": {
+      "name": "color.fill.2",
+      "value": "var(--color-neutral-2)",
+      "cssVariable": "--color-fill-2",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.fill.3": {
+      "name": "color.fill.3",
+      "value": "var(--color-neutral-3)",
+      "cssVariable": "--color-fill-3",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.fill.4": {
+      "name": "color.fill.4",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-fill-4",
+      "category": "填充颜色",
+      "description": "填充颜色：color fill 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.primary.light.1": {
+      "name": "color.primary.light.1",
+      "value": "rgb(var(--primary-1))",
+      "cssVariable": "--color-primary-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.primary.light.2": {
+      "name": "color.primary.light.2",
+      "value": "rgb(var(--primary-2))",
+      "cssVariable": "--color-primary-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.primary.light.3": {
+      "name": "color.primary.light.3",
+      "value": "rgb(var(--primary-3))",
+      "cssVariable": "--color-primary-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.primary.light.4": {
+      "name": "color.primary.light.4",
+      "value": "rgb(var(--primary-4))",
+      "cssVariable": "--color-primary-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color primary light 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.secondary": {
+      "name": "color.secondary",
+      "value": "var(--color-neutral-2)",
+      "cssVariable": "--color-secondary",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.secondary.hover": {
+      "name": "color.secondary.hover",
+      "value": "var(--color-neutral-3)",
+      "cssVariable": "--color-secondary-hover",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary hover",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.secondary.active": {
+      "name": "color.secondary.active",
+      "value": "var(--color-neutral-4)",
+      "cssVariable": "--color-secondary-active",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary active",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.secondary.disabled": {
+      "name": "color.secondary.disabled",
+      "value": "var(--color-neutral-1)",
+      "cssVariable": "--color-secondary-disabled",
+      "category": "语义颜色",
+      "description": "语义颜色：color secondary disabled",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.danger.light.1": {
+      "name": "color.danger.light.1",
+      "value": "rgb(var(--danger-1))",
+      "cssVariable": "--color-danger-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.danger.light.2": {
+      "name": "color.danger.light.2",
+      "value": "rgb(var(--danger-2))",
+      "cssVariable": "--color-danger-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.danger.light.3": {
+      "name": "color.danger.light.3",
+      "value": "rgb(var(--danger-3))",
+      "cssVariable": "--color-danger-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.danger.light.4": {
+      "name": "color.danger.light.4",
+      "value": "rgb(var(--danger-4))",
+      "cssVariable": "--color-danger-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger light 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.success.light.1": {
+      "name": "color.success.light.1",
+      "value": "rgb(var(--success-1))",
+      "cssVariable": "--color-success-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.success.light.2": {
+      "name": "color.success.light.2",
+      "value": "rgb(var(--success-2))",
+      "cssVariable": "--color-success-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.success.light.3": {
+      "name": "color.success.light.3",
+      "value": "rgb(var(--success-3))",
+      "cssVariable": "--color-success-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.success.light.4": {
+      "name": "color.success.light.4",
+      "value": "rgb(var(--success-4))",
+      "cssVariable": "--color-success-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color success light 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.warning.light.1": {
+      "name": "color.warning.light.1",
+      "value": "rgb(var(--warning-1))",
+      "cssVariable": "--color-warning-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.warning.light.2": {
+      "name": "color.warning.light.2",
+      "value": "rgb(var(--warning-2))",
+      "cssVariable": "--color-warning-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.warning.light.3": {
+      "name": "color.warning.light.3",
+      "value": "rgb(var(--warning-3))",
+      "cssVariable": "--color-warning-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.warning.light.4": {
+      "name": "color.warning.light.4",
+      "value": "rgb(var(--warning-4))",
+      "cssVariable": "--color-warning-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning light 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.link.light.1": {
+      "name": "color.link.light.1",
+      "value": "rgb(var(--link-1))",
+      "cssVariable": "--color-link-light-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.link.light.2": {
+      "name": "color.link.light.2",
+      "value": "rgb(var(--link-2))",
+      "cssVariable": "--color-link-light-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.link.light.3": {
+      "name": "color.link.light.3",
+      "value": "rgb(var(--link-3))",
+      "cssVariable": "--color-link-light-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.link.light.4": {
+      "name": "color.link.light.4",
+      "value": "rgb(var(--link-4))",
+      "cssVariable": "--color-link-light-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color link light 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.bg.1": {
+      "name": "color.bg.1",
+      "value": "#fff",
+      "cssVariable": "--color-bg-1",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.bg.2": {
+      "name": "color.bg.2",
+      "value": "#fff",
+      "cssVariable": "--color-bg-2",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.bg.3": {
+      "name": "color.bg.3",
+      "value": "#fff",
+      "cssVariable": "--color-bg-3",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.bg.4": {
+      "name": "color.bg.4",
+      "value": "#fff",
+      "cssVariable": "--color-bg-4",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.bg.5": {
+      "name": "color.bg.5",
+      "value": "#fff",
+      "cssVariable": "--color-bg-5",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.bg.white": {
+      "name": "color.bg.white",
+      "value": "#fff",
+      "cssVariable": "--color-bg-white",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg white",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.bg.popup": {
+      "name": "color.bg.popup",
+      "value": "var(--color-bg-5)",
+      "cssVariable": "--color-bg-popup",
+      "category": "背景颜色",
+      "description": "背景颜色：color bg popup",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.1": {
+      "name": "color.data.1",
+      "value": "rgb(var(--data-1))",
+      "cssVariable": "--color-data-1",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.2": {
+      "name": "color.data.2",
+      "value": "rgb(var(--data-2))",
+      "cssVariable": "--color-data-2",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.3": {
+      "name": "color.data.3",
+      "value": "rgb(var(--data-3))",
+      "cssVariable": "--color-data-3",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.4": {
+      "name": "color.data.4",
+      "value": "rgb(var(--data-4))",
+      "cssVariable": "--color-data-4",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 4",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.5": {
+      "name": "color.data.5",
+      "value": "rgb(var(--data-5))",
+      "cssVariable": "--color-data-5",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 5",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.6": {
+      "name": "color.data.6",
+      "value": "rgb(var(--data-6))",
+      "cssVariable": "--color-data-6",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 6",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.7": {
+      "name": "color.data.7",
+      "value": "rgb(var(--data-7))",
+      "cssVariable": "--color-data-7",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 7",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.8": {
+      "name": "color.data.8",
+      "value": "rgb(var(--data-8))",
+      "cssVariable": "--color-data-8",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 8",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.9": {
+      "name": "color.data.9",
+      "value": "rgb(var(--data-9))",
+      "cssVariable": "--color-data-9",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 9",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.10": {
+      "name": "color.data.10",
+      "value": "rgb(var(--data-10))",
+      "cssVariable": "--color-data-10",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 10",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.11": {
+      "name": "color.data.11",
+      "value": "rgb(var(--data-11))",
+      "cssVariable": "--color-data-11",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 11",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.12": {
+      "name": "color.data.12",
+      "value": "rgb(var(--data-12))",
+      "cssVariable": "--color-data-12",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 12",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.13": {
+      "name": "color.data.13",
+      "value": "rgb(var(--data-13))",
+      "cssVariable": "--color-data-13",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 13",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.14": {
+      "name": "color.data.14",
+      "value": "rgb(var(--data-14))",
+      "cssVariable": "--color-data-14",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 14",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.15": {
+      "name": "color.data.15",
+      "value": "rgb(var(--data-15))",
+      "cssVariable": "--color-data-15",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 15",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.16": {
+      "name": "color.data.16",
+      "value": "rgb(var(--data-16))",
+      "cssVariable": "--color-data-16",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 16",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.17": {
+      "name": "color.data.17",
+      "value": "rgb(var(--data-17))",
+      "cssVariable": "--color-data-17",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 17",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.18": {
+      "name": "color.data.18",
+      "value": "rgb(var(--data-18))",
+      "cssVariable": "--color-data-18",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 18",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.19": {
+      "name": "color.data.19",
+      "value": "rgb(var(--data-19))",
+      "cssVariable": "--color-data-19",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 19",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.data.20": {
+      "name": "color.data.20",
+      "value": "rgb(var(--data-20))",
+      "cssVariable": "--color-data-20",
+      "category": "语义颜色",
+      "description": "语义颜色：color data 20",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.link": {
+      "name": "color.link",
+      "value": "rgb(var(--link-6))",
+      "cssVariable": "--color-link",
+      "category": "语义颜色",
+      "description": "语义颜色：color link",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.link.hover": {
+      "name": "color.link.hover",
+      "value": "rgb(var(--link-5))",
+      "cssVariable": "--color-link-hover",
+      "category": "语义颜色",
+      "description": "语义颜色：color link hover",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.success": {
+      "name": "color.success",
+      "value": "rgb(var(--success-6))",
+      "cssVariable": "--color-success",
+      "category": "语义颜色",
+      "description": "语义颜色：color success",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.warning": {
+      "name": "color.warning",
+      "value": "rgb(var(--warning-6))",
+      "cssVariable": "--color-warning",
+      "category": "语义颜色",
+      "description": "语义颜色：color warning",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.danger": {
+      "name": "color.danger",
+      "value": "rgb(var(--danger-6))",
+      "cssVariable": "--color-danger",
+      "category": "语义颜色",
+      "description": "语义颜色：color danger",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.white": {
+      "name": "color.white",
+      "value": "#fff",
+      "cssVariable": "--color-white",
+      "category": "语义颜色",
+      "description": "语义颜色：color white",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.surface.elevated": {
+      "name": "color.surface.elevated",
+      "value": "rgba(255, 255, 255, 0.94)",
+      "cssVariable": "--color-surface-elevated",
+      "category": "语义颜色",
+      "description": "语义颜色：color surface elevated",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.scroll.thumb": {
+      "name": "color.scroll.thumb",
+      "value": "rgba(var(--gray-4), 0.9)",
+      "cssVariable": "--color-scroll-thumb",
+      "category": "语义颜色",
+      "description": "语义颜色：color scroll thumb",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.shadow.soft": {
+      "name": "color.shadow.soft",
+      "value": "rgba(0, 0, 0, 0.06)",
+      "cssVariable": "--color-shadow-soft",
+      "category": "语义颜色",
+      "description": "语义颜色：color shadow soft",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.shadow.border": {
+      "name": "color.shadow.border",
+      "value": "rgba(0, 0, 0, 0.08)",
+      "cssVariable": "--color-shadow-border",
+      "category": "语义颜色",
+      "description": "语义颜色：color shadow border",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.shadow.border.strong": {
+      "name": "color.shadow.border.strong",
+      "value": "rgba(0, 0, 0, 0.16)",
+      "cssVariable": "--color-shadow-border-strong",
+      "category": "语义颜色",
+      "description": "语义颜色：color shadow border strong",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.code.bg": {
+      "name": "color.code.bg",
+      "value": "#0f172a",
+      "cssVariable": "--color-code-bg",
+      "category": "语义颜色",
+      "description": "语义颜色：color code bg",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "color.code.fg": {
+      "name": "color.code.fg",
+      "value": "#dbe7ff",
+      "cssVariable": "--color-code-fg",
+      "category": "语义颜色",
+      "description": "语义颜色：color code fg",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary": {
+      "name": "primary",
+      "value": "rgb(var(--primary-6))",
+      "cssVariable": "--primary",
+      "category": "基础变量",
+      "description": "基础变量：primary",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "primary.soft": {
+      "name": "primary.soft",
+      "value": "rgb(var(--primary-1))",
+      "cssVariable": "--primary-soft",
+      "category": "语义色板",
+      "description": "语义色板：primary soft",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "text.1": {
+      "name": "text.1",
+      "value": "var(--color-text-1)",
+      "cssVariable": "--text-1",
+      "category": "基础变量",
+      "description": "基础变量：text 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "text.2": {
+      "name": "text.2",
+      "value": "var(--color-text-2)",
+      "cssVariable": "--text-2",
+      "category": "基础变量",
+      "description": "基础变量：text 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "text.3": {
+      "name": "text.3",
+      "value": "var(--color-text-3)",
+      "cssVariable": "--text-3",
+      "category": "基础变量",
+      "description": "基础变量：text 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "line": {
+      "name": "line",
+      "value": "var(--color-border-2)",
+      "cssVariable": "--line",
+      "category": "基础变量",
+      "description": "基础变量：line",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "fill.1": {
+      "name": "fill.1",
+      "value": "var(--color-white)",
+      "cssVariable": "--fill-1",
+      "category": "基础变量",
+      "description": "基础变量：fill 1",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "fill.2": {
+      "name": "fill.2",
+      "value": "var(--color-fill-1)",
+      "cssVariable": "--fill-2",
+      "category": "基础变量",
+      "description": "基础变量：fill 2",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "fill.3": {
+      "name": "fill.3",
+      "value": "var(--color-fill-2)",
+      "cssVariable": "--fill-3",
+      "category": "基础变量",
+      "description": "基础变量：fill 3",
+      "tier": "alias",
+      "status": "stable"
+    },
+    "radius.small": {
+      "name": "radius.small",
+      "value": "2px",
+      "cssVariable": "--radius-small",
+      "category": "边框圆角",
+      "description": "边框圆角：radius small",
+      "tier": "map",
+      "status": "stable"
+    },
+    "radius.medium": {
+      "name": "radius.medium",
+      "value": "4px",
+      "cssVariable": "--radius-medium",
+      "category": "边框圆角",
+      "description": "边框圆角：radius medium",
+      "tier": "map",
+      "status": "stable"
+    },
+    "radius.large": {
+      "name": "radius.large",
+      "value": "8px",
+      "cssVariable": "--radius-large",
+      "category": "边框圆角",
+      "description": "边框圆角：radius large",
+      "tier": "map",
+      "status": "stable"
+    },
+    "radius": {
+      "name": "radius",
+      "value": "var(--radius-large)",
+      "cssVariable": "--radius",
+      "category": "边框圆角",
+      "description": "边框圆角：radius",
+      "tier": "map",
+      "status": "stable"
+    },
+    "border.radius.none": {
+      "name": "border.radius.none",
+      "value": "0px",
+      "cssVariable": "--border-radius-none",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius none",
+      "tier": "map",
+      "status": "stable"
+    },
+    "border.radius.small": {
+      "name": "border.radius.small",
+      "value": "2px",
+      "cssVariable": "--border-radius-small",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius small",
+      "tier": "map",
+      "status": "stable"
+    },
+    "border.radius.medium": {
+      "name": "border.radius.medium",
+      "value": "4px",
+      "cssVariable": "--border-radius-medium",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius medium",
+      "tier": "map",
+      "status": "stable"
+    },
+    "border.radius.large": {
+      "name": "border.radius.large",
+      "value": "8px",
+      "cssVariable": "--border-radius-large",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius large",
+      "tier": "map",
+      "status": "stable"
+    },
+    "border.radius.circle": {
+      "name": "border.radius.circle",
+      "value": "50%",
+      "cssVariable": "--border-radius-circle",
+      "category": "边框圆角",
+      "description": "边框圆角：border radius circle",
+      "tier": "map",
+      "status": "stable"
+    },
+    "shadow": {
+      "name": "shadow",
+      "value": "0 8px 24px rgba(15, 23, 42, 0.08)",
+      "cssVariable": "--shadow",
+      "category": "阴影",
+      "description": "阴影：shadow",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.100": {
+      "name": "font.weight.100",
+      "value": "100",
+      "cssVariable": "--font-weight-100",
+      "category": "字重",
+      "description": "字重：font weight 100",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.200": {
+      "name": "font.weight.200",
+      "value": "200",
+      "cssVariable": "--font-weight-200",
+      "category": "字重",
+      "description": "字重：font weight 200",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.300": {
+      "name": "font.weight.300",
+      "value": "300",
+      "cssVariable": "--font-weight-300",
+      "category": "字重",
+      "description": "字重：font weight 300",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.400": {
+      "name": "font.weight.400",
+      "value": "400",
+      "cssVariable": "--font-weight-400",
+      "category": "字重",
+      "description": "字重：font weight 400",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.500": {
+      "name": "font.weight.500",
+      "value": "500",
+      "cssVariable": "--font-weight-500",
+      "category": "字重",
+      "description": "字重：font weight 500",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.600": {
+      "name": "font.weight.600",
+      "value": "600",
+      "cssVariable": "--font-weight-600",
+      "category": "字重",
+      "description": "字重：font weight 600",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.700": {
+      "name": "font.weight.700",
+      "value": "700",
+      "cssVariable": "--font-weight-700",
+      "category": "字重",
+      "description": "字重：font weight 700",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.800": {
+      "name": "font.weight.800",
+      "value": "800",
+      "cssVariable": "--font-weight-800",
+      "category": "字重",
+      "description": "字重：font weight 800",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.weight.900": {
+      "name": "font.weight.900",
+      "value": "900",
+      "cssVariable": "--font-weight-900",
+      "category": "字重",
+      "description": "字重：font weight 900",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.regular": {
+      "name": "line.height.regular",
+      "value": "1.5",
+      "cssVariable": "--line-height-regular",
+      "category": "字体",
+      "description": "字体：line height regular",
+      "tier": "map",
+      "status": "stable"
+    },
+    "data.input.control.height": {
+      "name": "data.input.control.height",
+      "value": "32px",
+      "cssVariable": "--data-input-control-height",
+      "category": "语义色板",
+      "description": "语义色板：data input control height",
+      "tier": "component",
+      "status": "stable"
+    },
+    "data.input.border.width": {
+      "name": "data.input.border.width",
+      "value": "1px",
+      "cssVariable": "--data-input-border-width",
+      "category": "语义色板",
+      "description": "语义色板：data input border width",
+      "tier": "component",
+      "status": "stable"
+    },
+    "form.main.gap": {
+      "name": "form.main.gap",
+      "value": "8px",
+      "cssVariable": "--form-main-gap",
+      "category": "组件尺寸",
+      "description": "组件尺寸：form main gap",
+      "tier": "component",
+      "status": "stable"
+    },
+    "form.supporting.gap": {
+      "name": "form.supporting.gap",
+      "value": "4px",
+      "cssVariable": "--form-supporting-gap",
+      "category": "组件尺寸",
+      "description": "组件尺寸：form supporting gap",
+      "tier": "component",
+      "status": "stable"
+    },
+    "font.sans": {
+      "name": "font.sans",
+      "value": "Inter, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Hiragino Sans GB\", \"Noto Sans\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "cssVariable": "--font-sans",
+      "category": "字体",
+      "description": "字体：font sans",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.mono": {
+      "name": "font.mono",
+      "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+      "cssVariable": "--font-mono",
+      "category": "字体",
+      "description": "代码、Markdown 源文和运行日志使用的等宽字体族",
+      "tier": "map",
+      "status": "stable"
+    },
+    "chart.gap": {
+      "name": "chart.gap",
+      "value": "8px",
+      "cssVariable": "--chart-gap",
+      "category": "图表尺寸",
+      "description": "图表图例与提示条目间距",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.padding": {
+      "name": "chart.padding",
+      "value": "12px",
+      "cssVariable": "--chart-padding",
+      "category": "图表尺寸",
+      "description": "图表提示内边距与模块间距",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.label.font.size": {
+      "name": "chart.label.font.size",
+      "value": "12px",
+      "cssVariable": "--chart-label-font-size",
+      "category": "图表尺寸",
+      "description": "图表坐标与图例字号",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.body.font.size": {
+      "name": "chart.body.font.size",
+      "value": "14px",
+      "cssVariable": "--chart-body-font-size",
+      "category": "图表尺寸",
+      "description": "图表提示正文字号",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.line.width": {
+      "name": "chart.line.width",
+      "value": "2px",
+      "cssVariable": "--chart-line-width",
+      "category": "图表尺寸",
+      "description": "图表折线宽度",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.series.1": {
+      "name": "chart.series.1",
+      "value": "#3366FF",
+      "cssVariable": "--chart-series-1",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 1 个系列色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.series.2": {
+      "name": "chart.series.2",
+      "value": "#00E096",
+      "cssVariable": "--chart-series-2",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 2 个系列色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.series.3": {
+      "name": "chart.series.3",
+      "value": "#F6B447",
+      "cssVariable": "--chart-series-3",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 3 个系列色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.series.4": {
+      "name": "chart.series.4",
+      "value": "#9254DE",
+      "cssVariable": "--chart-series-4",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 4 个系列色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.series.5": {
+      "name": "chart.series.5",
+      "value": "#F97008",
+      "cssVariable": "--chart-series-5",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 5 个系列色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.series.6": {
+      "name": "chart.series.6",
+      "value": "#E00000",
+      "cssVariable": "--chart-series-6",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 6 个系列色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.series.7": {
+      "name": "chart.series.7",
+      "value": "#EB3599",
+      "cssVariable": "--chart-series-7",
+      "category": "图表颜色",
+      "description": "设计稿 19910:261731 的第 7 个系列色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.surface": {
+      "name": "chart.surface",
+      "value": "#F7F9FC",
+      "cssVariable": "--chart-surface",
+      "category": "图表颜色",
+      "description": "图表背景渐变起始色",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.text": {
+      "name": "chart.text",
+      "value": "rgba(0, 0, 0, 0.45)",
+      "cssVariable": "--chart-text",
+      "category": "图表颜色",
+      "description": "坐标与图例文字",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.title.color": {
+      "name": "chart.title.color",
+      "value": "rgba(0, 0, 0, 0.85)",
+      "cssVariable": "--chart-title-color",
+      "category": "图表颜色",
+      "description": "图表标题文字",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.grid": {
+      "name": "chart.grid",
+      "value": "rgba(0, 0, 0, 0.06)",
+      "cssVariable": "--chart-grid",
+      "category": "图表颜色",
+      "description": "浅色实线网格",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.axis": {
+      "name": "chart.axis",
+      "value": "rgba(0, 0, 0, 0.15)",
+      "cssVariable": "--chart-axis",
+      "category": "图表颜色",
+      "description": "底部坐标轴线",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.card.padding": {
+      "name": "chart.card.padding",
+      "value": "24px",
+      "cssVariable": "--chart-card-padding",
+      "category": "图表尺寸",
+      "description": "卡片顶部和左右内边距",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.card.bottom": {
+      "name": "chart.card.bottom",
+      "value": "16px",
+      "cssVariable": "--chart-card-bottom",
+      "category": "图表尺寸",
+      "description": "卡片底部内边距",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.radius": {
+      "name": "chart.radius",
+      "value": "8px",
+      "cssVariable": "--chart-radius",
+      "category": "图表尺寸",
+      "description": "卡片圆角",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.legend.gap": {
+      "name": "chart.legend.gap",
+      "value": "12px",
+      "cssVariable": "--chart-legend-gap",
+      "category": "图表尺寸",
+      "description": "图例系列间距",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.marker.gap": {
+      "name": "chart.marker.gap",
+      "value": "4px",
+      "cssVariable": "--chart-marker-gap",
+      "category": "图表尺寸",
+      "description": "图例标记到文字间距",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.bar.width.large": {
+      "name": "chart.bar.width.large",
+      "value": "32px",
+      "cssVariable": "--chart-bar-width-large",
+      "category": "图表尺寸",
+      "description": "普通与堆叠柱状图对应视口档位的最大柱宽",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.bar.width.medium": {
+      "name": "chart.bar.width.medium",
+      "value": "16px",
+      "cssVariable": "--chart-bar-width-medium",
+      "category": "图表尺寸",
+      "description": "普通与堆叠柱状图对应视口档位的最大柱宽",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.bar.width.small": {
+      "name": "chart.bar.width.small",
+      "value": "10px",
+      "cssVariable": "--chart-bar-width-small",
+      "category": "图表尺寸",
+      "description": "普通与堆叠柱状图对应视口档位的最大柱宽",
+      "tier": "component",
+      "status": "stable"
+    },
+    "chart.axis.label.gap": {
+      "name": "chart.axis.label.gap",
+      "value": "12px",
+      "cssVariable": "--chart-axis-label-gap",
+      "category": "图表尺寸",
+      "description": "横轴日期到轴线的垂直间距",
+      "tier": "component",
+      "status": "stable"
+    },
+    "font.size.12": {
+      "name": "font.size.12",
+      "value": "12px",
+      "cssVariable": "--font-size-12",
+      "category": "字体尺度",
+      "description": "12px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.size.14": {
+      "name": "font.size.14",
+      "value": "14px",
+      "cssVariable": "--font-size-14",
+      "category": "字体尺度",
+      "description": "14px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.size.16": {
+      "name": "font.size.16",
+      "value": "16px",
+      "cssVariable": "--font-size-16",
+      "category": "字体尺度",
+      "description": "16px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.size.18": {
+      "name": "font.size.18",
+      "value": "18px",
+      "cssVariable": "--font-size-18",
+      "category": "字体尺度",
+      "description": "18px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.size.20": {
+      "name": "font.size.20",
+      "value": "20px",
+      "cssVariable": "--font-size-20",
+      "category": "字体尺度",
+      "description": "20px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.size.24": {
+      "name": "font.size.24",
+      "value": "24px",
+      "cssVariable": "--font-size-24",
+      "category": "字体尺度",
+      "description": "24px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.size.28": {
+      "name": "font.size.28",
+      "value": "28px",
+      "cssVariable": "--font-size-28",
+      "category": "字体尺度",
+      "description": "28px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "font.size.32": {
+      "name": "font.size.32",
+      "value": "32px",
+      "cssVariable": "--font-size-32",
+      "category": "字体尺度",
+      "description": "32px 通用字号",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.18": {
+      "name": "line.height.18",
+      "value": "18px",
+      "cssVariable": "--line-height-18",
+      "category": "行高尺度",
+      "description": "18px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.20": {
+      "name": "line.height.20",
+      "value": "20px",
+      "cssVariable": "--line-height-20",
+      "category": "行高尺度",
+      "description": "20px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.22": {
+      "name": "line.height.22",
+      "value": "22px",
+      "cssVariable": "--line-height-22",
+      "category": "行高尺度",
+      "description": "22px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.24": {
+      "name": "line.height.24",
+      "value": "24px",
+      "cssVariable": "--line-height-24",
+      "category": "行高尺度",
+      "description": "24px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.26": {
+      "name": "line.height.26",
+      "value": "26px",
+      "cssVariable": "--line-height-26",
+      "category": "行高尺度",
+      "description": "26px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.28": {
+      "name": "line.height.28",
+      "value": "28px",
+      "cssVariable": "--line-height-28",
+      "category": "行高尺度",
+      "description": "28px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.30": {
+      "name": "line.height.30",
+      "value": "30px",
+      "cssVariable": "--line-height-30",
+      "category": "行高尺度",
+      "description": "30px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.32": {
+      "name": "line.height.32",
+      "value": "32px",
+      "cssVariable": "--line-height-32",
+      "category": "行高尺度",
+      "description": "32px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.height.36": {
+      "name": "line.height.36",
+      "value": "36px",
+      "cssVariable": "--line-height-36",
+      "category": "行高尺度",
+      "description": "36px 通用行高",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.0": {
+      "name": "space.0",
+      "value": "0px",
+      "cssVariable": "--space-0",
+      "category": "间距尺度",
+      "description": "0px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.2": {
+      "name": "space.2",
+      "value": "2px",
+      "cssVariable": "--space-2",
+      "category": "间距尺度",
+      "description": "2px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.4": {
+      "name": "space.4",
+      "value": "4px",
+      "cssVariable": "--space-4",
+      "category": "间距尺度",
+      "description": "4px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.6": {
+      "name": "space.6",
+      "value": "6px",
+      "cssVariable": "--space-6",
+      "category": "间距尺度",
+      "description": "6px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.8": {
+      "name": "space.8",
+      "value": "8px",
+      "cssVariable": "--space-8",
+      "category": "间距尺度",
+      "description": "8px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.12": {
+      "name": "space.12",
+      "value": "12px",
+      "cssVariable": "--space-12",
+      "category": "间距尺度",
+      "description": "12px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.16": {
+      "name": "space.16",
+      "value": "16px",
+      "cssVariable": "--space-16",
+      "category": "间距尺度",
+      "description": "16px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.20": {
+      "name": "space.20",
+      "value": "20px",
+      "cssVariable": "--space-20",
+      "category": "间距尺度",
+      "description": "20px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.24": {
+      "name": "space.24",
+      "value": "24px",
+      "cssVariable": "--space-24",
+      "category": "间距尺度",
+      "description": "24px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.32": {
+      "name": "space.32",
+      "value": "32px",
+      "cssVariable": "--space-32",
+      "category": "间距尺度",
+      "description": "32px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.40": {
+      "name": "space.40",
+      "value": "40px",
+      "cssVariable": "--space-40",
+      "category": "间距尺度",
+      "description": "40px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "space.48": {
+      "name": "space.48",
+      "value": "48px",
+      "cssVariable": "--space-48",
+      "category": "间距尺度",
+      "description": "48px 通用间距",
+      "tier": "map",
+      "status": "stable"
+    },
+    "control.height.mini": {
+      "name": "control.height.mini",
+      "value": "24px",
+      "cssVariable": "--control-height-mini",
+      "category": "控件尺度",
+      "description": "mini 控件高度",
+      "tier": "map",
+      "status": "stable"
+    },
+    "control.height.small": {
+      "name": "control.height.small",
+      "value": "28px",
+      "cssVariable": "--control-height-small",
+      "category": "控件尺度",
+      "description": "small 控件高度",
+      "tier": "map",
+      "status": "stable"
+    },
+    "control.height.medium": {
+      "name": "control.height.medium",
+      "value": "32px",
+      "cssVariable": "--control-height-medium",
+      "category": "控件尺度",
+      "description": "medium 控件高度",
+      "tier": "map",
+      "status": "stable"
+    },
+    "control.height.large": {
+      "name": "control.height.large",
+      "value": "36px",
+      "cssVariable": "--control-height-large",
+      "category": "控件尺度",
+      "description": "large 控件高度",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.width.none": {
+      "name": "line.width.none",
+      "value": "0px",
+      "cssVariable": "--line-width-none",
+      "category": "边框尺度",
+      "description": "none 边框宽度",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.width.thin": {
+      "name": "line.width.thin",
+      "value": "1px",
+      "cssVariable": "--line-width-thin",
+      "category": "边框尺度",
+      "description": "thin 边框宽度",
+      "tier": "map",
+      "status": "stable"
+    },
+    "line.width.thick": {
+      "name": "line.width.thick",
+      "value": "2px",
+      "cssVariable": "--line-width-thick",
+      "category": "边框尺度",
+      "description": "thick 边框宽度",
+      "tier": "map",
+      "status": "stable"
+    },
+    "motion.duration.fast": {
+      "name": "motion.duration.fast",
+      "value": "160ms",
+      "cssVariable": "--motion-duration-fast",
+      "category": "动效尺度",
+      "description": "fast 动效时长",
+      "tier": "map",
+      "status": "stable"
+    },
+    "motion.duration.base": {
+      "name": "motion.duration.base",
+      "value": "200ms",
+      "cssVariable": "--motion-duration-base",
+      "category": "动效尺度",
+      "description": "base 动效时长",
+      "tier": "map",
+      "status": "stable"
+    },
+    "motion.duration.slow": {
+      "name": "motion.duration.slow",
+      "value": "300ms",
+      "cssVariable": "--motion-duration-slow",
+      "category": "动效尺度",
+      "description": "slow 动效时长",
+      "tier": "map",
+      "status": "stable"
+    },
+    "motion.easing.standard": {
+      "name": "motion.easing.standard",
+      "value": "ease",
+      "cssVariable": "--motion-easing-standard",
+      "category": "动效尺度",
+      "description": "standard 动效缓动",
+      "tier": "map",
+      "status": "stable"
+    },
+    "motion.easing.enter": {
+      "name": "motion.easing.enter",
+      "value": "ease-out",
+      "cssVariable": "--motion-easing-enter",
+      "category": "动效尺度",
+      "description": "enter 动效缓动",
+      "tier": "map",
+      "status": "stable"
+    },
+    "motion.easing.exit": {
+      "name": "motion.easing.exit",
+      "value": "ease-in",
+      "cssVariable": "--motion-easing-exit",
+      "category": "动效尺度",
+      "description": "exit 动效缓动",
+      "tier": "map",
+      "status": "stable"
+    },
+    "z.index.sticky": {
+      "name": "z.index.sticky",
+      "value": "100",
+      "cssVariable": "--z-index-sticky",
+      "category": "层级尺度",
+      "description": "sticky 浮层层级",
+      "tier": "map",
+      "status": "stable"
+    },
+    "z.index.dropdown": {
+      "name": "z.index.dropdown",
+      "value": "60",
+      "cssVariable": "--z-index-dropdown",
+      "category": "层级尺度",
+      "description": "dropdown 浮层层级",
+      "tier": "map",
+      "status": "stable"
+    },
+    "z.index.modal": {
+      "name": "z.index.modal",
+      "value": "999",
+      "cssVariable": "--z-index-modal",
+      "category": "层级尺度",
+      "description": "modal 浮层层级",
+      "tier": "map",
+      "status": "stable"
+    },
+    "z.index.message": {
+      "name": "z.index.message",
+      "value": "1200",
+      "cssVariable": "--z-index-message",
+      "category": "层级尺度",
+      "description": "message 浮层层级",
+      "tier": "map",
+      "status": "stable"
+    },
+    "z.index.tooltip": {
+      "name": "z.index.tooltip",
+      "value": "1200",
+      "cssVariable": "--z-index-tooltip",
+      "category": "层级尺度",
+      "description": "tooltip 浮层层级",
+      "tier": "map",
+      "status": "stable"
+    },
+    "z.index.popover": {
+      "name": "z.index.popover",
+      "value": "1200",
+      "cssVariable": "--z-index-popover",
+      "category": "层级尺度",
+      "description": "popover 浮层层级",
+      "tier": "map",
+      "status": "stable"
+    },
+    "shadow.low": {
+      "name": "shadow.low",
+      "value": "0 1px 2px rgba(0, 0, 0, 0.08)",
+      "cssVariable": "--shadow-low",
+      "category": "阴影尺度",
+      "description": "低层容器阴影",
+      "tier": "map",
+      "status": "stable"
+    },
+    "shadow.popup": {
+      "name": "shadow.popup",
+      "value": "0 6px 16px rgba(29, 33, 41, 0.12)",
+      "cssVariable": "--shadow-popup",
+      "category": "阴影尺度",
+      "description": "普通浮层阴影",
+      "tier": "map",
+      "status": "stable"
+    },
+    "shadow.modal": {
+      "name": "shadow.modal",
+      "value": "0 16px 48px rgba(0, 0, 0, 0.22)",
+      "cssVariable": "--shadow-modal",
+      "category": "阴影尺度",
+      "description": "模态层阴影",
+      "tier": "map",
+      "status": "stable"
+    },
+    "component.button.control.height.mini": {
+      "name": "component.button.control.height.mini",
+      "value": "var(--control-height-mini)",
+      "cssVariable": "--component-button-control-height-mini",
+      "category": "组件变量",
+      "description": "Button control height mini",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.control.height.small": {
+      "name": "component.button.control.height.small",
+      "value": "var(--control-height-small)",
+      "cssVariable": "--component-button-control-height-small",
+      "category": "组件变量",
+      "description": "Button control height small",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.control.height.medium": {
+      "name": "component.button.control.height.medium",
+      "value": "var(--control-height-medium)",
+      "cssVariable": "--component-button-control-height-medium",
+      "category": "组件变量",
+      "description": "Button control height medium",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.control.height.large": {
+      "name": "component.button.control.height.large",
+      "value": "var(--control-height-large)",
+      "cssVariable": "--component-button-control-height-large",
+      "category": "组件变量",
+      "description": "Button control height large",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.padding.inline.mini": {
+      "name": "component.button.padding.inline.mini",
+      "value": "11px",
+      "cssVariable": "--component-button-padding-inline-mini",
+      "category": "组件变量",
+      "description": "Button padding inline mini",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.padding.inline.small": {
+      "name": "component.button.padding.inline.small",
+      "value": "13px",
+      "cssVariable": "--component-button-padding-inline-small",
+      "category": "组件变量",
+      "description": "Button padding inline small",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.padding.inline.medium": {
+      "name": "component.button.padding.inline.medium",
+      "value": "12px",
+      "cssVariable": "--component-button-padding-inline-medium",
+      "category": "组件变量",
+      "description": "Button padding inline medium",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.padding.inline.large": {
+      "name": "component.button.padding.inline.large",
+      "value": "15px",
+      "cssVariable": "--component-button-padding-inline-large",
+      "category": "组件变量",
+      "description": "Button padding inline large",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.gap": {
+      "name": "component.button.gap",
+      "value": "var(--space-8)",
+      "cssVariable": "--component-button-gap",
+      "category": "组件变量",
+      "description": "Button gap",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.radius": {
+      "name": "component.button.radius",
+      "value": "var(--border-radius-medium)",
+      "cssVariable": "--component-button-radius",
+      "category": "组件变量",
+      "description": "Button radius",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.font.size": {
+      "name": "component.button.font.size",
+      "value": "var(--font-size-14)",
+      "cssVariable": "--component-button-font-size",
+      "category": "组件变量",
+      "description": "Button font size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.font.weight": {
+      "name": "component.button.font.weight",
+      "value": "var(--font-weight-400)",
+      "cssVariable": "--component-button-font-weight",
+      "category": "组件变量",
+      "description": "Button font weight",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.border.width": {
+      "name": "component.button.border.width",
+      "value": "var(--line-width-thin)",
+      "cssVariable": "--component-button-border-width",
+      "category": "组件变量",
+      "description": "Button border width",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.primary.default": {
+      "name": "component.button.primary.default",
+      "value": "rgb(var(--primary-6))",
+      "cssVariable": "--component-button-primary-default",
+      "category": "组件变量",
+      "description": "Button primary default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.primary.hover": {
+      "name": "component.button.primary.hover",
+      "value": "rgb(var(--primary-5))",
+      "cssVariable": "--component-button-primary-hover",
+      "category": "组件变量",
+      "description": "Button primary hover",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.primary.active": {
+      "name": "component.button.primary.active",
+      "value": "rgb(var(--primary-7))",
+      "cssVariable": "--component-button-primary-active",
+      "category": "组件变量",
+      "description": "Button primary active",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.primary.disabled": {
+      "name": "component.button.primary.disabled",
+      "value": "rgb(var(--primary-3))",
+      "cssVariable": "--component-button-primary-disabled",
+      "category": "组件变量",
+      "description": "Button primary disabled",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.primary.text": {
+      "name": "component.button.primary.text",
+      "value": "var(--color-white)",
+      "cssVariable": "--component-button-primary-text",
+      "category": "组件变量",
+      "description": "Button primary text",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.secondary.text": {
+      "name": "component.button.secondary.text",
+      "value": "var(--color-text-2)",
+      "cssVariable": "--component-button-secondary-text",
+      "category": "组件变量",
+      "description": "Button secondary text",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.secondary.border.default": {
+      "name": "component.button.secondary.border.default",
+      "value": "var(--color-border-2)",
+      "cssVariable": "--component-button-secondary-border-default",
+      "category": "组件变量",
+      "description": "Button secondary border default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.secondary.border.hover": {
+      "name": "component.button.secondary.border.hover",
+      "value": "var(--color-border-3)",
+      "cssVariable": "--component-button-secondary-border-hover",
+      "category": "组件变量",
+      "description": "Button secondary border hover",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.secondary.border.active": {
+      "name": "component.button.secondary.border.active",
+      "value": "var(--color-border-4)",
+      "cssVariable": "--component-button-secondary-border-active",
+      "category": "组件变量",
+      "description": "Button secondary border active",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.secondary.background.hover": {
+      "name": "component.button.secondary.background.hover",
+      "value": "var(--color-fill-1)",
+      "cssVariable": "--component-button-secondary-background-hover",
+      "category": "组件变量",
+      "description": "Button secondary background hover",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.secondary.background.active": {
+      "name": "component.button.secondary.background.active",
+      "value": "var(--color-fill-2)",
+      "cssVariable": "--component-button-secondary-background-active",
+      "category": "组件变量",
+      "description": "Button secondary background active",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.disabled.text": {
+      "name": "component.button.disabled.text",
+      "value": "var(--color-text-4)",
+      "cssVariable": "--component-button-disabled-text",
+      "category": "组件变量",
+      "description": "Button disabled text",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.disabled.background": {
+      "name": "component.button.disabled.background",
+      "value": "var(--color-fill-2)",
+      "cssVariable": "--component-button-disabled-background",
+      "category": "组件变量",
+      "description": "Button disabled background",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.disabled.border": {
+      "name": "component.button.disabled.border",
+      "value": "var(--color-border-1)",
+      "cssVariable": "--component-button-disabled-border",
+      "category": "组件变量",
+      "description": "Button disabled border",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.icon.size": {
+      "name": "component.button.icon.size",
+      "value": "var(--font-size-16)",
+      "cssVariable": "--component-button-icon-size",
+      "category": "组件变量",
+      "description": "Button icon size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.focus.color": {
+      "name": "component.button.focus.color",
+      "value": "rgb(var(--primary-6))",
+      "cssVariable": "--component-button-focus-color",
+      "category": "组件变量",
+      "description": "Button focus color",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.focus.width": {
+      "name": "component.button.focus.width",
+      "value": "var(--line-width-thick)",
+      "cssVariable": "--component-button-focus-width",
+      "category": "组件变量",
+      "description": "Button focus width",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.focus.offset": {
+      "name": "component.button.focus.offset",
+      "value": "var(--space-2)",
+      "cssVariable": "--component-button-focus-offset",
+      "category": "组件变量",
+      "description": "Button focus offset",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.motion.duration": {
+      "name": "component.button.motion.duration",
+      "value": "var(--motion-duration-base)",
+      "cssVariable": "--component-button-motion-duration",
+      "category": "组件变量",
+      "description": "Button motion duration",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.motion.easing": {
+      "name": "component.button.motion.easing",
+      "value": "var(--motion-easing-standard)",
+      "cssVariable": "--component-button-motion-easing",
+      "category": "组件变量",
+      "description": "Button motion easing",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.button.active.scale": {
+      "name": "component.button.active.scale",
+      "value": "0.98",
+      "cssVariable": "--component-button-active-scale",
+      "category": "组件变量",
+      "description": "Button active scale",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.control.height.mini": {
+      "name": "component.input.control.height.mini",
+      "value": "var(--control-height-mini)",
+      "cssVariable": "--component-input-control-height-mini",
+      "category": "组件变量",
+      "description": "input control height mini",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.control.height.small": {
+      "name": "component.input.control.height.small",
+      "value": "var(--control-height-small)",
+      "cssVariable": "--component-input-control-height-small",
+      "category": "组件变量",
+      "description": "input control height small",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.control.height.medium": {
+      "name": "component.input.control.height.medium",
+      "value": "var(--control-height-medium)",
+      "cssVariable": "--component-input-control-height-medium",
+      "category": "组件变量",
+      "description": "input control height medium",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.control.height.large": {
+      "name": "component.input.control.height.large",
+      "value": "var(--control-height-large)",
+      "cssVariable": "--component-input-control-height-large",
+      "category": "组件变量",
+      "description": "input control height large",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.radius": {
+      "name": "component.input.radius",
+      "value": "var(--border-radius-small)",
+      "cssVariable": "--component-input-radius",
+      "category": "组件变量",
+      "description": "input radius",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.font.size": {
+      "name": "component.input.font.size",
+      "value": "var(--font-size-14)",
+      "cssVariable": "--component-input-font-size",
+      "category": "组件变量",
+      "description": "input font size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.border.width": {
+      "name": "component.input.border.width",
+      "value": "var(--line-width-thin)",
+      "cssVariable": "--component-input-border-width",
+      "category": "组件变量",
+      "description": "input border width",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.border.default": {
+      "name": "component.input.border.default",
+      "value": "var(--color-border-2)",
+      "cssVariable": "--component-input-border-default",
+      "category": "组件变量",
+      "description": "input border default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.border.hover": {
+      "name": "component.input.border.hover",
+      "value": "var(--color-border-3)",
+      "cssVariable": "--component-input-border-hover",
+      "category": "组件变量",
+      "description": "input border hover",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.border.focus": {
+      "name": "component.input.border.focus",
+      "value": "rgb(var(--primary-6))",
+      "cssVariable": "--component-input-border-focus",
+      "category": "组件变量",
+      "description": "input border focus",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.border.error": {
+      "name": "component.input.border.error",
+      "value": "var(--color-danger)",
+      "cssVariable": "--component-input-border-error",
+      "category": "组件变量",
+      "description": "input border error",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.border.warning": {
+      "name": "component.input.border.warning",
+      "value": "var(--color-warning)",
+      "cssVariable": "--component-input-border-warning",
+      "category": "组件变量",
+      "description": "input border warning",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.background.default": {
+      "name": "component.input.background.default",
+      "value": "var(--color-bg-2)",
+      "cssVariable": "--component-input-background-default",
+      "category": "组件变量",
+      "description": "input background default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.background.disabled": {
+      "name": "component.input.background.disabled",
+      "value": "var(--color-fill-1)",
+      "cssVariable": "--component-input-background-disabled",
+      "category": "组件变量",
+      "description": "input background disabled",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.text.default": {
+      "name": "component.input.text.default",
+      "value": "var(--color-text-1)",
+      "cssVariable": "--component-input-text-default",
+      "category": "组件变量",
+      "description": "input text default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.text.disabled": {
+      "name": "component.input.text.disabled",
+      "value": "var(--color-text-4)",
+      "cssVariable": "--component-input-text-disabled",
+      "category": "组件变量",
+      "description": "input text disabled",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.text.placeholder": {
+      "name": "component.input.text.placeholder",
+      "value": "var(--color-text-4)",
+      "cssVariable": "--component-input-text-placeholder",
+      "category": "组件变量",
+      "description": "input text placeholder",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.focus.ring": {
+      "name": "component.input.focus.ring",
+      "value": "var(--color-primary-light-1)",
+      "cssVariable": "--component-input-focus-ring",
+      "category": "组件变量",
+      "description": "input focus ring",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.focus.error.ring": {
+      "name": "component.input.focus.error.ring",
+      "value": "var(--color-danger-light-1)",
+      "cssVariable": "--component-input-focus-error-ring",
+      "category": "组件变量",
+      "description": "input error focus ring",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.focus.warning.ring": {
+      "name": "component.input.focus.warning.ring",
+      "value": "var(--color-warning-light-1)",
+      "cssVariable": "--component-input-focus-warning-ring",
+      "category": "组件变量",
+      "description": "input warning focus ring",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.focus.width": {
+      "name": "component.input.focus.width",
+      "value": "var(--line-width-thick)",
+      "cssVariable": "--component-input-focus-width",
+      "category": "组件变量",
+      "description": "input focus width",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.icon.size": {
+      "name": "component.input.icon.size",
+      "value": "var(--font-size-16)",
+      "cssVariable": "--component-input-icon-size",
+      "category": "组件变量",
+      "description": "input icon size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.motion.duration": {
+      "name": "component.input.motion.duration",
+      "value": "var(--motion-duration-fast)",
+      "cssVariable": "--component-input-motion-duration",
+      "category": "组件变量",
+      "description": "input motion duration",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.motion.easing": {
+      "name": "component.input.motion.easing",
+      "value": "var(--motion-easing-standard)",
+      "cssVariable": "--component-input-motion-easing",
+      "category": "组件变量",
+      "description": "input motion easing",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.input.padding.inline": {
+      "name": "component.input.padding.inline",
+      "value": "var(--space-12)",
+      "cssVariable": "--component-input-padding-inline",
+      "category": "组件变量",
+      "description": "input padding inline",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.control.height.mini": {
+      "name": "component.select.control.height.mini",
+      "value": "var(--control-height-mini)",
+      "cssVariable": "--component-select-control-height-mini",
+      "category": "组件变量",
+      "description": "select control height mini",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.control.height.small": {
+      "name": "component.select.control.height.small",
+      "value": "var(--control-height-small)",
+      "cssVariable": "--component-select-control-height-small",
+      "category": "组件变量",
+      "description": "select control height small",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.control.height.medium": {
+      "name": "component.select.control.height.medium",
+      "value": "var(--control-height-medium)",
+      "cssVariable": "--component-select-control-height-medium",
+      "category": "组件变量",
+      "description": "select control height medium",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.control.height.large": {
+      "name": "component.select.control.height.large",
+      "value": "var(--control-height-large)",
+      "cssVariable": "--component-select-control-height-large",
+      "category": "组件变量",
+      "description": "select control height large",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.radius": {
+      "name": "component.select.radius",
+      "value": "var(--border-radius-small)",
+      "cssVariable": "--component-select-radius",
+      "category": "组件变量",
+      "description": "select radius",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.font.size": {
+      "name": "component.select.font.size",
+      "value": "var(--font-size-14)",
+      "cssVariable": "--component-select-font-size",
+      "category": "组件变量",
+      "description": "select font size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.border.width": {
+      "name": "component.select.border.width",
+      "value": "var(--line-width-thin)",
+      "cssVariable": "--component-select-border-width",
+      "category": "组件变量",
+      "description": "select border width",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.border.default": {
+      "name": "component.select.border.default",
+      "value": "var(--color-border-2)",
+      "cssVariable": "--component-select-border-default",
+      "category": "组件变量",
+      "description": "select border default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.border.hover": {
+      "name": "component.select.border.hover",
+      "value": "var(--color-border-3)",
+      "cssVariable": "--component-select-border-hover",
+      "category": "组件变量",
+      "description": "select border hover",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.border.focus": {
+      "name": "component.select.border.focus",
+      "value": "rgb(var(--primary-6))",
+      "cssVariable": "--component-select-border-focus",
+      "category": "组件变量",
+      "description": "select border focus",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.border.error": {
+      "name": "component.select.border.error",
+      "value": "var(--color-danger)",
+      "cssVariable": "--component-select-border-error",
+      "category": "组件变量",
+      "description": "select border error",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.border.warning": {
+      "name": "component.select.border.warning",
+      "value": "var(--color-warning)",
+      "cssVariable": "--component-select-border-warning",
+      "category": "组件变量",
+      "description": "select border warning",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.background.default": {
+      "name": "component.select.background.default",
+      "value": "var(--color-bg-2)",
+      "cssVariable": "--component-select-background-default",
+      "category": "组件变量",
+      "description": "select background default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.background.disabled": {
+      "name": "component.select.background.disabled",
+      "value": "var(--color-fill-1)",
+      "cssVariable": "--component-select-background-disabled",
+      "category": "组件变量",
+      "description": "select background disabled",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.text.default": {
+      "name": "component.select.text.default",
+      "value": "var(--color-text-1)",
+      "cssVariable": "--component-select-text-default",
+      "category": "组件变量",
+      "description": "select text default",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.text.disabled": {
+      "name": "component.select.text.disabled",
+      "value": "var(--color-text-4)",
+      "cssVariable": "--component-select-text-disabled",
+      "category": "组件变量",
+      "description": "select text disabled",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.text.placeholder": {
+      "name": "component.select.text.placeholder",
+      "value": "var(--color-text-4)",
+      "cssVariable": "--component-select-text-placeholder",
+      "category": "组件变量",
+      "description": "select text placeholder",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.focus.ring": {
+      "name": "component.select.focus.ring",
+      "value": "var(--color-primary-light-1)",
+      "cssVariable": "--component-select-focus-ring",
+      "category": "组件变量",
+      "description": "select focus ring",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.focus.width": {
+      "name": "component.select.focus.width",
+      "value": "var(--line-width-thick)",
+      "cssVariable": "--component-select-focus-width",
+      "category": "组件变量",
+      "description": "select focus width",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.icon.size": {
+      "name": "component.select.icon.size",
+      "value": "var(--font-size-16)",
+      "cssVariable": "--component-select-icon-size",
+      "category": "组件变量",
+      "description": "select icon size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.motion.duration": {
+      "name": "component.select.motion.duration",
+      "value": "var(--motion-duration-fast)",
+      "cssVariable": "--component-select-motion-duration",
+      "category": "组件变量",
+      "description": "select motion duration",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.motion.easing": {
+      "name": "component.select.motion.easing",
+      "value": "var(--motion-easing-standard)",
+      "cssVariable": "--component-select-motion-easing",
+      "category": "组件变量",
+      "description": "select motion easing",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.padding.inline": {
+      "name": "component.select.padding.inline",
+      "value": "11px",
+      "cssVariable": "--component-select-padding-inline",
+      "category": "组件变量",
+      "description": "select padding inline",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.popup.shadow": {
+      "name": "component.select.popup.shadow",
+      "value": "var(--shadow-popup)",
+      "cssVariable": "--component-select-popup-shadow",
+      "category": "组件变量",
+      "description": "select popup shadow",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.select.option.height": {
+      "name": "component.select.option.height",
+      "value": "var(--control-height-medium)",
+      "cssVariable": "--component-select-option-height",
+      "category": "组件变量",
+      "description": "select option height",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.z.index": {
+      "name": "component.modal.z.index",
+      "value": "var(--z-index-modal)",
+      "cssVariable": "--component-modal-z-index",
+      "category": "组件变量",
+      "description": "Modal z index",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.mask.background": {
+      "name": "component.modal.mask.background",
+      "value": "rgba(0, 0, 0, 0.45)",
+      "cssVariable": "--component-modal-mask-background",
+      "category": "组件变量",
+      "description": "Modal mask background",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.radius": {
+      "name": "component.modal.radius",
+      "value": "var(--border-radius-large)",
+      "cssVariable": "--component-modal-radius",
+      "category": "组件变量",
+      "description": "Modal radius",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.shadow": {
+      "name": "component.modal.shadow",
+      "value": "var(--shadow-modal)",
+      "cssVariable": "--component-modal-shadow",
+      "category": "组件变量",
+      "description": "Modal shadow",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.header.height": {
+      "name": "component.modal.header.height",
+      "value": "56px",
+      "cssVariable": "--component-modal-header-height",
+      "category": "组件变量",
+      "description": "Modal header height",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.title.font.size": {
+      "name": "component.modal.title.font.size",
+      "value": "var(--font-size-16)",
+      "cssVariable": "--component-modal-title-font-size",
+      "category": "组件变量",
+      "description": "Modal title font size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.title.line.height": {
+      "name": "component.modal.title.line.height",
+      "value": "var(--line-height-24)",
+      "cssVariable": "--component-modal-title-line-height",
+      "category": "组件变量",
+      "description": "Modal title line height",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.content.padding.block": {
+      "name": "component.modal.content.padding.block",
+      "value": "var(--space-24)",
+      "cssVariable": "--component-modal-content-padding-block",
+      "category": "组件变量",
+      "description": "Modal content padding block",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.content.padding.inline": {
+      "name": "component.modal.content.padding.inline",
+      "value": "var(--space-24)",
+      "cssVariable": "--component-modal-content-padding-inline",
+      "category": "组件变量",
+      "description": "Modal content padding inline",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.footer.gap": {
+      "name": "component.modal.footer.gap",
+      "value": "var(--space-12)",
+      "cssVariable": "--component-modal-footer-gap",
+      "category": "组件变量",
+      "description": "Modal footer gap",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.motion.duration": {
+      "name": "component.modal.motion.duration",
+      "value": "180ms",
+      "cssVariable": "--component-modal-motion-duration",
+      "category": "组件变量",
+      "description": "Modal motion duration",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.motion.easing": {
+      "name": "component.modal.motion.easing",
+      "value": "var(--motion-easing-standard)",
+      "cssVariable": "--component-modal-motion-easing",
+      "category": "组件变量",
+      "description": "Modal motion easing",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.background": {
+      "name": "component.modal.background",
+      "value": "var(--color-bg-white)",
+      "cssVariable": "--component-modal-background",
+      "category": "组件变量",
+      "description": "Modal background",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.text.primary": {
+      "name": "component.modal.text.primary",
+      "value": "var(--color-text-1)",
+      "cssVariable": "--component-modal-text-primary",
+      "category": "组件变量",
+      "description": "Modal text primary",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.text.secondary": {
+      "name": "component.modal.text.secondary",
+      "value": "var(--color-text-2)",
+      "cssVariable": "--component-modal-text-secondary",
+      "category": "组件变量",
+      "description": "Modal text secondary",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.modal.border": {
+      "name": "component.modal.border",
+      "value": "var(--color-border-1)",
+      "cssVariable": "--component-modal-border",
+      "category": "组件变量",
+      "description": "Modal border",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.header.background": {
+      "name": "component.table.header.background",
+      "value": "rgb(var(--gray-1))",
+      "cssVariable": "--component-table-header-background",
+      "category": "组件变量",
+      "description": "Table header background",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.cell.padding.block.large": {
+      "name": "component.table.cell.padding.block.large",
+      "value": "var(--space-16)",
+      "cssVariable": "--component-table-cell-padding-block-large",
+      "category": "组件变量",
+      "description": "Table large cell block padding",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.cell.padding.block.medium": {
+      "name": "component.table.cell.padding.block.medium",
+      "value": "var(--space-12)",
+      "cssVariable": "--component-table-cell-padding-block-medium",
+      "category": "组件变量",
+      "description": "Table medium cell block padding",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.cell.padding.block.small": {
+      "name": "component.table.cell.padding.block.small",
+      "value": "var(--space-8)",
+      "cssVariable": "--component-table-cell-padding-block-small",
+      "category": "组件变量",
+      "description": "Table small cell block padding",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.cell.padding.inline": {
+      "name": "component.table.cell.padding.inline",
+      "value": "var(--space-16)",
+      "cssVariable": "--component-table-cell-padding-inline",
+      "category": "组件变量",
+      "description": "Table cell inline padding",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.cell.padding.inline.compact": {
+      "name": "component.table.cell.padding.inline.compact",
+      "value": "var(--space-12)",
+      "cssVariable": "--component-table-cell-padding-inline-compact",
+      "category": "组件变量",
+      "description": "Table compact cell inline padding",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.font.size": {
+      "name": "component.table.font.size",
+      "value": "var(--font-size-14)",
+      "cssVariable": "--component-table-font-size",
+      "category": "组件变量",
+      "description": "Table font size",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.line.height": {
+      "name": "component.table.line.height",
+      "value": "var(--line-height-regular)",
+      "cssVariable": "--component-table-line-height",
+      "category": "组件变量",
+      "description": "Table line height",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.border": {
+      "name": "component.table.border",
+      "value": "var(--color-border-1)",
+      "cssVariable": "--component-table-border",
+      "category": "组件变量",
+      "description": "Table border",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.fixed.z.index": {
+      "name": "component.table.fixed.z.index",
+      "value": "2",
+      "cssVariable": "--component-table-fixed-z-index",
+      "category": "组件变量",
+      "description": "Table fixed column z index",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.row.hover.background": {
+      "name": "component.table.row.hover.background",
+      "value": "var(--color-fill-1)",
+      "cssVariable": "--component-table-row-hover-background",
+      "category": "组件变量",
+      "description": "Table row hover background",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.table.row.selected.background": {
+      "name": "component.table.row.selected.background",
+      "value": "var(--color-primary-light-1)",
+      "cssVariable": "--component-table-row-selected-background",
+      "category": "组件变量",
+      "description": "Table row selected background",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.background": {
+      "name": "component.tooltip.background",
+      "value": "var(--color-neutral-10)",
+      "cssVariable": "--component-tooltip-background",
+      "category": "组件变量",
+      "description": "tooltip background responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.text": {
+      "name": "component.tooltip.text",
+      "value": "var(--color-white)",
+      "cssVariable": "--component-tooltip-text",
+      "category": "组件变量",
+      "description": "tooltip text responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.z.index": {
+      "name": "component.tooltip.z.index",
+      "value": "var(--z-index-tooltip)",
+      "cssVariable": "--component-tooltip-z-index",
+      "category": "组件变量",
+      "description": "tooltip z index responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.min.height": {
+      "name": "component.tooltip.min.height",
+      "value": "32px",
+      "cssVariable": "--component-tooltip-min-height",
+      "category": "组件变量",
+      "description": "tooltip min height responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.padding.block": {
+      "name": "component.tooltip.padding.block",
+      "value": "var(--space-6)",
+      "cssVariable": "--component-tooltip-padding-block",
+      "category": "组件变量",
+      "description": "tooltip padding block responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.padding.inline": {
+      "name": "component.tooltip.padding.inline",
+      "value": "var(--space-12)",
+      "cssVariable": "--component-tooltip-padding-inline",
+      "category": "组件变量",
+      "description": "tooltip padding inline responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.radius": {
+      "name": "component.tooltip.radius",
+      "value": "var(--border-radius-medium)",
+      "cssVariable": "--component-tooltip-radius",
+      "category": "组件变量",
+      "description": "tooltip radius responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.font.size": {
+      "name": "component.tooltip.font.size",
+      "value": "var(--font-size-14)",
+      "cssVariable": "--component-tooltip-font-size",
+      "category": "组件变量",
+      "description": "tooltip font size responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.line.height": {
+      "name": "component.tooltip.line.height",
+      "value": "var(--line-height-20)",
+      "cssVariable": "--component-tooltip-line-height",
+      "category": "组件变量",
+      "description": "tooltip line height responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.shadow": {
+      "name": "component.tooltip.shadow",
+      "value": "0 8px 20px rgba(15, 23, 42, 0.18)",
+      "cssVariable": "--component-tooltip-shadow",
+      "category": "组件变量",
+      "description": "tooltip shadow responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.arrow.size": {
+      "name": "component.tooltip.arrow.size",
+      "value": "8px",
+      "cssVariable": "--component-tooltip-arrow-size",
+      "category": "组件变量",
+      "description": "tooltip arrow size responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.mini.min.height": {
+      "name": "component.tooltip.mini.min.height",
+      "value": "34px",
+      "cssVariable": "--component-tooltip-mini-min-height",
+      "category": "组件变量",
+      "description": "tooltip mini min height responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.mini.padding.inline": {
+      "name": "component.tooltip.mini.padding.inline",
+      "value": "14px",
+      "cssVariable": "--component-tooltip-mini-padding-inline",
+      "category": "组件变量",
+      "description": "tooltip mini padding inline responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.mini.font.size": {
+      "name": "component.tooltip.mini.font.size",
+      "value": "var(--font-size-16)",
+      "cssVariable": "--component-tooltip-mini-font-size",
+      "category": "组件变量",
+      "description": "tooltip mini font size responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.mini.line.height": {
+      "name": "component.tooltip.mini.line.height",
+      "value": "var(--line-height-22)",
+      "cssVariable": "--component-tooltip-mini-line-height",
+      "category": "组件变量",
+      "description": "tooltip mini line height responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.motion.duration": {
+      "name": "component.tooltip.motion.duration",
+      "value": "var(--motion-duration-fast)",
+      "cssVariable": "--component-tooltip-motion-duration",
+      "category": "组件变量",
+      "description": "tooltip motion duration responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.tooltip.motion.easing": {
+      "name": "component.tooltip.motion.easing",
+      "value": "var(--motion-easing-enter)",
+      "cssVariable": "--component-tooltip-motion-easing",
+      "category": "组件变量",
+      "description": "tooltip motion easing responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.background": {
+      "name": "component.popover.background",
+      "value": "var(--color-bg-5)",
+      "cssVariable": "--component-popover-background",
+      "category": "组件变量",
+      "description": "popover background responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.text": {
+      "name": "component.popover.text",
+      "value": "var(--color-text-1)",
+      "cssVariable": "--component-popover-text",
+      "category": "组件变量",
+      "description": "popover text responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.content.text": {
+      "name": "component.popover.content.text",
+      "value": "var(--color-text-2)",
+      "cssVariable": "--component-popover-content-text",
+      "category": "组件变量",
+      "description": "popover content text responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.border": {
+      "name": "component.popover.border",
+      "value": "var(--color-border-2)",
+      "cssVariable": "--component-popover-border",
+      "category": "组件变量",
+      "description": "popover border responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.z.index": {
+      "name": "component.popover.z.index",
+      "value": "var(--z-index-popover)",
+      "cssVariable": "--component-popover-z-index",
+      "category": "组件变量",
+      "description": "popover z index responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.width": {
+      "name": "component.popover.width",
+      "value": "360px",
+      "cssVariable": "--component-popover-width",
+      "category": "组件变量",
+      "description": "popover maximum width responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.padding.block": {
+      "name": "component.popover.padding.block",
+      "value": "14px",
+      "cssVariable": "--component-popover-padding-block",
+      "category": "组件变量",
+      "description": "popover padding block responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.padding.inline": {
+      "name": "component.popover.padding.inline",
+      "value": "var(--space-16)",
+      "cssVariable": "--component-popover-padding-inline",
+      "category": "组件变量",
+      "description": "popover padding inline responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.radius": {
+      "name": "component.popover.radius",
+      "value": "var(--border-radius-medium)",
+      "cssVariable": "--component-popover-radius",
+      "category": "组件变量",
+      "description": "popover radius responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.shadow": {
+      "name": "component.popover.shadow",
+      "value": "0 10px 28px rgba(15, 23, 42, 0.12)",
+      "cssVariable": "--component-popover-shadow",
+      "category": "组件变量",
+      "description": "popover shadow responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.font.size": {
+      "name": "component.popover.font.size",
+      "value": "var(--font-size-14)",
+      "cssVariable": "--component-popover-font-size",
+      "category": "组件变量",
+      "description": "popover font size responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.line.height": {
+      "name": "component.popover.line.height",
+      "value": "var(--line-height-22)",
+      "cssVariable": "--component-popover-line-height",
+      "category": "组件变量",
+      "description": "popover line height responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.title.margin.block.end": {
+      "name": "component.popover.title.margin.block.end",
+      "value": "var(--space-8)",
+      "cssVariable": "--component-popover-title-margin-block-end",
+      "category": "组件变量",
+      "description": "popover title margin block end responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.title.font.weight": {
+      "name": "component.popover.title.font.weight",
+      "value": "var(--font-weight-500)",
+      "cssVariable": "--component-popover-title-font-weight",
+      "category": "组件变量",
+      "description": "popover title font weight responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.arrow.size": {
+      "name": "component.popover.arrow.size",
+      "value": "10px",
+      "cssVariable": "--component-popover-arrow-size",
+      "category": "组件变量",
+      "description": "popover arrow size responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.motion.duration": {
+      "name": "component.popover.motion.duration",
+      "value": "180ms",
+      "cssVariable": "--component-popover-motion-duration",
+      "category": "组件变量",
+      "description": "popover motion duration responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.popover.motion.easing": {
+      "name": "component.popover.motion.easing",
+      "value": "var(--motion-easing-enter)",
+      "cssVariable": "--component-popover-motion-easing",
+      "category": "组件变量",
+      "description": "popover motion easing responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.popup.background": {
+      "name": "component.dropdown.popup.background",
+      "value": "var(--color-bg-popup)",
+      "cssVariable": "--component-dropdown-popup-background",
+      "category": "组件变量",
+      "description": "dropdown popup background responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.popup.border": {
+      "name": "component.dropdown.popup.border",
+      "value": "var(--color-border-1)",
+      "cssVariable": "--component-dropdown-popup-border",
+      "category": "组件变量",
+      "description": "dropdown popup border responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.popup.z.index": {
+      "name": "component.dropdown.popup.z.index",
+      "value": "20",
+      "cssVariable": "--component-dropdown-popup-z-index",
+      "category": "组件变量",
+      "description": "dropdown popup z index responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.popup.min.width": {
+      "name": "component.dropdown.popup.min.width",
+      "value": "112px",
+      "cssVariable": "--component-dropdown-popup-min-width",
+      "category": "组件变量",
+      "description": "dropdown popup min width responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.popup.padding": {
+      "name": "component.dropdown.popup.padding",
+      "value": "var(--space-4)",
+      "cssVariable": "--component-dropdown-popup-padding",
+      "category": "组件变量",
+      "description": "dropdown popup padding responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.popup.radius": {
+      "name": "component.dropdown.popup.radius",
+      "value": "var(--border-radius-medium)",
+      "cssVariable": "--component-dropdown-popup-radius",
+      "category": "组件变量",
+      "description": "dropdown popup radius responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.popup.shadow": {
+      "name": "component.dropdown.popup.shadow",
+      "value": "var(--shadow)",
+      "cssVariable": "--component-dropdown-popup-shadow",
+      "category": "组件变量",
+      "description": "dropdown popup shadow responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.min.height": {
+      "name": "component.dropdown.item.min.height",
+      "value": "32px",
+      "cssVariable": "--component-dropdown-item-min-height",
+      "category": "组件变量",
+      "description": "dropdown item min height responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.padding.block": {
+      "name": "component.dropdown.item.padding.block",
+      "value": "5px",
+      "cssVariable": "--component-dropdown-item-padding-block",
+      "category": "组件变量",
+      "description": "dropdown item padding block responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.padding.inline": {
+      "name": "component.dropdown.item.padding.inline",
+      "value": "var(--space-12)",
+      "cssVariable": "--component-dropdown-item-padding-inline",
+      "category": "组件变量",
+      "description": "dropdown item padding inline responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.radius": {
+      "name": "component.dropdown.item.radius",
+      "value": "var(--border-radius-small)",
+      "cssVariable": "--component-dropdown-item-radius",
+      "category": "组件变量",
+      "description": "dropdown item radius responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.text": {
+      "name": "component.dropdown.item.text",
+      "value": "var(--color-text-2)",
+      "cssVariable": "--component-dropdown-item-text",
+      "category": "组件变量",
+      "description": "dropdown item text responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.font.size": {
+      "name": "component.dropdown.item.font.size",
+      "value": "var(--font-size-14)",
+      "cssVariable": "--component-dropdown-item-font-size",
+      "category": "组件变量",
+      "description": "dropdown item font size responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.line.height": {
+      "name": "component.dropdown.item.line.height",
+      "value": "var(--line-height-22)",
+      "cssVariable": "--component-dropdown-item-line-height",
+      "category": "组件变量",
+      "description": "dropdown item line height responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.hover.background": {
+      "name": "component.dropdown.item.hover.background",
+      "value": "var(--color-fill-2)",
+      "cssVariable": "--component-dropdown-item-hover-background",
+      "category": "组件变量",
+      "description": "dropdown item hover background responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.item.hover.text": {
+      "name": "component.dropdown.item.hover.text",
+      "value": "var(--color-text-1)",
+      "cssVariable": "--component-dropdown-item-hover-text",
+      "category": "组件变量",
+      "description": "dropdown item hover text responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.trigger.gap": {
+      "name": "component.dropdown.trigger.gap",
+      "value": "var(--space-4)",
+      "cssVariable": "--component-dropdown-trigger-gap",
+      "category": "组件变量",
+      "description": "dropdown trigger gap responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.icon.size": {
+      "name": "component.dropdown.icon.size",
+      "value": "16px",
+      "cssVariable": "--component-dropdown-icon-size",
+      "category": "组件变量",
+      "description": "dropdown icon size responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.motion.duration": {
+      "name": "component.dropdown.motion.duration",
+      "value": "var(--motion-duration-base)",
+      "cssVariable": "--component-dropdown-motion-duration",
+      "category": "组件变量",
+      "description": "dropdown motion duration responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.motion.easing": {
+      "name": "component.dropdown.motion.easing",
+      "value": "var(--motion-easing-standard)",
+      "cssVariable": "--component-dropdown-motion-easing",
+      "category": "组件变量",
+      "description": "dropdown motion easing responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.trigger.disabled.text": {
+      "name": "component.dropdown.trigger.disabled.text",
+      "value": "var(--color-text-4)",
+      "cssVariable": "--component-dropdown-trigger-disabled-text",
+      "category": "组件变量",
+      "description": "dropdown trigger disabled text responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.button.divider": {
+      "name": "component.dropdown.button.divider",
+      "value": "rgba(255, 255, 255, 0.35)",
+      "cssVariable": "--component-dropdown-button-divider",
+      "category": "组件变量",
+      "description": "dropdown button divider responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.button.secondary.divider": {
+      "name": "component.dropdown.button.secondary.divider",
+      "value": "var(--color-border-2)",
+      "cssVariable": "--component-dropdown-button-secondary-divider",
+      "category": "组件变量",
+      "description": "dropdown button secondary divider responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.button.loading.background": {
+      "name": "component.dropdown.button.loading.background",
+      "value": "rgb(var(--primary-6))",
+      "cssVariable": "--component-dropdown-button-loading-background",
+      "category": "组件变量",
+      "description": "dropdown button loading background responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.button.loading.motion.duration": {
+      "name": "component.dropdown.button.loading.motion.duration",
+      "value": "900ms",
+      "cssVariable": "--component-dropdown-button-loading-motion-duration",
+      "category": "组件变量",
+      "description": "dropdown button loading motion duration responsibility",
+      "tier": "component",
+      "status": "stable"
+    },
+    "component.dropdown.button.loading.motion.easing": {
+      "name": "component.dropdown.button.loading.motion.easing",
+      "value": "linear",
+      "cssVariable": "--component-dropdown-button-loading-motion-easing",
+      "category": "组件变量",
+      "description": "dropdown button loading motion easing responsibility",
+      "tier": "component",
+      "status": "stable"
+    }
+  }
+}

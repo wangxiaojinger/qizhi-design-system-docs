@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QIZHI Design System</title>
     <link rel="icon" type="image/svg+xml" href="/qizhi-design-system-docs/assets/qizhi-logo-k4g5b5C3.svg" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.min.css" />
     <noscript><style>.route-pending .doc-content > [id] { display: block; }</style></noscript>
-    <script type="module" crossorigin src="/qizhi-design-system-docs/assets/index-Dxtp610W.js"></script>
+    <script type="module" crossorigin src="/qizhi-design-system-docs/assets/index-Ds1F_x9A.js"></script>
     <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/rolldown-runtime-hePW80VL.js">
-    <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-Cg5NJH9z.js">
-    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-DB2m1MuJ.css">
-    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/index-C9c1zo9a.css">
+    <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-O1khbn9G.js">
+    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-XcEQ2Mzw.css">
+    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/index-DVrdnReK.css">
   </head>
   <body>
     <header class="topbar">
@@ -521,6 +520,99 @@
             </div>
 
             <div class="qizhi-changelog__list">
+              <section class="qizhi-changelog__day" id="changelog-2026-10-09" data-toc-label="2026-10-09">
+                <header class="qizhi-changelog__day-head">
+                  <h2><time datetime="2026-10-09">2026-10-09</time></h2>
+                  <span class="qizhi-changelog__count">2 次更新</span>
+                </header>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>Modal、Select、Popover 与 Tooltip 组合交互修复</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>修正 Modal 内层浮层的 Escape 仲裁、Portal 焦点路径和不可见节点过滤。</li>
+                    <li>修正 Modal 自定义页脚示例在 375px 视口下的按钮溢出。</li>
+                    <li>修正 Select 虚拟列表末项可见性及复杂 renderMore 节点测量。</li>
+                    <li>修正 Popover 箭头边界、键盘进入路径、组合触发状态和 Tooltip 自定义色圆角。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>Select P1 / P2 能力与公共契约补全</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增受控搜索、远程加载与空状态、最大选择数、响应式标签数以及弹层尺寸变化后重新定位。</li>
+                    <li>新增分组选项及 onSelect、onDeselect、onClear、onFocus 独立事件，并修正 allowCreate 合成值删除时的 onDeselect 回调。</li>
+                    <li>补充对应 API、Demo、单元测试和三视口浏览器回归场景。</li>
+                  </ul>
+                </article>
+              </section>
+
+              <section class="qizhi-changelog__day" id="changelog-2026-10-08" data-toc-label="2026-10-08">
+                <header class="qizhi-changelog__day-head">
+                  <h2><time datetime="2026-10-08">2026-10-08</time></h2>
+                  <span class="qizhi-changelog__count">3 次更新</span>
+                </header>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>Select 多选项与键盘可访问性优化</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>多选下拉项改为内容居左、复选框居右，并补充节点顺序回归测试。</li>
+                    <li>修正活动项 ARIA 映射、高亮与滚动跟随，搜索支持空格输入，并仅在焦点离开选择器整体时触发失焦。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>Popover 浮层定位、交互与语义增强</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>支持边界翻转、贴边偏移、箭头补偿、布局变化重定位与手动 forceAlign。</li>
+                    <li>增加组合触发、显隐延迟、空内容规则、箭头、层级和语义化样式配置，默认可访问语义调整为 dialog。</li>
+                    <li>增加 light / dark 样式变体，并补充文字与可点击复制图标的交互示例。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>Tooltip 浮层定位与公共契约增强</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>支持边界翻转、贴边偏移、箭头补偿、布局变化重定位与手动 forceAlign。</li>
+                    <li>增加显隐延迟、空内容禁用、箭头、层级及语义化样式配置，默认触发收敛为 hover 与 focus。</li>
+                  </ul>
+                </article>
+              </section>
+
               <section class="qizhi-changelog__day" id="changelog-2026-09-26" data-toc-label="2026-09-26">
                 <header class="qizhi-changelog__day-head">
                   <h2><time datetime="2026-09-26">2026-09-26</time></h2>
