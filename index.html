@@ -6,11 +6,11 @@
     <title>QIZHI Design System</title>
     <link rel="icon" type="image/svg+xml" href="/qizhi-design-system-docs/assets/qizhi-logo-k4g5b5C3.svg" />
     <noscript><style>.route-pending .doc-content > [id] { display: block; }</style></noscript>
-    <script type="module" crossorigin src="/qizhi-design-system-docs/assets/index-Ds1F_x9A.js"></script>
+    <script type="module" crossorigin src="/qizhi-design-system-docs/assets/index-7cctnXMR.js"></script>
     <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/rolldown-runtime-hePW80VL.js">
-    <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-O1khbn9G.js">
+    <link rel="modulepreload" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-k159sCZO.js">
     <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/demoSegmented-XcEQ2Mzw.css">
-    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/index-DVrdnReK.css">
+    <link rel="stylesheet" crossorigin href="/qizhi-design-system-docs/assets/index-CyylRhjt.css">
   </head>
   <body>
     <header class="topbar">
@@ -109,6 +109,7 @@
                         <div tabindex="0" role="menuitem" class="qz-menu-item qz-menu-item-indented"><span><span class="qz-menu-indent"></span></span><span class="qz-menu-item-inner" style="display: block;"><a href="#component-verification-code" tabindex="-1" class="menu-link nav-link nav-link-sub"><span>验证码输入框 VerificationCode</span></a></span></div>
                         <div tabindex="0" role="menuitem" class="qz-menu-item qz-menu-item-indented"><span><span class="qz-menu-indent"></span></span><span class="qz-menu-item-inner" style="display: block;"><a href="#component-radio" tabindex="-1" class="menu-link nav-link nav-link-sub"><span>单选框 Radio</span></a></span></div>
                         <div tabindex="0" role="menuitem" class="qz-menu-item qz-menu-item-indented"><span><span class="qz-menu-indent"></span></span><span class="qz-menu-item-inner" style="display: block;"><a href="#component-select" tabindex="-1" class="menu-link nav-link nav-link-sub"><span>选择器 Select</span></a></span></div>
+                        <div tabindex="0" role="menuitem" class="qz-menu-item qz-menu-item-indented"><span><span class="qz-menu-indent"></span></span><span class="qz-menu-item-inner" style="display: block;"><a href="#component-filter-select" tabindex="-1" class="menu-link nav-link nav-link-sub"><span>筛选选择器 FilterSelect</span></a></span></div>
                         <div tabindex="0" role="menuitem" class="qz-menu-item qz-menu-item-indented"><span><span class="qz-menu-indent"></span></span><span class="qz-menu-item-inner" style="display: block;"><a href="#component-slider" tabindex="-1" class="menu-link nav-link nav-link-sub"><span>滑动输入条 Slider</span></a></span></div>
                         <div tabindex="0" role="menuitem" class="qz-menu-item qz-menu-item-indented"><span><span class="qz-menu-indent"></span></span><span class="qz-menu-item-inner" style="display: block;"><a href="#component-switch" tabindex="-1" class="menu-link nav-link nav-link-sub"><span>开关 Switch</span></a></span></div>
                         <div tabindex="0" role="menuitem" class="qz-menu-item qz-menu-item-indented"><span><span class="qz-menu-indent"></span></span><span class="qz-menu-item-inner" style="display: block;"><a href="#component-time-picker" tabindex="-1" class="menu-link nav-link nav-link-sub"><span>时间选择器 TimePicker</span></a></span></div>
@@ -520,6 +521,126 @@
             </div>
 
             <div class="qizhi-changelog__list">
+              <section class="qizhi-changelog__day" id="changelog-2026-10-10" data-toc-label="2026-10-10">
+                <header class="qizhi-changelog__day-head">
+                  <h2><time datetime="2026-10-10">2026-10-10</time></h2>
+                  <span class="qizhi-changelog__count">8 次更新</span>
+                </header>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>FilterSelect Demo 宽度调整</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>桌面端筛选选择器示例宽度调整为 220px，移动端仍自适应容器宽度。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>FilterSelect 搜索占位符修正</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>筛选摘要显示时不再并排渲染搜索占位符，展开和输入前继续保持“筛选名称：筛选结果”。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>FilterSelect 点击与清空状态修正</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>筛选摘要支持整块点击；清空后不再恢复旧值，远程结果缺少已选项时仍可清空。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>FilterSelect 三视口交互验收</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>补充鼠标、键盘、搜索、弹层几何和响应式验收，并保证搜索时完整保留当前筛选摘要。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>FilterSelect 文档与交互示例</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增单选、多选、本地搜索、远程搜索和状态示例，并补齐独立 API 文档。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>FilterSelect 多选、搜索与无障碍契约</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增多选聚合摘要、最大展示数、本地与远程搜索，并在展开、输入和加载期间保留当前筛选结果。</li>
+                    <li>复用 Select 多选勾选、键盘与 ARIA 协议，触发框不渲染可删除 Tag。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>FilterSelect 单选契约与稳定回显</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增单选筛选、全部选项、空态文案与即时变更回调，并在远程选项替换后保留最近一次已解析的标签。</li>
+                  </ul>
+                </article>
+
+                <article class="qizhi-changelog__entry">
+                  <header class="qizhi-changelog__entry-head">
+                    <div>
+                      <h3>新增列表筛选选择器 FilterSelect</h3>
+                      <div class="qizhi-changelog__meta">
+                        <span class="qizhi-changelog__commit">待提交</span>
+                      </div>
+                    </div>
+                  </header>
+                  <ul>
+                    <li>新增 Select 显式值展示插槽，为 FilterSelect 稳定回显筛选名称和已选结果，不改变现有 Select 默认行为。</li>
+                  </ul>
+                </article>
+              </section>
+
               <section class="qizhi-changelog__day" id="changelog-2026-10-09" data-toc-label="2026-10-09">
                 <header class="qizhi-changelog__day-head">
                   <h2><time datetime="2026-10-09">2026-10-09</time></h2>
@@ -11248,6 +11369,8 @@ export default function App() {
               </div>
             </div>
           </section>
+
+          <section class="doc-section" id="component-filter-select"></section>
 
           <section class="doc-section" id="component-input-tag">
             <div class="qz-nav-intro">
